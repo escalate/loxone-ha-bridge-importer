@@ -21,7 +21,7 @@ Loxone offers many more control types and if you are missing one please create a
 | Jalousie        | FullUp | -   | FullDown |
 | Meter           | -      | -   | -        |
 | Presence        | -      | -   | -        |
-|'Pushbutton      | On     | -   | Off      |
+| Pushbutton      | On     | -   | Off      |
 | Switch          | Pulse  | -   | Pulse    |
 | TimedSwitch     | Pulse  | -   | Off      |
 | Webpage         | -      | -   | -        |
