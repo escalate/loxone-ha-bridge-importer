@@ -5,6 +5,7 @@ A commandline tool to import [Loxone](https://www.loxone.com) controls into [HA-
 
 ## Supported Loxone control types and actions
 This is just the list of already implemented control types with there meaningful actions.
+
 Loxone offers many more control types and if you are missing one please create a Pull Request or open an Issue on Github.
 
 | Control type    | On     | Dim | Off      |
