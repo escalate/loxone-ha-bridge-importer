@@ -161,6 +161,7 @@ class Importer(object):
         return ha_bridge_device_configuration
 
     def write_ha_bridge_device_configuration(self, ha_bridge_device_configuration):
+        """Adds devices over REST API into HA-Bridge"""
         url = 'http://{host}:{port}/api/devices'.format(host=self.ha_bridge_server, port=self.ha_bridge_port)
 
         for device_configuration in ha_bridge_device_configuration:
