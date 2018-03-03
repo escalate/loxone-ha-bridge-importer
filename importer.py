@@ -62,10 +62,10 @@ class Importer(object):
 
         return loxone_structure_file
 
-    def generate_ha_bridge_device_configuration(self, loxone_structure_file):
-        """Generates HA-Bridge device configruation
+    def generate_ha_bridge_devices_configuration(self, loxone_structure_file):
+        """Generates HA-Bridge devices configruation
         from visualisation structure file"""
-        ha_bridge_device_configuration = []
+        ha_bridge_devices_configuration = []
         loxone_url_schema = 'http://{username}:{password}@{miniserver}/dev/sps/io/{control}/{action}'
         loxone_rooms = loxone_structure_file['rooms']
         loxone_controls = loxone_structure_file['controls']
@@ -154,17 +154,17 @@ class Importer(object):
                                                            action=control_actions_mapping[control_type]['off'])
                         ha_bridge_off[0]['item'] = url
                         ha_bridge_device['offUrl'] = json.dumps(ha_bridge_off)
-                    ha_bridge_device_configuration.append(ha_bridge_device)
+                    ha_bridge_devices_configuration.append(ha_bridge_device)
             else:
                 logging.debug('Control type "' + control_type + '" is not supported at the moment.')
 
-        return ha_bridge_device_configuration
+        return ha_bridge_devices_configuration
 
-    def write_ha_bridge_device_configuration(self, ha_bridge_device_configuration):
+    def add_devices_into_ha_bridge(self, ha_bridge_devices_configuration):
         """Adds devices over REST API into HA-Bridge"""
         url = 'http://{host}:{port}/api/devices'.format(host=self.ha_bridge_server, port=self.ha_bridge_port)
 
-        for device_configuration in ha_bridge_device_configuration:
+        for device_configuration in ha_bridge_devices_configuration:
             r = requests.post(url, json=device_configuration, timeout=2)
             logging.debug(r.text)
 
@@ -217,9 +217,9 @@ def cli(*args, **kwargs):
     click.echo('Retrieve visualisation structure file from Loxone MiniServer')
     loxone_structure_file = importer.get_loxone_structure_file()
     click.echo('Generate HA-Bridge devices configruation from visualisation structure file')
-    ha_bridge_device_configuration = importer.generate_ha_bridge_device_configuration(loxone_structure_file)
+    ha_bridge_devices_configuration = importer.generate_ha_bridge_devices_configuration(loxone_structure_file)
     click.echo('Add devices over REST API into HA-Bridge')
-    importer.write_ha_bridge_device_configuration(ha_bridge_device_configuration)
+    importer.add_devices_into_ha_bridge(ha_bridge_devices_configuration)
 
 
 if __name__ == '__main__':
