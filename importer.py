@@ -214,8 +214,11 @@ def cli(*args, **kwargs):
     importer.set_ha_bridge_port(kwargs['ha_bridge_port'])
 
     # Run Importer
+    click.echo('Retrieve visualisation structure file from Loxone MiniServer')
     loxone_structure_file = importer.get_loxone_structure_file()
+    click.echo('Generate HA-Bridge devices configruation from visualisation structure file')
     ha_bridge_device_configuration = importer.generate_ha_bridge_device_configuration(loxone_structure_file)
+    click.echo('Add devices over REST API into HA-Bridge')
     importer.write_ha_bridge_device_configuration(ha_bridge_device_configuration)
 
 
