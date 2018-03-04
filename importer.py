@@ -52,7 +52,7 @@ class Importer(object):
     def get_loxone_structure_file(self):
         """Retrieves visualisation structure file from Loxone MiniServer"""
         url = 'http://{host}/data/LoxAPP3.json'.format(host=self.loxone_miniserver)
-        r = requests.get(url, auth=(self.loxone_username, self.loxone_password), timeout=2)
+        r = requests.get(url, auth=(self.loxone_username, self.loxone_password), timeout=5)
 
         if r.status_code != 200:
             r.raise_for_status()
@@ -165,7 +165,7 @@ class Importer(object):
         url = 'http://{host}:{port}/api/devices'.format(host=self.ha_bridge_server, port=self.ha_bridge_port)
 
         for device_configuration in ha_bridge_devices_configuration:
-            r = requests.post(url, json=device_configuration, timeout=2)
+            r = requests.post(url, json=device_configuration, timeout=5)
             logging.debug(r.text)
 
             if r.status_code != 201:
