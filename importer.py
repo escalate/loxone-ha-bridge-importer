@@ -73,14 +73,14 @@ class Importer(object):
 
         control_actions_mapping = {
             'CentralGate': {'on': 'Open', 'off': 'Close'},
-            'CentralJalousie': {'on': 'FullUp', 'off': 'FullDown'},
+            'CentralJalousie': {'on': 'FullDown', 'off': 'FullUp'},
             'Daytimer': None,
             'Dimmer': {'on': 'On', 'off': 'Off'},
             'Gate': {'on': 'Open', 'off': 'Close'},
             'InfoOnlyAnalog': None,
             'InfoOnlyDigital': None,
             'IRoomController': None,
-            'Jalousie': {'on': 'FullUp', 'off': 'FullDown'},
+            'Jalousie': {'on': 'FullDown', 'off': 'FullUp'},
             'Meter': None,
             'Presence': None,
             'Pushbutton': {'on': 'On', 'off': 'Off'},
