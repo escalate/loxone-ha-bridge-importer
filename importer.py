@@ -8,6 +8,7 @@ import json
 import requests
 import logging
 import click
+from collections import OrderedDict
 
 
 class Importer(object):
@@ -101,32 +102,18 @@ class Importer(object):
                 'mapId': uuid
             }
 
-            ha_bridge_on = [
-                {
-                    'item': '',
-                    'type': 'httpDevice',
-                    'httpVerb': 'GET',
-                    'contentType': 'text/html'
-                }
-            ]
+            item = OrderedDict()
+            item['item'] = ''
+            item['type'] = 'httpDevice'
+            item['httpVerb'] = 'GET'
+            item['contentType'] = 'text/html'
 
-            ha_bridge_dim = [
-                {
-                    'item': '',
-                    'type': 'httpDevice',
-                    'httpVerb': 'GET',
-                    'contentType': 'text/html'
-                }
-            ]
-
-            ha_bridge_off = [
-                {
-                    'item': '',
-                    'type': 'httpDevice',
-                    'httpVerb': 'GET',
-                    'contentType': 'text/html'
-                }
-            ]
+            ha_bridge_on = []
+            ha_bridge_on.append(item)
+            ha_bridge_dim = []
+            ha_bridge_dim.append(item)
+            ha_bridge_off = []
+            ha_bridge_off.append(item)
 
             if control_type in control_actions_mapping:
                 if control_actions_mapping[control_type] is not None:
