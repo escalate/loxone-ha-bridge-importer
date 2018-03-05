@@ -69,6 +69,7 @@ class Importer(object):
         ha_bridge_devices_configuration = []
         loxone_url_schema = 'http://{username}:{password}@{miniserver}/dev/sps/io/{control}/{action}'
         loxone_rooms = loxone_structure_file['rooms']
+        loxone_categories = loxone_structure_file['cats']
         loxone_controls = loxone_structure_file['controls']
 
         control_actions_mapping = {
@@ -92,10 +93,14 @@ class Importer(object):
         for uuid, control in sorted(loxone_controls.items()):
             control_type = control['type']
             room_uuid = control['room']
+            category_uuid = control['cat']
             device_name = '{control_name} {room_name}'.format(control_name=control['name'],
                                                               room_name=loxone_rooms[room_uuid]['name'])
+            device_description = 'Control-Type: {control_type}, Category: {category}'.format(control_type=control_type,
+                                                                                             category=loxone_categories[category_uuid]['name'])
             ha_bridge_device = {
                 'name': device_name,
+                'description': device_description,
                 'targetDevice': 'Loxone',
                 'deviceType': 'custom',
                 'mapType': 'httpDevice',
