@@ -28,32 +28,41 @@ class Importer(object):
     def set_loxone_miniserver(self, loxone_miniserver):
         """Sets the IP address of Loxone MiniServer"""
         self.loxone_miniserver = loxone_miniserver
-        logging.debug('Loxone MiniServer is set to "{host}"'.format(host=loxone_miniserver))
+        logging.debug('Loxone MiniServer is set to "{host}"'.format(
+            host=loxone_miniserver))
 
     def set_loxone_username(self, loxone_username):
         """Sets the username for Loxone MiniServer login"""
         self.loxone_username = loxone_username
-        logging.debug('Loxone username is set to "{username}"'.format(username=loxone_username))
+        logging.debug('Loxone username is set to "{username}"'.format(
+            username=loxone_username))
 
     def set_loxone_password(self, loxone_password):
         """Sets the password for Loxone MiniServer login"""
         self.loxone_password = loxone_password
-        logging.debug('Loxone password is set to "{password}"'.format(password=loxone_password))
+        logging.debug('Loxone password is set to "{password}"'.format(
+            password=loxone_password))
 
     def set_ha_bridge_server(self, ha_bridge_server):
         """Sets the IP address of HA-Bridge server"""
         self.ha_bridge_server = ha_bridge_server
-        logging.debug('HA-Bridge server is set to "{host}"'.format(host=ha_bridge_server))
+        logging.debug('HA-Bridge server is set to "{host}"'.format(
+            host=ha_bridge_server))
 
     def set_ha_bridge_port(self, ha_bridge_port):
         """Sets the port of HA-Bridge server"""
         self.ha_bridge_port = ha_bridge_port
-        logging.debug('HA-Bridge port is set to "{port}"'.format(port=ha_bridge_port))
+        logging.debug('HA-Bridge port is set to "{port}"'.format(
+            port=ha_bridge_port))
 
     def get_loxone_structure_file(self):
         """Retrieves visualisation structure file from Loxone MiniServer"""
-        url = 'http://{host}/data/LoxAPP3.json'.format(host=self.loxone_miniserver)
-        r = requests.get(url, auth=(self.loxone_username, self.loxone_password), timeout=5)
+        url = 'http://{host}/data/LoxAPP3.json'.format(
+              host=self.loxone_miniserver)
+        r = requests.get(
+            url,
+            auth=(self.loxone_username, self.loxone_password),
+            timeout=5)
 
         if r.status_code != 200:
             r.raise_for_status()
@@ -72,7 +81,7 @@ class Importer(object):
         loxone_categories = loxone_structure_file['cats']
         loxone_controls = loxone_structure_file['controls']
 
-        control_actions_mapping = {
+        control_actions_map = {
             'CentralGate': {'on': 'Open', 'off': 'Close'},
             'CentralJalousie': {'on': 'FullDown', 'off': 'FullUp'},
             'Daytimer': None,
@@ -94,10 +103,12 @@ class Importer(object):
             control_type = control['type']
             room_uuid = control['room']
             category_uuid = control['cat']
-            device_name = '{control_name} {room_name}'.format(control_name=control['name'],
-                                                              room_name=loxone_rooms[room_uuid]['name'])
-            device_description = 'Control-Type: {control_type}, Category: {category}'.format(control_type=control_type,
-                                                                                             category=loxone_categories[category_uuid]['name'])
+            device_name = '{control_name} {room_name}'.format(
+                control_name=control['name'],
+                room_name=loxone_rooms[room_uuid]['name'])
+            device_description = 'Control-Type: {control_type}, Category: {category}'.format(
+                control_type=control_type,
+                category=loxone_categories[category_uuid]['name'])
             ha_bridge_device = {
                 'name': device_name,
                 'description': device_description,
@@ -120,41 +131,47 @@ class Importer(object):
             ha_bridge_off = []
             ha_bridge_off.append(item)
 
-            if control_type in control_actions_mapping:
-                if control_actions_mapping[control_type] is not None:
-                    if 'on' in control_actions_mapping[control_type]:
-                        url = loxone_url_schema.format(username=self.loxone_username,
-                                                          password=self.loxone_password,
-                                                          miniserver=self.loxone_miniserver,
-                                                          control=uuid,
-                                                          action=control_actions_mapping[control_type]['on'])
+            if control_type in control_actions_map:
+                if control_actions_map[control_type] is not None:
+                    if 'on' in control_actions_map[control_type]:
+                        url = loxone_url_schema.format(
+                            username=self.loxone_username,
+                            password=self.loxone_password,
+                            miniserver=self.loxone_miniserver,
+                            control=uuid,
+                            action=control_actions_map[control_type]['on'])
                         ha_bridge_on[0]['item'] = url
                         ha_bridge_device['onUrl'] = json.dumps(ha_bridge_on)
-                    if 'dim' in control_actions_mapping[control_type]:
-                        url = loxone_url_schema.format(username=self.loxone_username,
-                                                           password=self.loxone_password,
-                                                           miniserver=self.loxone_miniserver,
-                                                           control=uuid,
-                                                           action=control_actions_mapping[control_type]['dim'])
+                    if 'dim' in control_actions_map[control_type]:
+                        url = loxone_url_schema.format(
+                            username=self.loxone_username,
+                            password=self.loxone_password,
+                            miniserver=self.loxone_miniserver,
+                            control=uuid,
+                            action=control_actions_map[control_type]['dim'])
                         ha_bridge_dim[0]['item'] = url
                         ha_bridge_device['dimUrl'] = json.dumps(ha_bridge_dim)
-                    if 'off' in control_actions_mapping[control_type]:
-                        url = loxone_url_schema.format(username=self.loxone_username,
-                                                           password=self.loxone_password,
-                                                           miniserver=self.loxone_miniserver,
-                                                           control=uuid,
-                                                           action=control_actions_mapping[control_type]['off'])
+                    if 'off' in control_actions_map[control_type]:
+                        url = loxone_url_schema.format(
+                            username=self.loxone_username,
+                            password=self.loxone_password,
+                            miniserver=self.loxone_miniserver,
+                            control=uuid,
+                            action=control_actions_map[control_type]['off'])
                         ha_bridge_off[0]['item'] = url
                         ha_bridge_device['offUrl'] = json.dumps(ha_bridge_off)
                     ha_bridge_devices_configuration.append(ha_bridge_device)
             else:
-                logging.warn('Control type "' + control_type + '" is not supported at the moment.')
+                logging.warn('Control type "{control_type}" is not supported at the moment.'.format(
+                    control_type=control_type))
 
         return ha_bridge_devices_configuration
 
     def add_devices_into_ha_bridge(self, ha_bridge_devices_configuration):
         """Adds devices over REST API into HA-Bridge"""
-        url = 'http://{host}:{port}/api/devices'.format(host=self.ha_bridge_server, port=self.ha_bridge_port)
+        url = 'http://{host}:{port}/api/devices'.format(
+              host=self.ha_bridge_server,
+              port=self.ha_bridge_port)
 
         for device_configuration in ha_bridge_devices_configuration:
             r = requests.post(url, json=device_configuration, timeout=5)
