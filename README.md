@@ -8,23 +8,23 @@ This is just the list of already implemented control types with there meaningful
 
 Loxone offers many more control types and if you are missing one please create a Pull Request or open an Issue on Github.
 
-| Control type    | On     | Dim | Off      |
-| --------------- | ------ | --- | -------- |
-| CentralGate     | Open   | -   | Close    |
-| CentralJalousie | FullUp | -   | FullDown |
-| Daytimer        | -      | -   | -        |
-| Dimmer          | On     | -   | Off      |
-| Gate            | Open   | -   | Close    |
-| InfoOnlyAnalog  | -      | -   | -        |
-| InfoOnlyDigital | -      | -   | -        |
-| IRoomController | -      | -   | -        |
-| Jalousie        | FullUp | -   | FullDown |
-| Meter           | -      | -   | -        |
-| Presence        | -      | -   | -        |
-| Pushbutton      | On     | -   | Off      |
-| Switch          | Pulse  | -   | Pulse    |
-| TimedSwitch     | Pulse  | -   | Off      |
-| Webpage         | -      | -   | -        |
+| Control type    | On       | Dim | Off    |
+| --------------- | -------- | --- | ------ |
+| CentralGate     | Open     | -   | Close  |
+| CentralJalousie | FullDown | -   | FullUp |
+| Daytimer        | -        | -   | -      |
+| Dimmer          | On       | -   | Off    |
+| Gate            | Open     | -   | Close  |
+| InfoOnlyAnalog  | -        | -   | -      |
+| InfoOnlyDigital | -        | -   | -      |
+| IRoomController | -        | -   | -      |
+| Jalousie        | FullDown | -   | FullUp |
+| Meter           | -        | -   | -      |
+| Presence        | -        | -   | -      |
+| Pushbutton      | On       | -   | Off    |
+| Switch          | Pulse    | -   | Pulse  |
+| TimedSwitch     | Pulse    | -   | Off    |
+| Webpage         | -        | -   | -      |
 
 ## Installation
 Tested with Python 3.6.x on Ubuntu 16.04
