@@ -7,4 +7,4 @@ script:
   - tox
 after_success:
   - nvm install lts/*
-  - npx travis-deploy-once "npx semantic-release --debug"
+  - npx travis-deploy-once "npx semantic-release"
