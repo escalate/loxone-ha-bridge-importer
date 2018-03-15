@@ -68,6 +68,37 @@ Options:
   --help                    Show this message and exit.
 ```
 
+## Docker
+Build Docker image
+```
+$ docker build \
+    --tag=importer \
+    .
+```
+
+Run Docker container from built image to print help
+```
+$ docker run \
+    importer
+
+Usage: importer.py [OPTIONS]
+
+  Commandline interface for Loxone / HA-Bridge Importer
+
+Options:
+...
+```
+
+Run Docker container from built image with additional arguments
+```
+$ docker run \
+    importer \
+    --loxone-miniserver 192.168.1.2 \
+    --loxone-username alexa \
+    --loxone-password AmAz0n \
+    --verbose
+```
+
 ## Dependencies
 * [click](https://pypi.python.org/pypi/click)
 * [requests](https://pypi.python.org/pypi/requests)
