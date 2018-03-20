@@ -24,6 +24,23 @@ class Importer(object):
         self.loxone_password = None
         self.ha_bridge_server = None
         self.ha_bridge_port = None
+        self.control_actions_map = {
+            'CentralGate': {'on': 'Open', 'off': 'Close'},
+            'CentralJalousie': {'on': 'FullDown', 'off': 'FullUp'},
+            'Daytimer': None,
+            'Dimmer': {'on': 'On', 'off': 'Off'},
+            'Gate': {'on': 'Open', 'off': 'Close'},
+            'InfoOnlyAnalog': None,
+            'InfoOnlyDigital': None,
+            'IRoomController': None,
+            'Jalousie': {'on': 'FullDown', 'off': 'FullUp'},
+            'Meter': None,
+            'Presence': None,
+            'Pushbutton': {'on': 'On', 'off': 'Off'},
+            'Switch': {'on': 'Pulse', 'off': 'Pulse'},
+            'TimedSwitch': {'on': 'Pulse', 'off': 'Off'},
+            'Webpage': None
+        }
 
     def set_loxone_miniserver(self, loxone_miniserver):
         """Sets the IP address of Loxone MiniServer"""
@@ -81,24 +98,6 @@ class Importer(object):
         loxone_categories = loxone_structure_file['cats']
         loxone_controls = loxone_structure_file['controls']
 
-        control_actions_map = {
-            'CentralGate': {'on': 'Open', 'off': 'Close'},
-            'CentralJalousie': {'on': 'FullDown', 'off': 'FullUp'},
-            'Daytimer': None,
-            'Dimmer': {'on': 'On', 'off': 'Off'},
-            'Gate': {'on': 'Open', 'off': 'Close'},
-            'InfoOnlyAnalog': None,
-            'InfoOnlyDigital': None,
-            'IRoomController': None,
-            'Jalousie': {'on': 'FullDown', 'off': 'FullUp'},
-            'Meter': None,
-            'Presence': None,
-            'Pushbutton': {'on': 'On', 'off': 'Off'},
-            'Switch': {'on': 'Pulse', 'off': 'Pulse'},
-            'TimedSwitch': {'on': 'Pulse', 'off': 'Off'},
-            'Webpage': None
-        }
-
         for uuid, control in sorted(loxone_controls.items()):
             control_type = control['type']
             room_uuid = control['room']
@@ -131,33 +130,33 @@ class Importer(object):
             ha_bridge_off = []
             ha_bridge_off.append(item)
 
-            if control_type in control_actions_map:
-                if control_actions_map[control_type] is not None:
-                    if 'on' in control_actions_map[control_type]:
+            if control_type in self.control_actions_map:
+                if self.control_actions_map[control_type] is not None:
+                    if 'on' in self.control_actions_map[control_type]:
                         url = loxone_url_schema.format(
                             username=self.loxone_username,
                             password=self.loxone_password,
                             miniserver=self.loxone_miniserver,
                             control=uuid,
-                            action=control_actions_map[control_type]['on'])
+                            action=self.control_actions_map[control_type]['on'])
                         ha_bridge_on[0]['item'] = url
                         ha_bridge_device['onUrl'] = json.dumps(ha_bridge_on)
-                    if 'dim' in control_actions_map[control_type]:
+                    if 'dim' in self.control_actions_map[control_type]:
                         url = loxone_url_schema.format(
                             username=self.loxone_username,
                             password=self.loxone_password,
                             miniserver=self.loxone_miniserver,
                             control=uuid,
-                            action=control_actions_map[control_type]['dim'])
+                            action=self.control_actions_map[control_type]['dim'])
                         ha_bridge_dim[0]['item'] = url
                         ha_bridge_device['dimUrl'] = json.dumps(ha_bridge_dim)
-                    if 'off' in control_actions_map[control_type]:
+                    if 'off' in self.control_actions_map[control_type]:
                         url = loxone_url_schema.format(
                             username=self.loxone_username,
                             password=self.loxone_password,
                             miniserver=self.loxone_miniserver,
                             control=uuid,
-                            action=control_actions_map[control_type]['off'])
+                            action=self.control_actions_map[control_type]['off'])
                         ha_bridge_off[0]['item'] = url
                         ha_bridge_device['offUrl'] = json.dumps(ha_bridge_off)
                     ha_bridge_devices_configuration.append(ha_bridge_device)
