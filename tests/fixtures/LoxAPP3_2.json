@@ -1,1 +1,2966 @@
-{"lastModified":"2018-01-01 15:30:45","msInfo":{"serialNr":"000000000000","msName":"Loxone MiniServer","projectName":"Muster Projekt","localUrl":"192.168.1.2","remoteUrl":"","tempUnit":0,"currency":"€","squareMeasure":"m²","location":"Muster Str. 1, 01234 Musterstadt","languageCode":"DEU","heatPeriodStart":"10-01","heatPeriodEnd":"05-31","coolPeriodStart":"06-01","coolPeriodEnd":"09-30","catTitle":"Kategorie","roomTitle":"Räume","miniserverType":0,"deviceMonitor":"0f8cad80-03ba-1866-ffffc6c42b3ee057","sortByRating":false,"currentUser":{"name":"admin","uuid":"0caee1bf-0223-04c0-ffffc6c42b3ee057","isAdmin":true,"changePassword":true,"userRights":2047}},"globalStates":{"operatingMode":"0caee1bf-01d5-02be-ffffc6c42b3ee057","sunrise":"0caee1bf-01d5-02d0-ffffc6c42b3ee057","sunset":"0caee1bf-01d5-02d3-ffffc6c42b3ee057","pastTasks":"0caee1bf-0223-04e3-fffff973abfe4230","plannedTasks":"0caee1bf-0223-04e2-fffff973abfe4230","notifications":"0caee1bf-01c6-028f-ffffc6c42b3ee057","modifications":"0caee1bf-01c6-0290-ffffc6c42b3ee057","favColorSequences":"0f8cad80-032e-0706-ffffd684acc922b9","favColors":"0f8cad80-032e-0707-ffffd684acc922b9","miniserverTime":"106f96d7-00ba-0a87-ffff2b2be14b5883"},"operatingModes":{"0":"Feiertag","1":"Urlaub","2":"Freier Tag/Schulferien","3":"Montag","4":"Dienstag","5":"Mittwoch","6":"Donnerstag","7":"Freitag","8":"Samstag","9":"Sonntag","-1":"Alarm","-2":"Anwesenheitssimulation","-3":"Haus im Tiefschlaf","-4":"Erhöhter Wärmebedarf","-5":"Party","-6":"Alle abwesend","-7":"Nacht","-8":"Zuhause"},"rooms":{"0caee1bf-01f5-03d0-ffffc6c42b3ee057":{"uuid":"0caee1bf-01f5-03d0-ffffc6c42b3ee057","name":"Arbeitszimmer","image":"00000000-0000-0011-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":2},"0caee1bf-0204-0426-ffffc6c42b3ee057":{"uuid":"0caee1bf-0204-0426-ffffc6c42b3ee057","name":"Außenbereich","image":"00000000-0000-002d-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":2},"0caee1bf-01f5-03a8-ffffc6c42b3ee057":{"uuid":"0caee1bf-01f5-03a8-ffffc6c42b3ee057","name":"Badezimmer","image":"00000000-0000-0007-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":2},"0caee1bf-0204-03f0-ffffc6c42b3ee057":{"uuid":"0caee1bf-0204-03f0-ffffc6c42b3ee057","name":"Dachboden","image":"00000000-0000-0019-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":3},"0d92d03f-029e-7897-ffffc6c42b3ee057":{"uuid":"0d92d03f-029e-7897-ffffc6c42b3ee057","name":"Diele EG","image":"00000000-0000-002c-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":3},"0da91525-01fe-a384-ffffc6c42b3ee057":{"uuid":"0da91525-01fe-a384-ffffc6c42b3ee057","name":"Diele OG","image":"00000000-0000-002c-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":3},"0caee1bf-01f5-03a4-ffffc6c42b3ee057":{"uuid":"0caee1bf-01f5-03a4-ffffc6c42b3ee057","name":"Gäste-Bad","image":"00000000-0000-0006-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":2},"0d92d133-034e-5b3e-ffffc6c42b3ee057":{"uuid":"0d92d133-034e-5b3e-ffffc6c42b3ee057","name":"Hauswirtschaftsraum","image":"00000000-0000-002e-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":3},"0caee1bf-01f5-03b0-ffffc6c42b3ee057":{"uuid":"0caee1bf-01f5-03b0-ffffc6c42b3ee057","name":"Kinderzimmer","image":"00000000-0000-0009-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":1},"0caee1bf-01f5-03a0-ffffc6c42b3ee057":{"uuid":"0caee1bf-01f5-03a0-ffffc6c42b3ee057","name":"Küche","image":"00000000-0000-0005-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":2},"0caee1bf-01f5-0390-ffffc6c42b3ee057":{"uuid":"0caee1bf-01f5-0390-ffffc6c42b3ee057","name":"Nicht zugeordnet","image":"00000000-0000-0001-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":2},"0caee1bf-01f5-03ac-ffffc6c42b3ee057":{"uuid":"0caee1bf-01f5-03ac-ffffc6c42b3ee057","name":"Schlafzimmer","image":"00000000-0000-0008-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":1},"0caee1bf-01f5-03c0-ffffc6c42b3ee057":{"uuid":"0caee1bf-01f5-03c0-ffffc6c42b3ee057","name":"Windfang","image":"00000000-0000-000d-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":3},"0caee1bf-01f5-039c-ffffc6c42b3ee057":{"uuid":"0caee1bf-01f5-039c-ffffc6c42b3ee057","name":"Wohnzimmer","image":"00000000-0000-0004-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":2},"0caee1bf-0204-0432-ffffc6c42b3ee057":{"uuid":"0caee1bf-0204-0432-ffffc6c42b3ee057","name":"Zentral","image":"00000000-0000-0031-2100000000000000.svg","defaultRating":0,"isFavorite":false,"type":4}},"cats":{"0caee1bf-01d5-030e-ffffc6c42b3ee057":{"uuid":"0caee1bf-01d5-030e-ffffc6c42b3ee057","name":"Beleuchtung","image":"00000000-0000-0002-2000000000000000.svg","defaultRating":0,"isFavorite":false,"type":"lights","color":"#83B817"},"0caee1bf-01d5-0312-ffffc6c42b3ee057":{"uuid":"0caee1bf-01d5-0312-ffffc6c42b3ee057","name":"Beschattung","image":"00000000-0000-0003-2000000000000000.svg","defaultRating":0,"isFavorite":false,"type":"shading","color":"#83B817"},"0caee1bf-01d5-0322-ffffc6c42b3ee057":{"uuid":"0caee1bf-01d5-0322-ffffc6c42b3ee057","name":"Fühler","image":"00000000-0000-0007-2000000000000000.svg","defaultRating":0,"isFavorite":false,"type":"shading","color":"#83B817"},"0caee1bf-01d5-0316-ffffc6c42b3ee057":{"uuid":"0caee1bf-01d5-0316-ffffc6c42b3ee057","name":"Heizung","image":"00000000-0000-0004-2000000000000000.svg","defaultRating":0,"isFavorite":false,"type":"indoortemperature","color":"#83B817"},"0caee1bf-01d5-030a-ffffc6c42b3ee057":{"uuid":"0caee1bf-01d5-030a-ffffc6c42b3ee057","name":"Nicht zugeordnet","image":"00000000-0000-0001-2000000000000000.svg","defaultRating":0,"isFavorite":false,"type":"undefined","color":"#83B817"},"0fd99e3b-0218-28ba-ffffc6c42b3ee057":{"uuid":"0fd99e3b-0218-28ba-ffffc6c42b3ee057","name":"Pforte","image":"00000000-0000-001d-2000000000000000.svg","defaultRating":0,"isFavorite":false,"type":"undefined","color":"#83B817"},"0caee1bf-01e5-034e-ffffc6c42b3ee057":{"uuid":"0caee1bf-01e5-034e-ffffc6c42b3ee057","name":"Technik","image":"00000000-0000-0012-2000000000000000.svg","defaultRating":0,"isFavorite":false,"type":"undefined","color":"#83B817"},"0caee1bf-01e5-0346-ffffc6c42b3ee057":{"uuid":"0caee1bf-01e5-0346-ffffc6c42b3ee057","name":"Tor","image":"00000000-0000-0010-2000000000000000.svg","defaultRating":0,"isFavorite":false,"type":"undefined","color":"#83B817"},"0caee1bf-01e5-0374-ffffc6c42b3ee057":{"uuid":"0caee1bf-01e5-0374-ffffc6c42b3ee057","name":"Verbraucher","image":"00000000-0000-0022-2000000000000000.svg","defaultRating":0,"isFavorite":false,"type":"undefined","color":"#83B817"},"0cec9a33-01f2-0f5f-ffffc6c42b3ee057":{"uuid":"0cec9a33-01f2-0f5f-ffffc6c42b3ee057","name":"Wetter","image":"00000000-0000-0031-2000000000000000.svg","defaultRating":0,"isFavorite":false,"type":"undefined","color":"#83B817"},"0caee1bf-01e5-036e-ffffc6c42b3ee057":{"uuid":"0caee1bf-01e5-036e-ffffc6c42b3ee057","name":"Zutritt","image":"00000000-0000-0020-2000000000000000.svg","defaultRating":0,"isFavorite":false,"type":"undefined","color":"#83B817"}},"controls":{"0cb8e9a2-032f-39d9-ffffc6c42b3ee057":{"name":"Deckenleuchte","type":"Switch","uuidAction":"0cb8e9a2-032f-39d9-ffffc6c42b3ee057","room":"0caee1bf-01f5-03d0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb8e9a2-032f-39d8-ffff3391c2c0c0c7"}},"0cb8f3e0-0313-ddbd-ffffd5ae755f4f25":{"name":"Rollladen (Süd)","type":"Jalousie","uuidAction":"0cb8f3e0-0313-ddbd-ffffd5ae755f4f25","room":"0caee1bf-01f5-03d0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02f7-cea5-ffffd5ae755f4f25","up":"0cb8f3e0-0313-dde5-ffffd5ae755f4f25","down":"0cb8f3e0-0313-dde6-ffffd5ae755f4f25","position":"0cb8f3e0-0313-dde7-ffffd5ae755f4f25","shadePosition":"0cb8f3e0-0313-dde8-ffffd5ae755f4f25","safetyActive":"0cb8f3e0-0313-ddea-ffffd5ae755f4f25","autoAllowed":"0cb8f3e0-0313-ddc8-ffffd5ae755f4f25","autoActive":"0cb8f3e0-0313-dde9-ffffd5ae755f4f25","locked":"0cb8f3e0-0313-ddeb-ffffd5ae755f4f25"}},"0cb8fd25-0167-9816-ffffc6c42b3ee057":{"name":"Temperatursensor","type":"InfoOnlyAnalog","uuidAction":"0cb8fd25-0167-9816-ffffc6c42b3ee057","room":"0caee1bf-01f5-03d0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0322-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f°"},"states":{"value":"0cb8fd25-0167-9816-ffffc6c42b3ee057","error":"0cb8fd25-0167-9815-ffff6b2994914eb1"}},"0cb8fa69-0054-59b4-ffffc6c42b3ee057":{"name":"Intelligente Raumregelung","type":"IRoomController","uuidAction":"0cb8fa69-0054-59b4-ffffc6c42b3ee057","room":"0caee1bf-01f5-03d0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0316-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"restrictedToMode":0,"temperatures":{"0":{"isAbsolute":false},"1":{"isAbsolute":true},"2":{"isAbsolute":true},"3":{"isAbsolute":true},"4":{"isAbsolute":true},"5":{"isAbsolute":false},"6":{"isAbsolute":false}},"format":"%.1f°"},"states":{"tempTarget":"0cb8fa69-0054-59af-ffffe27a34b1aa1f","tempActual":"0cb8fa69-0054-5990-ffffe27a34b1aa1f","error":"0cb8fa69-0054-59ad-ffffe27a34b1aa1f","mode":"0cb8fa69-0054-59ab-ffffe27a34b1aa1f","serviceMode":"0cb8fa69-0054-59ac-ffffe27a34b1aa1f","currHeatTempIx":"0cb8fa69-0054-5987-ffffe27a34b1aa1f","currCoolTempIx":"0cb8fa69-0054-5988-ffffe27a34b1aa1f","override":"0cb8fa69-0054-59b2-ffffe27a34b1aa1f","isPreparing":"0cb8fa69-0054-59b3-ffffe27a34b1aa1f","valveHeat":"0cb8fa69-0054-59a2-ffffe27a34b1aa1f","valveCool":"0cb8fa69-0054-59a6-ffffe27a34b1aa1f","openWindow":"0cb8fa69-0054-5991-ffffe27a34b1aa1f","stop":"106f96d7-0168-1d5c-ffff2b2be14b5883","overrideTotal":"0f8cad80-03ab-154c-ffffc6c42b3ee057","movement":"0f8cad80-03ab-154b-ffffc6c42b3ee057","manualMode":"0f8cad80-03ab-154d-ffffc6c42b3ee057","temperatures":["0cb8fa69-0054-5997-ffffe27a34b1aa1f","0cb8fa69-0054-5998-ffffe27a34b1aa1f","0cb8fa69-0054-5999-ffffe27a34b1aa1f","0cb8fa69-0054-599c-ffffe27a34b1aa1f","0cb8fa69-0054-599d-ffffe27a34b1aa1f","0cb8fa69-0054-599b-ffffe27a34b1aa1f","0cb8fa69-0054-599a-ffffe27a34b1aa1f"]},"subControls":{"0cb8fa69-0054-5985-ffffe27a34b1aa1f":{"name":"Heating","type":"IRCDaytimer","uuidAction":"0cb8fa69-0054-5985-ffffe27a34b1aa1f","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8fa69-0054-5985-ffffe27a34b1aa1f","mode":"0cb8fa69-0054-59b0-ffffe27a34b1aa1f","modeList":"0f8cad80-03ab-1549-ffffc6c42b3ee057","value":"0cb8fa69-0054-5987-ffffe27a34b1aa1f"}},"0cb8fa69-0054-5986-ffffe27a34b1aa1f":{"name":"Cooling","type":"IRCDaytimer","uuidAction":"0cb8fa69-0054-5986-ffffe27a34b1aa1f","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8fa69-0054-5986-ffffe27a34b1aa1f","mode":"0cb8fa69-0054-59b1-ffffe27a34b1aa1f","modeList":"0f8cad80-03ab-154a-ffffc6c42b3ee057","value":"0cb8fa69-0054-5988-ffffe27a34b1aa1f"}}}},"0df83515-02c7-2872-ffffc6c42b3ee057":{"name":"Hausnummernleuchte","type":"Switch","uuidAction":"0df83515-02c7-2872-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0df83515-02c7-2871-ffff6702bf8ff667"}},"0cb8e8de-0288-a925-ffffc6c42b3ee057":{"name":"Terassenleuchte","type":"Switch","uuidAction":"0cb8e8de-0288-a925-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb8e8de-0288-a924-ffff9b8d44ac3cde"}},"0ff8fd0c-03e6-a9fe-ffffc6c42b3ee057":{"name":"Klingel","type":"Pushbutton","uuidAction":"0ff8fd0c-03e6-a9fe-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0fd99e3b-0218-28ba-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0ff8fd0c-03e6-a9fd-ffff5474fa6cfbcc"}},"0ff8fd46-026f-2aa0-ffffc6c42b3ee057":{"name":"Toröffner","type":"Pushbutton","uuidAction":"0ff8fd46-026f-2aa0-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0fd99e3b-0218-28ba-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0ff8fd46-026f-2a9f-ffffa6932fa033b3"}},"0f460508-0080-5d50-ffffc6c42b3ee057":{"name":"Schiebetor","type":"Gate","uuidAction":"0f460508-0080-5d50-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0caee1bf-01e5-0346-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"animation":4},"states":{"position":"0f460508-0080-5d4e-ffffeac7d42c5b19","active":"0f460508-0080-5d4d-ffffeac7d42c5b19","preventOpen":"0f460508-0080-5d36-ffffeac7d42c5b19","preventClose":"0f460508-0080-5d37-ffffeac7d42c5b19"}},"0fd99b88-02c4-801a-ffffc6c42b3ee057":{"name":"Teilöffnung","type":"Pushbutton","uuidAction":"0fd99b88-02c4-801a-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0caee1bf-01e5-0346-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0fd99b88-02c4-8019-ffff44278d1d546a"}},"0cb8e8d9-00e2-a46c-ffffc6c42b3ee057":{"name":"Steckdose","type":"Switch","uuidAction":"0cb8e8d9-00e2-a46c-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0caee1bf-01e5-0374-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb8e8d9-00e2-a46b-ffffa2746d2b2509"}},"0e48acbc-0314-235d-ffffc6c42b3ee057":{"name":"Relative Luftfeuchte","type":"InfoOnlyAnalog","uuidAction":"0e48acbc-0314-235d-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0cec9a33-01f2-0f5f-ffffc6c42b3ee057","defaultRating":3,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f %%"},"states":{"value":"0e48acbc-0314-235d-ffffc6c42b3ee057","error":"0e48acbc-0314-235c-ffff953d29ad7c6f"}},"0e48acbc-0323-2385-ffffc6c42b3ee057":{"name":"Regenmenge","type":"InfoOnlyAnalog","uuidAction":"0e48acbc-0323-2385-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0cec9a33-01f2-0f5f-ffffc6c42b3ee057","defaultRating":3,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f mm"},"states":{"value":"0e48acbc-0323-2385-ffffc6c42b3ee057","error":"0e48acbc-0323-2384-ffff953d29ad7c6f"}},"0e48acbc-0314-2359-ffffc6c42b3ee057":{"name":"Temperatur","type":"InfoOnlyAnalog","uuidAction":"0e48acbc-0314-2359-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0cec9a33-01f2-0f5f-ffffc6c42b3ee057","defaultRating":4,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f °C"},"states":{"value":"0e48acbc-0314-2359-ffffc6c42b3ee057","error":"0e48acbc-0314-2358-ffff953d29ad7c6f"}},"0e48acbc-0314-2365-ffffc6c42b3ee057":{"name":"Windgeschwindigkeit","type":"InfoOnlyAnalog","uuidAction":"0e48acbc-0314-2365-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0cec9a33-01f2-0f5f-ffffc6c42b3ee057","defaultRating":2,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f km/h"},"states":{"value":"0e48acbc-0314-2365-ffffc6c42b3ee057","error":"0e48acbc-0314-2364-ffff953d29ad7c6f"}},"0e48acbc-0314-2361-ffffc6c42b3ee057":{"name":"Windrichtung","type":"InfoOnlyAnalog","uuidAction":"0e48acbc-0314-2361-ffffc6c42b3ee057","room":"0caee1bf-0204-0426-ffffc6c42b3ee057","cat":"0cec9a33-01f2-0f5f-ffffc6c42b3ee057","defaultRating":2,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f °"},"states":{"value":"0e48acbc-0314-2361-ffffc6c42b3ee057","error":"0e48acbc-0314-2360-ffff953d29ad7c6f"}},"0cb8e9cb-0264-5ccc-ffffc6c42b3ee057":{"name":"Deckenleuchte","type":"Switch","uuidAction":"0cb8e9cb-0264-5ccc-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a8-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb8e9cb-0264-5ccb-ffff691a3b6e83ea"}},"0cb8e9cb-0274-57be-ffffc6c42b3ee057":{"name":"Spiegelleuchte","type":"Switch","uuidAction":"0cb8e9cb-0274-57be-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a8-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb8e9cb-0274-57bd-ffffdcead211de8c"}},"106f96d7-018b-21db-ffffc6c42b3ee057":{"name":"Alle","type":"CentralJalousie","uuidAction":"106f96d7-018b-21db-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a8-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"controls":[{"id":0,"uuid":"0cb8f4a0-01ea-6d87-ffff316041bf9224"},{"id":1,"uuid":"0cb8f4a4-00c1-765d-ffffab6fc980f9e2"}]}},"0cb8f4a4-00c1-765d-ffffab6fc980f9e2":{"name":"Rollladen (Nord)","type":"Jalousie","uuidAction":"0cb8f4a4-00c1-765d-ffffab6fc980f9e2","room":"0caee1bf-01f5-03a8-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02fd-cea7-ffffab6fc980f9e2","up":"0cb8f4a4-00c1-7685-ffffab6fc980f9e2","down":"0cb8f4a4-00c1-7686-ffffab6fc980f9e2","position":"0cb8f4a4-00c1-7687-ffffab6fc980f9e2","shadePosition":"0cb8f4a4-00c1-7688-ffffab6fc980f9e2","safetyActive":"0cb8f4a4-00c1-768a-ffffab6fc980f9e2","autoAllowed":"0cb8f4a4-00c1-7668-ffffab6fc980f9e2","autoActive":"0cb8f4a4-00c1-7689-ffffab6fc980f9e2","locked":"0cb8f4a4-00c1-768b-ffffab6fc980f9e2"}},"0cb8f4a0-01ea-6d87-ffff316041bf9224":{"name":"Rollladen (West)","type":"Jalousie","uuidAction":"0cb8f4a0-01ea-6d87-ffff316041bf9224","room":"0caee1bf-01f5-03a8-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02fc-cea6-ffff316041bf9224","up":"0cb8f4a0-01ea-6daf-ffff316041bf9224","down":"0cb8f4a0-01ea-6db0-ffff316041bf9224","position":"0cb8f4a0-01ea-6db1-ffff316041bf9224","shadePosition":"0cb8f4a0-01ea-6db2-ffff316041bf9224","safetyActive":"0cb8f4a0-01ea-6db4-ffff316041bf9224","autoAllowed":"0cb8f4a0-01ea-6d92-ffff316041bf9224","autoActive":"0cb8f4a0-01ea-6db3-ffff316041bf9224","locked":"0cb8f4a0-01ea-6db5-ffff316041bf9224"}},"0cb8fd31-01d3-ad02-ffffc6c42b3ee057":{"name":"Temperatursensor","type":"InfoOnlyAnalog","uuidAction":"0cb8fd31-01d3-ad02-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a8-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0322-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f°"},"states":{"value":"0cb8fd31-01d3-ad02-ffffc6c42b3ee057","error":"0cb8fd31-01d3-ad01-ffff18599ee63776"}},"0cb8fa84-01fa-8bbc-ffffc6c42b3ee057":{"name":"Intelligente Raumregelung","type":"IRoomController","uuidAction":"0cb8fa84-01fa-8bbc-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a8-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0316-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"restrictedToMode":0,"temperatures":{"0":{"isAbsolute":false},"1":{"isAbsolute":true},"2":{"isAbsolute":true},"3":{"isAbsolute":true},"4":{"isAbsolute":true},"5":{"isAbsolute":false},"6":{"isAbsolute":false}},"format":"%.1f°"},"states":{"tempTarget":"0cb8fa84-01fa-8bb7-ffffed9417dd8f98","tempActual":"0cb8fa84-01fa-8b98-ffffed9417dd8f98","error":"0cb8fa84-01fa-8bb5-ffffed9417dd8f98","mode":"0cb8fa84-01fa-8bb3-ffffed9417dd8f98","serviceMode":"0cb8fa84-01fa-8bb4-ffffed9417dd8f98","currHeatTempIx":"0cb8fa84-01fa-8b8f-ffffed9417dd8f98","currCoolTempIx":"0cb8fa84-01fa-8b90-ffffed9417dd8f98","override":"0cb8fa84-01fa-8bba-ffffed9417dd8f98","isPreparing":"0cb8fa84-01fa-8bbb-ffffed9417dd8f98","valveHeat":"0cb8fa84-01fa-8baa-ffffed9417dd8f98","valveCool":"0cb8fa84-01fa-8bae-ffffed9417dd8f98","openWindow":"0cb8fa84-01fa-8b99-ffffed9417dd8f98","stop":"106f96d7-016d-1eed-ffff2b2be14b5883","overrideTotal":"0f8cad80-03ab-16e6-ffffc6c42b3ee057","movement":"0f8cad80-03ab-16e5-ffffc6c42b3ee057","manualMode":"0f8cad80-03ab-16e7-ffffc6c42b3ee057","temperatures":["0cb8fa84-01fa-8b9f-ffffed9417dd8f98","0cb8fa84-01fa-8ba0-ffffed9417dd8f98","0cb8fa84-01fa-8ba1-ffffed9417dd8f98","0cb8fa84-01fa-8ba4-ffffed9417dd8f98","0cb8fa84-01fa-8ba5-ffffed9417dd8f98","0cb8fa84-01fa-8ba3-ffffed9417dd8f98","0cb8fa84-01fa-8ba2-ffffed9417dd8f98"]},"subControls":{"0cb8fa84-01fa-8b8d-ffffed9417dd8f98":{"name":"Heating","type":"IRCDaytimer","uuidAction":"0cb8fa84-01fa-8b8d-ffffed9417dd8f98","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8fa84-01fa-8b8d-ffffed9417dd8f98","mode":"0cb8fa84-01fa-8bb8-ffffed9417dd8f98","modeList":"0f8cad80-03ab-16e3-ffffc6c42b3ee057","value":"0cb8fa84-01fa-8b8f-ffffed9417dd8f98"}},"0cb8fa84-01fa-8b8e-ffffed9417dd8f98":{"name":"Cooling","type":"IRCDaytimer","uuidAction":"0cb8fa84-01fa-8b8e-ffffed9417dd8f98","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8fa84-01fa-8b8e-ffffed9417dd8f98","mode":"0cb8fa84-01fa-8bb9-ffffed9417dd8f98","modeList":"0f8cad80-03ab-16e4-ffffc6c42b3ee057","value":"0cb8fa84-01fa-8b90-ffffed9417dd8f98"}}}},"0cb8ea16-00fd-9f17-ffffc6c42b3ee057":{"name":"Deckenleuchte","type":"Switch","uuidAction":"0cb8ea16-00fd-9f17-ffffc6c42b3ee057","room":"0caee1bf-0204-03f0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb8ea16-00fd-9f16-ffff95961310f039"}},"0d9eda9d-0288-fa59-ffffc6c42b3ee057":{"name":"Deckenleuchte","type":"Switch","uuidAction":"0d9eda9d-0288-fa59-ffffc6c42b3ee057","room":"0d92d03f-029e-7897-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0d9eda9d-0288-fa58-ffff2fa3df4fc582"}},"109dbdef-033c-c148-ffffc6c42b3ee057":{"name":"Deckenleuchte Treppe","type":"TimedSwitch","uuidAction":"109dbdef-033c-c148-ffffc6c42b3ee057","room":"0d92d03f-029e-7897-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"isStairwayLs":true},"states":{"deactivationDelay":"109dbdef-033c-c148-ffffc6c42b3ee057","deactivationDelayTotal":"109dbdef-033c-c144-ffff1777393f7f3a"}},"0dc0b707-0002-886c-ffffc6c42b3ee057":{"name":"Temperatursensor","type":"InfoOnlyAnalog","uuidAction":"0dc0b707-0002-886c-ffffc6c42b3ee057","room":"0d92d03f-029e-7897-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0322-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f°"},"states":{"value":"0dc0b707-0002-886c-ffffc6c42b3ee057","error":"0dc0b707-0002-886b-ffff1be821c94a0b"}},"0d9ee66b-0201-e56a-ffffc6c42b3ee057":{"name":"Intelligente Raumregelung","type":"IRoomController","uuidAction":"0d9ee66b-0201-e56a-ffffc6c42b3ee057","room":"0d92d03f-029e-7897-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0316-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"restrictedToMode":0,"temperatures":{"0":{"isAbsolute":false},"1":{"isAbsolute":true},"2":{"isAbsolute":true},"3":{"isAbsolute":true},"4":{"isAbsolute":true},"5":{"isAbsolute":false},"6":{"isAbsolute":false}},"format":"%.1f°"},"states":{"tempTarget":"0d9ee66b-0201-e565-ffff9712198ad87d","tempActual":"0d9ee66b-0201-e544-ffff9712198ad87d","error":"0d9ee66b-0201-e563-ffff9712198ad87d","mode":"0d9ee66b-0201-e561-ffff9712198ad87d","serviceMode":"0d9ee66b-0201-e562-ffff9712198ad87d","currHeatTempIx":"0d9ee66b-01f1-e53a-ffff9712198ad87d","currCoolTempIx":"0d9ee66b-01f1-e53b-ffff9712198ad87d","override":"0d9ee66b-0201-e568-ffff9712198ad87d","isPreparing":"0d9ee66b-0201-e569-ffff9712198ad87d","valveHeat":"0d9ee66b-0201-e558-ffff9712198ad87d","valveCool":"0d9ee66b-0201-e55c-ffff9712198ad87d","openWindow":"0d9ee66b-0201-e545-ffff9712198ad87d","stop":"106f96d7-013e-133a-ffff2b2be14b5883","overrideTotal":"0f8cad80-039b-0e25-ffffc6c42b3ee057","movement":"0f8cad80-039b-0e24-ffffc6c42b3ee057","manualMode":"0f8cad80-039b-0e26-ffffc6c42b3ee057","temperatures":["0d9ee66b-0201-e54c-ffff9712198ad87d","0d9ee66b-0201-e54d-ffff9712198ad87d","0d9ee66b-0201-e54e-ffff9712198ad87d","0d9ee66b-0201-e551-ffff9712198ad87d","0d9ee66b-0201-e552-ffff9712198ad87d","0d9ee66b-0201-e550-ffff9712198ad87d","0d9ee66b-0201-e54f-ffff9712198ad87d"]},"subControls":{"0d9ee66b-01f1-e538-ffff9712198ad87d":{"name":"Heating","type":"IRCDaytimer","uuidAction":"0d9ee66b-01f1-e538-ffff9712198ad87d","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0d9ee66b-01f1-e538-ffff9712198ad87d","mode":"0d9ee66b-0201-e566-ffff9712198ad87d","modeList":"0f8cad80-039b-0e22-ffffc6c42b3ee057","value":"0d9ee66b-01f1-e53a-ffff9712198ad87d"}},"0d9ee66b-01f1-e539-ffff9712198ad87d":{"name":"Cooling","type":"IRCDaytimer","uuidAction":"0d9ee66b-01f1-e539-ffff9712198ad87d","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0d9ee66b-01f1-e539-ffff9712198ad87d","mode":"0d9ee66b-0201-e567-ffff9712198ad87d","modeList":"0f8cad80-039b-0e23-ffffc6c42b3ee057","value":"0d9ee66b-01f1-e53b-ffff9712198ad87d"}}}},"0d9edaa7-019c-2ebd-ffffc6c42b3ee057":{"name":"Deckenleuchte","type":"Switch","uuidAction":"0d9edaa7-019c-2ebd-ffffc6c42b3ee057","room":"0da91525-01fe-a384-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0d9edaa7-019c-2ebc-ffffb250f8690ea6"}},"0dd32a24-0036-2041-ffffc6c42b3ee057":{"name":"Temperatursensor","type":"InfoOnlyAnalog","uuidAction":"0dd32a24-0036-2041-ffffc6c42b3ee057","room":"0da91525-01fe-a384-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0322-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f°"},"states":{"value":"0dd32a24-0036-2041-ffffc6c42b3ee057","error":"0dd32a24-0036-2040-ffff7dc55463304c"}},"0cb8f987-0332-8b39-ffffc6c42b3ee057":{"name":"Intelligente Raumregelung","type":"IRoomController","uuidAction":"0cb8f987-0332-8b39-ffffc6c42b3ee057","room":"0da91525-01fe-a384-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0316-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"restrictedToMode":0,"temperatures":{"0":{"isAbsolute":false},"1":{"isAbsolute":true},"2":{"isAbsolute":true},"3":{"isAbsolute":true},"4":{"isAbsolute":true},"5":{"isAbsolute":false},"6":{"isAbsolute":false}},"format":"%.1f°"},"states":{"tempTarget":"0cb8f987-0332-8b34-ffff4ed50c32d55b","tempActual":"0cb8f987-0332-8b15-ffff4ed50c32d55b","error":"0cb8f987-0332-8b32-ffff4ed50c32d55b","mode":"0cb8f987-0332-8b30-ffff4ed50c32d55b","serviceMode":"0cb8f987-0332-8b31-ffff4ed50c32d55b","currHeatTempIx":"0cb8f987-0332-8b0c-ffff4ed50c32d55b","currCoolTempIx":"0cb8f987-0332-8b0d-ffff4ed50c32d55b","override":"0cb8f987-0332-8b37-ffff4ed50c32d55b","isPreparing":"0cb8f987-0332-8b38-ffff4ed50c32d55b","valveHeat":"0cb8f987-0332-8b27-ffff4ed50c32d55b","valveCool":"0cb8f987-0332-8b2b-ffff4ed50c32d55b","openWindow":"0cb8f987-0332-8b16-ffff4ed50c32d55b","stop":"106f96d7-0140-13cf-ffff2b2be14b5883","overrideTotal":"0f8cad80-039b-0eb1-ffffc6c42b3ee057","movement":"0f8cad80-039b-0eb0-ffffc6c42b3ee057","manualMode":"0f8cad80-039b-0eb2-ffffc6c42b3ee057","temperatures":["0cb8f987-0332-8b1c-ffff4ed50c32d55b","0cb8f987-0332-8b1d-ffff4ed50c32d55b","0cb8f987-0332-8b1e-ffff4ed50c32d55b","0cb8f987-0332-8b21-ffff4ed50c32d55b","0cb8f987-0332-8b22-ffff4ed50c32d55b","0cb8f987-0332-8b20-ffff4ed50c32d55b","0cb8f987-0332-8b1f-ffff4ed50c32d55b"]},"subControls":{"0cb8f987-0332-8b0a-ffff4ed50c32d55b":{"name":"Heating","type":"IRCDaytimer","uuidAction":"0cb8f987-0332-8b0a-ffff4ed50c32d55b","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8f987-0332-8b0a-ffff4ed50c32d55b","mode":"0cb8f987-0332-8b35-ffff4ed50c32d55b","modeList":"0f8cad80-039b-0eae-ffffc6c42b3ee057","value":"0cb8f987-0332-8b0c-ffff4ed50c32d55b"}},"0cb8f987-0332-8b0b-ffff4ed50c32d55b":{"name":"Cooling","type":"IRCDaytimer","uuidAction":"0cb8f987-0332-8b0b-ffff4ed50c32d55b","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8f987-0332-8b0b-ffff4ed50c32d55b","mode":"0cb8f987-0332-8b36-ffff4ed50c32d55b","modeList":"0f8cad80-039b-0eaf-ffffc6c42b3ee057","value":"0cb8f987-0332-8b0d-ffff4ed50c32d55b"}}}},"0cb5538e-00ad-72b1-ffffc6c42b3ee057":{"name":"Deckenleuchte","type":"Switch","uuidAction":"0cb5538e-00ad-72b1-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a4-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb5538e-00ad-72b0-ffffb7fcf0ff7ea7"}},"0cb553a6-031e-81b2-ffffc6c42b3ee057":{"name":"Spiegelleuchte","type":"Switch","uuidAction":"0cb553a6-031e-81b2-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a4-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb553a6-031e-81b1-ffffe0726ce4f933"}},"0cb8ec05-01f7-d96b-ffffc6c42b3ee057":{"name":"Rollladen (Nord)","type":"Jalousie","uuidAction":"0cb8ec05-01f7-d96b-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a4-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02d8-ce9b-ffffc6c42b3ee057","up":"0cb8ec05-01f7-d963-fffff4bcfce0fd3b","down":"0cb8ec05-01f7-d964-fffff4bcfce0fd3b","position":"0cb8ec05-01f7-d965-fffff4bcfce0fd3b","shadePosition":"0cb8ec05-01f7-d966-fffff4bcfce0fd3b","safetyActive":"0cb8ec05-01f7-d968-fffff4bcfce0fd3b","autoAllowed":"0cb8ec05-01f7-d946-fffff4bcfce0fd3b","autoActive":"0cb8ec05-01f7-d967-fffff4bcfce0fd3b","locked":"0cb8ec05-01f7-d969-fffff4bcfce0fd3b"}},"0dd32a2b-02c6-2f21-ffffc6c42b3ee057":{"name":"Temperatursensor","type":"InfoOnlyAnalog","uuidAction":"0dd32a2b-02c6-2f21-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a4-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0322-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f°"},"states":{"value":"0dd32a2b-02c6-2f21-ffffc6c42b3ee057","error":"0dd32a2b-02c6-2f20-ffff318f469776da"}},"0cb8eaf2-015a-be5d-ffffc6c42b3ee057":{"name":"Intelligente Raumregelung","type":"IRoomController","uuidAction":"0cb8eaf2-015a-be5d-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a4-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0316-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"restrictedToMode":0,"temperatures":{"0":{"isAbsolute":false},"1":{"isAbsolute":true},"2":{"isAbsolute":true},"3":{"isAbsolute":true},"4":{"isAbsolute":true},"5":{"isAbsolute":false},"6":{"isAbsolute":false}},"format":"%.1f°"},"states":{"tempTarget":"0cb8eaf2-015a-be58-ffff4b8816490cd9","tempActual":"0cb8eaf2-015a-be39-ffff4b8816490cd9","error":"0cb8eaf2-015a-be56-ffff4b8816490cd9","mode":"0cb8eaf2-015a-be54-ffff4b8816490cd9","serviceMode":"0cb8eaf2-015a-be55-ffff4b8816490cd9","currHeatTempIx":"0cb8eaf2-015a-be30-ffff4b8816490cd9","currCoolTempIx":"0cb8eaf2-015a-be31-ffff4b8816490cd9","override":"0cb8eaf2-015a-be5b-ffff4b8816490cd9","isPreparing":"0cb8eaf2-015a-be5c-ffff4b8816490cd9","valveHeat":"0cb8eaf2-015a-be4b-ffff4b8816490cd9","valveCool":"0cb8eaf2-015a-be4f-ffff4b8816490cd9","openWindow":"0cb8eaf2-015a-be3a-ffff4b8816490cd9","stop":"106f96d7-0135-114b-ffff2b2be14b5883","overrideTotal":"0f8cad80-038c-0ccf-ffffc6c42b3ee057","movement":"0f8cad80-038c-0cce-ffffc6c42b3ee057","manualMode":"0f8cad80-038c-0cd0-ffffc6c42b3ee057","temperatures":["0cb8eaf2-015a-be40-ffff4b8816490cd9","0cb8eaf2-015a-be41-ffff4b8816490cd9","0cb8eaf2-015a-be42-ffff4b8816490cd9","0cb8eaf2-015a-be45-ffff4b8816490cd9","0cb8eaf2-015a-be46-ffff4b8816490cd9","0cb8eaf2-015a-be44-ffff4b8816490cd9","0cb8eaf2-015a-be43-ffff4b8816490cd9"]},"subControls":{"0cb8eaf2-015a-be2e-ffff4b8816490cd9":{"name":"Heating","type":"IRCDaytimer","uuidAction":"0cb8eaf2-015a-be2e-ffff4b8816490cd9","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8eaf2-015a-be2e-ffff4b8816490cd9","mode":"0cb8eaf2-015a-be59-ffff4b8816490cd9","modeList":"0f8cad80-038c-0ccc-ffffc6c42b3ee057","value":"0cb8eaf2-015a-be30-ffff4b8816490cd9"}},"0cb8eaf2-015a-be2f-ffff4b8816490cd9":{"name":"Cooling","type":"IRCDaytimer","uuidAction":"0cb8eaf2-015a-be2f-ffff4b8816490cd9","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8eaf2-015a-be2f-ffff4b8816490cd9","mode":"0cb8eaf2-015a-be5a-ffff4b8816490cd9","modeList":"0f8cad80-038c-0ccd-ffffc6c42b3ee057","value":"0cb8eaf2-015a-be31-ffff4b8816490cd9"}}}},"0cb54639-01f6-0f6a-ffffc6c42b3ee057":{"name":"Deckenleuchte","type":"Switch","uuidAction":"0cb54639-01f6-0f6a-ffffc6c42b3ee057","room":"0d92d133-034e-5b3e-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb54639-01f6-0f69-fffff8dcba747941"}},"0cb8f1e6-00d8-34af-ffffc99f213fe814":{"name":"Rollladen (Nord)","type":"Jalousie","uuidAction":"0cb8f1e6-00d8-34af-ffffc99f213fe814","room":"0d92d133-034e-5b3e-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02db-ce9c-ffffc99f213fe814","up":"0cb8f1e6-00d8-34d7-ffffc99f213fe814","down":"0cb8f1e6-00d8-34d8-ffffc99f213fe814","position":"0cb8f1e6-00d8-34d9-ffffc99f213fe814","shadePosition":"0cb8f1e6-00d8-34da-ffffc99f213fe814","safetyActive":"0cb8f1e6-00d8-34dc-ffffc99f213fe814","autoAllowed":"0cb8f1e6-00d8-34ba-ffffc99f213fe814","autoActive":"0cb8f1e6-00d8-34db-ffffc99f213fe814","locked":"0cb8f1e6-00d8-34dd-ffffc99f213fe814"}},"0ff8e39a-0076-5605-ffffc6c42b3ee057":{"name":"Haushaltsstrom Energie Bezug","type":"InfoOnlyAnalog","uuidAction":"0ff8e39a-0076-5605-ffffc6c42b3ee057","room":"0d92d133-034e-5b3e-ffffc6c42b3ee057","cat":"0caee1bf-01e5-0374-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f"},"states":{"value":"0ff8e39a-0076-5605-ffffc6c42b3ee057"}},"0ff8e3cd-0244-faf3-ffffc6c42b3ee057":{"name":"Haushaltsstrom Energie Lieferung","type":"InfoOnlyAnalog","uuidAction":"0ff8e3cd-0244-faf3-ffffc6c42b3ee057","room":"0d92d133-034e-5b3e-ffffc6c42b3ee057","cat":"0caee1bf-01e5-0374-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f"},"states":{"value":"0ff8e3cd-0244-faf3-ffffc6c42b3ee057"}},"0ff8e3d3-0215-0d60-ffffc6c42b3ee057":{"name":"Haushaltsstrom Leistung","type":"InfoOnlyAnalog","uuidAction":"0ff8e3d3-0215-0d60-ffffc6c42b3ee057","room":"0d92d133-034e-5b3e-ffffc6c42b3ee057","cat":"0caee1bf-01e5-0374-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f"},"states":{"value":"0ff8e3d3-0215-0d60-ffffc6c42b3ee057"}},"0ff8e3dd-01d6-4474-ffffc6c42b3ee057":{"name":"Wärmestrom Energie Bezug","type":"InfoOnlyAnalog","uuidAction":"0ff8e3dd-01d6-4474-ffffc6c42b3ee057","room":"0d92d133-034e-5b3e-ffffc6c42b3ee057","cat":"0caee1bf-01e5-0374-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f"},"states":{"value":"0ff8e3dd-01d6-4474-ffffc6c42b3ee057"}},"0ff8e3e8-00fc-7b99-ffffc6c42b3ee057":{"name":"Wärmestrom Energie Lieferung","type":"InfoOnlyAnalog","uuidAction":"0ff8e3e8-00fc-7b99-ffffc6c42b3ee057","room":"0d92d133-034e-5b3e-ffffc6c42b3ee057","cat":"0caee1bf-01e5-0374-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f"},"states":{"value":"0ff8e3e8-00fc-7b99-ffffc6c42b3ee057"}},"0ff8e3ed-02ff-8e0b-ffffc6c42b3ee057":{"name":"Wärmestrom Leistung","type":"InfoOnlyAnalog","uuidAction":"0ff8e3ed-02ff-8e0b-ffffc6c42b3ee057","room":"0d92d133-034e-5b3e-ffffc6c42b3ee057","cat":"0caee1bf-01e5-0374-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f"},"states":{"value":"0ff8e3ed-02ff-8e0b-ffffc6c42b3ee057"}},"0cb8e954-00dd-f09c-ffffc6c42b3ee057":{"name":"Deckenleuchte","type":"Switch","uuidAction":"0cb8e954-00dd-f09c-ffffc6c42b3ee057","room":"0caee1bf-01f5-03b0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb8e954-00dd-f09b-ffff740bd47b73f3"}},"0cb8f2d6-018d-ecf9-ffffe9ee94739757":{"name":"Rollladen (Ost)","type":"Jalousie","uuidAction":"0cb8f2d6-018d-ecf9-ffffe9ee94739757","room":"0caee1bf-01f5-03b0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02ef-cea2-ffffe9ee94739757","up":"0cb8f2d6-018d-ed21-ffffe9ee94739757","down":"0cb8f2d6-018d-ed22-ffffe9ee94739757","position":"0cb8f2d6-018d-ed23-ffffe9ee94739757","shadePosition":"0cb8f2d6-018d-ed24-ffffe9ee94739757","safetyActive":"0cb8f2d6-018d-ed26-ffffe9ee94739757","autoAllowed":"0cb8f2d6-018d-ed04-ffffe9ee94739757","autoActive":"0cb8f2d6-018d-ed25-ffffe9ee94739757","locked":"0cb8f2d6-018d-ed27-ffffe9ee94739757"}},"0cb8fd0f-0256-6e56-ffffc6c42b3ee057":{"name":"Temperatursensor","type":"InfoOnlyAnalog","uuidAction":"0cb8fd0f-0256-6e56-ffffc6c42b3ee057","room":"0caee1bf-01f5-03b0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0322-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f°"},"states":{"value":"0cb8fd0f-0256-6e56-ffffc6c42b3ee057","error":"0cb8fd0f-0256-6e55-ffff681965173086"}},"0cb8fa26-0054-0bd4-ffffc6c42b3ee057":{"name":"Intelligente Raumregelung","type":"IRoomController","uuidAction":"0cb8fa26-0054-0bd4-ffffc6c42b3ee057","room":"0caee1bf-01f5-03b0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0316-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"restrictedToMode":0,"temperatures":{"0":{"isAbsolute":false},"1":{"isAbsolute":true},"2":{"isAbsolute":true},"3":{"isAbsolute":true},"4":{"isAbsolute":true},"5":{"isAbsolute":false},"6":{"isAbsolute":false}},"format":"%.1f°"},"states":{"tempTarget":"0cb8fa26-0054-0bcf-ffff39fe944d244a","tempActual":"0cb8fa26-0054-0bb0-ffff39fe944d244a","error":"0cb8fa26-0054-0bcd-ffff39fe944d244a","mode":"0cb8fa26-0054-0bcb-ffff39fe944d244a","serviceMode":"0cb8fa26-0054-0bcc-ffff39fe944d244a","currHeatTempIx":"0cb8fa26-0054-0ba7-ffff39fe944d244a","currCoolTempIx":"0cb8fa26-0054-0ba8-ffff39fe944d244a","override":"0cb8fa26-0054-0bd2-ffff39fe944d244a","isPreparing":"0cb8fa26-0054-0bd3-ffff39fe944d244a","valveHeat":"0cb8fa26-0054-0bc2-ffff39fe944d244a","valveCool":"0cb8fa26-0054-0bc6-ffff39fe944d244a","openWindow":"0cb8fa26-0054-0bb1-ffff39fe944d244a","stop":"106f96d7-015e-1a6f-ffff2b2be14b5883","overrideTotal":"0f8cad80-039b-1334-ffffc6c42b3ee057","movement":"0f8cad80-039b-1333-ffffc6c42b3ee057","manualMode":"0f8cad80-039b-1335-ffffc6c42b3ee057","temperatures":["0cb8fa26-0054-0bb7-ffff39fe944d244a","0cb8fa26-0054-0bb8-ffff39fe944d244a","0cb8fa26-0054-0bb9-ffff39fe944d244a","0cb8fa26-0054-0bbc-ffff39fe944d244a","0cb8fa26-0054-0bbd-ffff39fe944d244a","0cb8fa26-0054-0bbb-ffff39fe944d244a","0cb8fa26-0054-0bba-ffff39fe944d244a"]},"subControls":{"0cb8fa26-0054-0ba5-ffff39fe944d244a":{"name":"Heating","type":"IRCDaytimer","uuidAction":"0cb8fa26-0054-0ba5-ffff39fe944d244a","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8fa26-0054-0ba5-ffff39fe944d244a","mode":"0cb8fa26-0054-0bd0-ffff39fe944d244a","modeList":"0f8cad80-039b-1331-ffffc6c42b3ee057","value":"0cb8fa26-0054-0ba7-ffff39fe944d244a"}},"0cb8fa26-0054-0ba6-ffff39fe944d244a":{"name":"Cooling","type":"IRCDaytimer","uuidAction":"0cb8fa26-0054-0ba6-ffff39fe944d244a","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8fa26-0054-0ba6-ffff39fe944d244a","mode":"0cb8fa26-0054-0bd1-ffff39fe944d244a","modeList":"0f8cad80-039b-1332-ffffc6c42b3ee057","value":"0cb8fa26-0054-0ba8-ffff39fe944d244a"}}}},"0cb80376-02fb-5e6f-ffffc6c42b3ee057":{"name":"Deckenleuchte","type":"Switch","uuidAction":"0cb80376-02fb-5e6f-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb80376-02fb-5e6e-ffffaedfab5d745c"}},"0cb8f25f-0277-9145-ffffb8535ddeefb2":{"name":"Rollladen (West)","type":"Jalousie","uuidAction":"0cb8f25f-0277-9145-ffffb8535ddeefb2","room":"0caee1bf-01f5-03a0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02e1-ce9d-ffffb8535ddeefb2","up":"0cb8f25f-0277-916d-ffffb8535ddeefb2","down":"0cb8f25f-0277-916e-ffffb8535ddeefb2","position":"0cb8f25f-0277-916f-ffffb8535ddeefb2","shadePosition":"0cb8f25f-0277-9170-ffffb8535ddeefb2","safetyActive":"0cb8f25f-0277-9172-ffffb8535ddeefb2","autoAllowed":"0cb8f25f-0277-9150-ffffb8535ddeefb2","autoActive":"0cb8f25f-0277-9171-ffffb8535ddeefb2","locked":"0cb8f25f-0277-9173-ffffb8535ddeefb2"}},"0cb8fcfc-0314-5982-ffffc6c42b3ee057":{"name":"Temperatursensor","type":"InfoOnlyAnalog","uuidAction":"0cb8fcfc-0314-5982-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0322-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f°"},"states":{"value":"0cb8fcfc-0314-5982-ffffc6c42b3ee057","error":"0cb8fcfc-0314-5981-ffff6ce3e4e44d82"}},"0cb8f9c5-011f-b7f9-ffffc6c42b3ee057":{"name":"Intelligente Raumregelung","type":"IRoomController","uuidAction":"0cb8f9c5-011f-b7f9-ffffc6c42b3ee057","room":"0caee1bf-01f5-03a0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0316-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"restrictedToMode":0,"temperatures":{"0":{"isAbsolute":false},"1":{"isAbsolute":true},"2":{"isAbsolute":true},"3":{"isAbsolute":true},"4":{"isAbsolute":true},"5":{"isAbsolute":false},"6":{"isAbsolute":false}},"format":"%.1f°"},"states":{"tempTarget":"0cb8f9c5-011f-b7f4-ffff45ff5cd4327d","tempActual":"0cb8f9c5-011f-b7d5-ffff45ff5cd4327d","error":"0cb8f9c5-011f-b7f2-ffff45ff5cd4327d","mode":"0cb8f9c5-011f-b7f0-ffff45ff5cd4327d","serviceMode":"0cb8f9c5-011f-b7f1-ffff45ff5cd4327d","currHeatTempIx":"0cb8f9c5-011f-b7cc-ffff45ff5cd4327d","currCoolTempIx":"0cb8f9c5-011f-b7cd-ffff45ff5cd4327d","override":"0cb8f9c5-011f-b7f7-ffff45ff5cd4327d","isPreparing":"0cb8f9c5-011f-b7f8-ffff45ff5cd4327d","valveHeat":"0cb8f9c5-011f-b7e7-ffff45ff5cd4327d","valveCool":"0cb8f9c5-011f-b7eb-ffff45ff5cd4327d","openWindow":"0cb8f9c5-011f-b7d6-ffff45ff5cd4327d","stop":"106f96d7-0145-14a9-ffff2b2be14b5883","overrideTotal":"0f8cad80-039b-0f67-ffffc6c42b3ee057","movement":"0f8cad80-039b-0f66-ffffc6c42b3ee057","manualMode":"0f8cad80-039b-0f68-ffffc6c42b3ee057","temperatures":["0cb8f9c5-011f-b7dc-ffff45ff5cd4327d","0cb8f9c5-011f-b7dd-ffff45ff5cd4327d","0cb8f9c5-011f-b7de-ffff45ff5cd4327d","0cb8f9c5-011f-b7e1-ffff45ff5cd4327d","0cb8f9c5-011f-b7e2-ffff45ff5cd4327d","0cb8f9c5-011f-b7e0-ffff45ff5cd4327d","0cb8f9c5-011f-b7df-ffff45ff5cd4327d"]},"subControls":{"0cb8f9c5-011f-b7ca-ffff45ff5cd4327d":{"name":"Heating","type":"IRCDaytimer","uuidAction":"0cb8f9c5-011f-b7ca-ffff45ff5cd4327d","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8f9c5-011f-b7ca-ffff45ff5cd4327d","mode":"0cb8f9c5-011f-b7f5-ffff45ff5cd4327d","modeList":"0f8cad80-039b-0f64-ffffc6c42b3ee057","value":"0cb8f9c5-011f-b7cc-ffff45ff5cd4327d"}},"0cb8f9c5-011f-b7cb-ffff45ff5cd4327d":{"name":"Cooling","type":"IRCDaytimer","uuidAction":"0cb8f9c5-011f-b7cb-ffff45ff5cd4327d","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8f9c5-011f-b7cb-ffff45ff5cd4327d","mode":"0cb8f9c5-011f-b7f6-ffff45ff5cd4327d","modeList":"0f8cad80-039b-0f65-ffffc6c42b3ee057","value":"0cb8f9c5-011f-b7cd-ffff45ff5cd4327d"}}}},"0cb8e977-01f7-175e-ffffc6c42b3ee057":{"name":"Deckenleuchte","type":"Switch","uuidAction":"0cb8e977-01f7-175e-ffffc6c42b3ee057","room":"0caee1bf-01f5-03ac-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb8e977-01f7-175d-ffffb58f40dcb02b"}},"0cb8f352-0238-5c64-ffffaa169c9f04f9":{"name":"Rollladen (Ost)","type":"Jalousie","uuidAction":"0cb8f352-0238-5c64-ffffaa169c9f04f9","room":"0caee1bf-01f5-03ac-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02f4-cea4-ffffaa169c9f04f9","up":"0cb8f352-0238-5c8c-ffffaa169c9f04f9","down":"0cb8f352-0238-5c8d-ffffaa169c9f04f9","position":"0cb8f352-0238-5c8e-ffffaa169c9f04f9","shadePosition":"0cb8f352-0238-5c8f-ffffaa169c9f04f9","safetyActive":"0cb8f352-0238-5c91-ffffaa169c9f04f9","autoAllowed":"0cb8f352-0238-5c6f-ffffaa169c9f04f9","autoActive":"0cb8f352-0238-5c90-ffffaa169c9f04f9","locked":"0cb8f352-0238-5c92-ffffaa169c9f04f9"}},"0cb8f347-0016-54a1-ffff93f34b88f667":{"name":"Rollladen (Süd)","type":"Jalousie","uuidAction":"0cb8f347-0016-54a1-ffff93f34b88f667","room":"0caee1bf-01f5-03ac-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02f2-cea3-ffff93f34b88f667","up":"0cb8f347-0016-54c9-ffff93f34b88f667","down":"0cb8f347-0016-54ca-ffff93f34b88f667","position":"0cb8f347-0016-54cb-ffff93f34b88f667","shadePosition":"0cb8f347-0016-54cc-ffff93f34b88f667","safetyActive":"0cb8f347-0016-54ce-ffff93f34b88f667","autoAllowed":"0cb8f347-0016-54ac-ffff93f34b88f667","autoActive":"0cb8f347-0016-54cd-ffff93f34b88f667","locked":"0cb8f347-0016-54cf-ffff93f34b88f667"}},"106f96d7-018b-21ec-ffffc6c42b3ee057":{"name":"Alle","type":"CentralJalousie","uuidAction":"106f96d7-018b-21ec-ffffc6c42b3ee057","room":"0caee1bf-01f5-03ac-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"controls":[{"id":0,"uuid":"0cb8f347-0016-54a1-ffff93f34b88f667"},{"id":1,"uuid":"0cb8f352-0238-5c64-ffffaa169c9f04f9"}]}},"0cb8fd1c-00f7-8332-ffffc6c42b3ee057":{"name":"Temperatursensor","type":"InfoOnlyAnalog","uuidAction":"0cb8fd1c-00f7-8332-ffffc6c42b3ee057","room":"0caee1bf-01f5-03ac-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0322-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f°"},"states":{"value":"0cb8fd1c-00f7-8332-ffffc6c42b3ee057","error":"0cb8fd1c-00f7-8331-ffff48f8ee2c7b24"}},"0cb8fa49-02c5-3259-ffffc6c42b3ee057":{"name":"Intelligente Raumregelung","type":"IRoomController","uuidAction":"0cb8fa49-02c5-3259-ffffc6c42b3ee057","room":"0caee1bf-01f5-03ac-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0316-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"restrictedToMode":0,"temperatures":{"0":{"isAbsolute":false},"1":{"isAbsolute":true},"2":{"isAbsolute":true},"3":{"isAbsolute":true},"4":{"isAbsolute":true},"5":{"isAbsolute":false},"6":{"isAbsolute":false}},"format":"%.1f°"},"states":{"tempTarget":"0cb8fa49-02c5-3254-ffff507f9365f2af","tempActual":"0cb8fa49-02c5-3235-ffff507f9365f2af","error":"0cb8fa49-02c5-3252-ffff507f9365f2af","mode":"0cb8fa49-02c5-3250-ffff507f9365f2af","serviceMode":"0cb8fa49-02c5-3251-ffff507f9365f2af","currHeatTempIx":"0cb8fa49-02c5-322c-ffff507f9365f2af","currCoolTempIx":"0cb8fa49-02c5-322d-ffff507f9365f2af","override":"0cb8fa49-02c5-3257-ffff507f9365f2af","isPreparing":"0cb8fa49-02c5-3258-ffff507f9365f2af","valveHeat":"0cb8fa49-02c5-3247-ffff507f9365f2af","valveCool":"0cb8fa49-02c5-324b-ffff507f9365f2af","openWindow":"0cb8fa49-02c5-3236-ffff507f9365f2af","stop":"106f96d7-0161-1bc4-ffff2b2be14b5883","overrideTotal":"0f8cad80-03ab-144d-ffffc6c42b3ee057","movement":"0f8cad80-03ab-144c-ffffc6c42b3ee057","manualMode":"0f8cad80-03ab-144e-ffffc6c42b3ee057","temperatures":["0cb8fa49-02c5-323c-ffff507f9365f2af","0cb8fa49-02c5-323d-ffff507f9365f2af","0cb8fa49-02c5-323e-ffff507f9365f2af","0cb8fa49-02c5-3241-ffff507f9365f2af","0cb8fa49-02c5-3242-ffff507f9365f2af","0cb8fa49-02c5-3240-ffff507f9365f2af","0cb8fa49-02c5-323f-ffff507f9365f2af"]},"subControls":{"0cb8fa49-02c5-322a-ffff507f9365f2af":{"name":"Heating","type":"IRCDaytimer","uuidAction":"0cb8fa49-02c5-322a-ffff507f9365f2af","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8fa49-02c5-322a-ffff507f9365f2af","mode":"0cb8fa49-02c5-3255-ffff507f9365f2af","modeList":"0f8cad80-03ab-144a-ffffc6c42b3ee057","value":"0cb8fa49-02c5-322c-ffff507f9365f2af"}},"0cb8fa49-02c5-322b-ffff507f9365f2af":{"name":"Cooling","type":"IRCDaytimer","uuidAction":"0cb8fa49-02c5-322b-ffff507f9365f2af","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8fa49-02c5-322b-ffff507f9365f2af","mode":"0cb8fa49-02c5-3256-ffff507f9365f2af","modeList":"0f8cad80-03ab-144b-ffffc6c42b3ee057","value":"0cb8fa49-02c5-322d-ffff507f9365f2af"}}}},"106ff57d-0034-abef-ffffc6c42b3ee057":{"name":"Deckenleuchte","type":"Switch","uuidAction":"106ff57d-0034-abef-ffffc6c42b3ee057","room":"0caee1bf-01f5-03c0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"106ff57d-0034-abec-ffff0eb8f6b771fe"}},"0cb8fc45-0371-1b24-ffffc6c42b3ee057":{"name":"Temperatursensor","type":"InfoOnlyAnalog","uuidAction":"0cb8fc45-0371-1b24-ffffc6c42b3ee057","room":"0caee1bf-01f5-03c0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0322-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f°"},"states":{"value":"0cb8fc45-0371-1b24-ffffc6c42b3ee057","error":"0cb8fc45-0371-1b23-ffff44f5e63844c8"}},"0cb8fba1-02da-e76f-ffffc6c42b3ee057":{"name":"Intelligente Raumregelung","type":"IRoomController","uuidAction":"0cb8fba1-02da-e76f-ffffc6c42b3ee057","room":"0caee1bf-01f5-03c0-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0316-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"restrictedToMode":0,"temperatures":{"0":{"isAbsolute":false},"1":{"isAbsolute":true},"2":{"isAbsolute":true},"3":{"isAbsolute":true},"4":{"isAbsolute":true},"5":{"isAbsolute":false},"6":{"isAbsolute":false}},"format":"%.1f°"},"states":{"tempTarget":"0cb8fba1-02da-e76a-ffff0607f450ff1c","tempActual":"0cb8fba1-02da-e74b-ffff0607f450ff1c","error":"0cb8fba1-02da-e768-ffff0607f450ff1c","mode":"0cb8fba1-02da-e766-ffff0607f450ff1c","serviceMode":"0cb8fba1-02da-e767-ffff0607f450ff1c","currHeatTempIx":"0cb8fba1-02d9-e742-ffff0607f450ff1c","currCoolTempIx":"0cb8fba1-02d9-e743-ffff0607f450ff1c","override":"0cb8fba1-02da-e76d-ffff0607f450ff1c","isPreparing":"0cb8fba1-02da-e76e-ffff0607f450ff1c","valveHeat":"0cb8fba1-02da-e75d-ffff0607f450ff1c","valveCool":"0cb8fba1-02da-e761-ffff0607f450ff1c","openWindow":"0cb8fba1-02da-e74c-ffff0607f450ff1c","stop":"106f96d7-0131-1066-ffff2b2be14b5883","overrideTotal":"0f8cad80-038c-0bfe-ffffc6c42b3ee057","movement":"0f8cad80-038c-0bfd-ffffc6c42b3ee057","manualMode":"0f8cad80-038c-0bff-ffffc6c42b3ee057","temperatures":["0cb8fba1-02da-e752-ffff0607f450ff1c","0cb8fba1-02da-e753-ffff0607f450ff1c","0cb8fba1-02da-e754-ffff0607f450ff1c","0cb8fba1-02da-e757-ffff0607f450ff1c","0cb8fba1-02da-e758-ffff0607f450ff1c","0cb8fba1-02da-e756-ffff0607f450ff1c","0cb8fba1-02da-e755-ffff0607f450ff1c"]},"subControls":{"0cb8fba1-02d9-e740-ffff0607f450ff1c":{"name":"Heating","type":"IRCDaytimer","uuidAction":"0cb8fba1-02d9-e740-ffff0607f450ff1c","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8fba1-02d9-e740-ffff0607f450ff1c","mode":"0cb8fba1-02da-e76b-ffff0607f450ff1c","modeList":"0f8cad80-038c-0bfb-ffffc6c42b3ee057","value":"0cb8fba1-02d9-e742-ffff0607f450ff1c"}},"0cb8fba1-02d9-e741-ffff0607f450ff1c":{"name":"Cooling","type":"IRCDaytimer","uuidAction":"0cb8fba1-02d9-e741-ffff0607f450ff1c","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8fba1-02d9-e741-ffff0607f450ff1c","mode":"0cb8fba1-02da-e76c-ffff0607f450ff1c","modeList":"0f8cad80-038c-0bfc-ffffc6c42b3ee057","value":"0cb8fba1-02d9-e743-ffff0607f450ff1c"}}}},"0cb8e868-00a4-636f-ffffc6c42b3ee057":{"name":"Deckenleuchte (Ost)","type":"Switch","uuidAction":"0cb8e868-00a4-636f-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb8e868-00a4-636e-ffff31ca804ccf81"}},"0cb8e868-015f-5ed8-ffffc6c42b3ee057":{"name":"Deckenleuchte (West)","type":"Switch","uuidAction":"0cb8e868-015f-5ed8-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0cb8e868-015f-5ed7-ffffd530957a4468"}},"1067d010-016b-c0f2-ffffc6c42b3ee057":{"name":"Stehlampe","type":"InfoOnlyDigital","uuidAction":"1067d010-016b-c0f2-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"image":{"off":"00000000-0000-0012-2200000000000000","on":"00000000-0000-0011-2200000000000000"}},"states":{"active":"1067d010-016b-c0f2-ffffc6c42b3ee057"}},"1066b6ac-013a-573e-ffffc6c42b3ee057":{"name":"Stehlampe","type":"Switch","uuidAction":"1066b6ac-013a-573e-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"1066b6ac-013a-573d-ffff4f8fd07be362"}},"1067d01b-011c-e6bf-ffffc6c42b3ee057":{"name":"Stehlampe - Hue Glühbirne 1","type":"InfoOnlyDigital","uuidAction":"1067d01b-011c-e6bf-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"image":{"off":"00000000-0000-0012-2200000000000000","on":"00000000-0000-0011-2200000000000000"}},"states":{"active":"1067d01b-011c-e6bf-ffffc6c42b3ee057"}},"1067d01e-01d8-f9a8-ffffc6c42b3ee057":{"name":"Stehlampe - Hue Glühbirne 2","type":"InfoOnlyDigital","uuidAction":"1067d01e-01d8-f9a8-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"image":{"off":"00000000-0000-0012-2200000000000000","on":"00000000-0000-0011-2200000000000000"}},"states":{"active":"1067d01e-01d8-f9a8-ffffc6c42b3ee057"}},"1067d016-02f1-d3d5-ffffc6c42b3ee057":{"name":"Stehlampe - Hue Spot","type":"InfoOnlyDigital","uuidAction":"1067d016-02f1-d3d5-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"image":{"off":"00000000-0000-0012-2200000000000000","on":"00000000-0000-0011-2200000000000000"}},"states":{"active":"1067d016-02f1-d3d5-ffffc6c42b3ee057"}},"0cec9304-03aa-6022-fffffa681df3c4c8":{"name":"Rollladen (Ost)","type":"Jalousie","uuidAction":"0cec9304-03aa-6022-fffffa681df3c4c8","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02eb-cea0-fffffa681df3c4c8","up":"0cec9304-03aa-604a-fffffa681df3c4c8","down":"0cec9304-03aa-604b-fffffa681df3c4c8","position":"0cec9304-03aa-604c-fffffa681df3c4c8","shadePosition":"0cec9304-03aa-604d-fffffa681df3c4c8","safetyActive":"0cec9304-03aa-604f-fffffa681df3c4c8","autoAllowed":"0cec9304-03aa-602d-fffffa681df3c4c8","autoActive":"0cec9304-03aa-604e-fffffa681df3c4c8","locked":"0cec9304-03aa-6050-fffffa681df3c4c8"}},"0cec92e9-0233-3bd3-fffff549c4e01261":{"name":"Rollladen (Süd-Ost)","type":"Jalousie","uuidAction":"0cec92e9-0233-3bd3-fffff549c4e01261","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02e9-ce9f-fffff549c4e01261","up":"0cec92e9-0233-3bfb-fffff549c4e01261","down":"0cec92e9-0233-3bfc-fffff549c4e01261","position":"0cec92e9-0233-3bfd-fffff549c4e01261","shadePosition":"0cec92e9-0233-3bfe-fffff549c4e01261","safetyActive":"0cec92e9-0233-3c00-fffff549c4e01261","autoAllowed":"0cec92e9-0233-3bde-fffff549c4e01261","autoActive":"0cec92e9-0233-3bff-fffff549c4e01261","locked":"0cec92e9-0233-3c01-fffff549c4e01261"}},"0cec92e6-03aa-2f8f-ffff79223ae9640f":{"name":"Rollladen (Süd-West)","type":"Jalousie","uuidAction":"0cec92e6-03aa-2f8f-ffff79223ae9640f","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02e9-ce9e-ffff79223ae9640f","up":"0cec92e6-03aa-2fb7-ffff79223ae9640f","down":"0cec92e6-03aa-2fb8-ffff79223ae9640f","position":"0cec92e6-03aa-2fb9-ffff79223ae9640f","shadePosition":"0cec92e6-03aa-2fba-ffff79223ae9640f","safetyActive":"0cec92e6-03aa-2fbc-ffff79223ae9640f","autoAllowed":"0cec92e6-03aa-2f9a-ffff79223ae9640f","autoActive":"0cec92e6-03aa-2fbb-ffff79223ae9640f","locked":"0cec92e6-03aa-2fbd-ffff79223ae9640f"}},"0cec9383-0204-0048-ffff9e5fef362ed0":{"name":"Rollladen (West)","type":"Jalousie","uuidAction":"0cec9383-0204-0048-ffff9e5fef362ed0","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"isAutomatic":true,"animation":1},"states":{"infoText":"109dbebf-02ec-cea1-ffff9e5fef362ed0","up":"0cec9383-0204-0070-ffff9e5fef362ed0","down":"0cec9383-0204-0071-ffff9e5fef362ed0","position":"0cec9383-0204-0072-ffff9e5fef362ed0","shadePosition":"0cec9383-0204-0073-ffff9e5fef362ed0","safetyActive":"0cec9383-0204-0075-ffff9e5fef362ed0","autoAllowed":"0cec9383-0204-0053-ffff9e5fef362ed0","autoActive":"0cec9383-0204-0074-ffff9e5fef362ed0","locked":"0cec9383-0204-0076-ffff9e5fef362ed0"}},"106f96d7-018b-21ca-ffffc6c42b3ee057":{"name":"Alle","type":"CentralJalousie","uuidAction":"106f96d7-018b-21ca-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"controls":[{"id":0,"uuid":"0cec92e6-03aa-2f8f-ffff79223ae9640f"},{"id":1,"uuid":"0cec92e9-0233-3bd3-fffff549c4e01261"},{"id":2,"uuid":"0cec9304-03aa-6022-fffffa681df3c4c8"},{"id":3,"uuid":"0cec9383-0204-0048-ffff9e5fef362ed0"}]}},"0cb8fcd9-01f5-44b6-ffffc6c42b3ee057":{"name":"Temperatursensor","type":"InfoOnlyAnalog","uuidAction":"0cb8fcd9-01f5-44b6-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0322-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"format":"%.1f°"},"states":{"value":"0cb8fcd9-01f5-44b6-ffffc6c42b3ee057","error":"0cb8fcd9-01f5-44b5-ffffed5563d55e14"}},"0cb8f9eb-020a-d380-ffffc6c42b3ee057":{"name":"Intelligente Raumregelung","type":"IRoomController","uuidAction":"0cb8f9eb-020a-d380-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0316-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"restrictedToMode":0,"temperatures":{"0":{"isAbsolute":false},"1":{"isAbsolute":true},"2":{"isAbsolute":true},"3":{"isAbsolute":true},"4":{"isAbsolute":true},"5":{"isAbsolute":false},"6":{"isAbsolute":false}},"format":"%.1f°"},"states":{"tempTarget":"0cb8f9eb-020a-d37b-ffff7019dff85b5d","tempActual":"0cb8f9eb-020a-d35c-ffff7019dff85b5d","error":"0cb8f9eb-020a-d379-ffff7019dff85b5d","mode":"0cb8f9eb-020a-d377-ffff7019dff85b5d","serviceMode":"0cb8f9eb-020a-d378-ffff7019dff85b5d","currHeatTempIx":"0cb8f9eb-020a-d353-ffff7019dff85b5d","currCoolTempIx":"0cb8f9eb-020a-d354-ffff7019dff85b5d","override":"0cb8f9eb-020a-d37e-ffff7019dff85b5d","isPreparing":"0cb8f9eb-020a-d37f-ffff7019dff85b5d","valveHeat":"0cb8f9eb-020a-d36e-ffff7019dff85b5d","valveCool":"0cb8f9eb-020a-d372-ffff7019dff85b5d","openWindow":"0cb8f9eb-020a-d35d-ffff7019dff85b5d","stop":"106f96d7-014a-15f8-ffff2b2be14b5883","overrideTotal":"0f8cad80-039b-1044-ffffc6c42b3ee057","movement":"0f8cad80-039b-1043-ffffc6c42b3ee057","manualMode":"0f8cad80-039b-1045-ffffc6c42b3ee057","temperatures":["0cb8f9eb-020a-d363-ffff7019dff85b5d","0cb8f9eb-020a-d364-ffff7019dff85b5d","0cb8f9eb-020a-d365-ffff7019dff85b5d","0cb8f9eb-020a-d368-ffff7019dff85b5d","0cb8f9eb-020a-d369-ffff7019dff85b5d","0cb8f9eb-020a-d367-ffff7019dff85b5d","0cb8f9eb-020a-d366-ffff7019dff85b5d"]},"subControls":{"0cb8f9eb-020a-d351-ffff7019dff85b5d":{"name":"Heating","type":"IRCDaytimer","uuidAction":"0cb8f9eb-020a-d351-ffff7019dff85b5d","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8f9eb-020a-d351-ffff7019dff85b5d","mode":"0cb8f9eb-020a-d37c-ffff7019dff85b5d","modeList":"0f8cad80-039b-1041-ffffc6c42b3ee057","value":"0cb8f9eb-020a-d353-ffff7019dff85b5d"}},"0cb8f9eb-020a-d352-ffff7019dff85b5d":{"name":"Cooling","type":"IRCDaytimer","uuidAction":"0cb8f9eb-020a-d352-ffff7019dff85b5d","defaultRating":0,"isFavorite":false,"isSecured":false,"details":{"analog":true,"format":"%.1f°"},"states":{"entriesAndDefaultValue":"0cb8f9eb-020a-d352-ffff7019dff85b5d","mode":"0cb8f9eb-020a-d37d-ffff7019dff85b5d","modeList":"0f8cad80-039b-1042-ffffc6c42b3ee057","value":"0cb8f9eb-020a-d354-ffff7019dff85b5d"}}}},"1067795e-00c9-1ea8-ffffc6c42b3ee057":{"name":"Harmony Hub","type":"Radio","uuidAction":"1067795e-00c9-1ea8-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01e5-034e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"allOff":"Alles aus","outputs":{"1":"Fernsehen","2":"DLNA / Blu-ray","3":"Front HDMI AUX","4":"Bluetooth Musik","5":"Internet Radio"}},"states":{"activeOutput":"1067795e-00c9-1ea7-ffff9e456a9b55b4"}},"1067d020-0320-0c94-ffffc6c42b3ee057":{"name":"Onkyo AV-Receiver","type":"InfoOnlyDigital","uuidAction":"1067d020-0320-0c94-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01e5-034e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"image":{"off":"00000000-0000-0012-2200000000000000","on":"00000000-0000-0011-2200000000000000"}},"states":{"active":"1067d020-0320-0c94-ffffc6c42b3ee057"}},"1067d023-01f7-1f83-ffffc6c42b3ee057":{"name":"Panasonic TV","type":"InfoOnlyDigital","uuidAction":"1067d023-01f7-1f83-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01e5-034e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"image":{"off":"00000000-0000-0012-2200000000000000","on":"00000000-0000-0011-2200000000000000"}},"states":{"active":"1067d023-01f7-1f83-ffffc6c42b3ee057"}},"1067d04c-010d-b799-ffffc6c42b3ee057":{"name":"Sony Blu-Ray Player","type":"InfoOnlyDigital","uuidAction":"1067d04c-010d-b799-ffffc6c42b3ee057","room":"0caee1bf-01f5-039c-ffffc6c42b3ee057","cat":"0caee1bf-01e5-034e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"image":{"off":"00000000-0000-0012-2200000000000000","on":"00000000-0000-0011-2200000000000000"}},"states":{"active":"1067d04c-010d-b799-ffffc6c42b3ee057"}},"106ffae1-02d4-7842-ffffc6c42b3ee057":{"name":"Alle Leuchten","type":"Pushbutton","uuidAction":"106ffae1-02d4-7842-ffffc6c42b3ee057","room":"0caee1bf-0204-0432-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":1,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"106ffae1-02d4-783f-ffff4c9b503992ba"}},"0d9eda11-0154-70ab-ffffc6c42b3ee057":{"name":"Deckenleuchten Diele","type":"Switch","uuidAction":"0d9eda11-0154-70ab-ffffc6c42b3ee057","room":"0caee1bf-0204-0432-ffffc6c42b3ee057","cat":"0caee1bf-01d5-030e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"states":{"active":"0d9eda11-0154-70aa-ffff87c2a6ac36b6"}},"0f49b397-03e7-73a0-ffffc6c42b3ee057":{"name":"Alle Rollladen EG","type":"Pushbutton","uuidAction":"0f49b397-03e7-73a0-ffffc6c42b3ee057","room":"0caee1bf-0204-0432-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":2,"isFavorite":false,"isSecured":false,"defaultIcon":"00000000-0000-0003-2000000000000000","states":{"active":"0f49b397-03e7-739f-ffff5438925f997e"}},"0f49b3aa-000f-84e4-ffffc6c42b3ee057":{"name":"Alle Rollladen OG","type":"Pushbutton","uuidAction":"0f49b3aa-000f-84e4-ffffc6c42b3ee057","room":"0caee1bf-0204-0432-ffffc6c42b3ee057","cat":"0caee1bf-01d5-0312-ffffc6c42b3ee057","defaultRating":2,"isFavorite":false,"isSecured":false,"defaultIcon":"00000000-0000-0003-2000000000000000","states":{"active":"0f49b3aa-000f-84e3-ffff2f9535cccee6"}},"0cbe8ac9-0216-51bc-ffffc6c42b3ee057":{"name":"Betriebsmodi","type":"Radio","uuidAction":"0cbe8ac9-0216-51bc-ffffc6c42b3ee057","room":"0caee1bf-0204-0432-ffffc6c42b3ee057","cat":"0caee1bf-01e5-034e-ffffc6c42b3ee057","defaultRating":5,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"allOff":"Automatik","outputs":{"1":"Zuhause","2":"Nacht","3":"Alarm","4":"Abwesend","5":"Urlaub"}},"states":{"activeOutput":"0cbe8ac9-0216-51bb-ffff91e69a53daa0"}},"0f49b392-031c-6265-ffffc6c42b3ee057":{"name":"Gute Nacht","type":"Pushbutton","uuidAction":"0f49b392-031c-6265-ffffc6c42b3ee057","room":"0caee1bf-0204-0432-ffffc6c42b3ee057","cat":"0caee1bf-01e5-034e-ffffc6c42b3ee057","defaultRating":3,"isFavorite":false,"isSecured":false,"defaultIcon":"00000000-0000-0036-2000000000000000","states":{"active":"0f49b392-031c-6264-ffffc17bbc5c455b"}},"0f49b38c-03e7-5133-ffffc6c42b3ee057":{"name":"Guten Morgen","type":"Pushbutton","uuidAction":"0f49b38c-03e7-5133-ffffc6c42b3ee057","room":"0caee1bf-0204-0432-ffffc6c42b3ee057","cat":"0caee1bf-01e5-034e-ffffc6c42b3ee057","defaultRating":4,"isFavorite":false,"isSecured":false,"defaultIcon":"00000000-0000-002b-2000000000000000","states":{"active":"0f49b38c-03e7-5132-ffff03a274dc3ad1"}},"0f4982ae-01b6-37f3-ffffc6c42b3ee057":{"name":"Felix","type":"InfoOnlyDigital","uuidAction":"0f4982ae-01b6-37f3-ffffc6c42b3ee057","room":"0caee1bf-0204-0432-ffffc6c42b3ee057","cat":"0caee1bf-01e5-036e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"image":{"off":"00000000-0000-0006-2200000000000000","on":"00000000-0000-0015-2200000000000000"}},"states":{"active":"0f4982ae-01b6-37f3-ffffc6c42b3ee057"}},"0f499aba-036b-c56a-ffffc6c42b3ee057":{"name":"Pummi","type":"InfoOnlyDigital","uuidAction":"0f499aba-036b-c56a-ffffc6c42b3ee057","room":"0caee1bf-0204-0432-ffffc6c42b3ee057","cat":"0caee1bf-01e5-036e-ffffc6c42b3ee057","defaultRating":0,"isFavorite":false,"isSecured":false,"defaultIcon":null,"details":{"image":{"off":"00000000-0000-0006-2200000000000000","on":"00000000-0000-0015-2200000000000000"}},"states":{"active":"0f499aba-036b-c56a-ffffc6c42b3ee057"}}},"weatherServer":{"states":{"actual":"0caee1bf-0223-053a-ffffc6c42b3ee057","forecast":"0caee1bf-0223-0539-fffff973abfe4230"},"format":{"relativeHumidity":"%.0f%%","temperature":"%.1f°","windSpeed":"%.0fkm/h","precipitation":"%.1fl/m²/h","barometricPressure":"%.0fhPa"},"weatherTypeTexts":{"1":"wolkenlos","2":"heiter","3":"wolkig","4":"stark bewölkt","5":"bedeckt","6":"Nebel","7":"Hochnebel","8":"nicht verwendet","9":"nicht verwendet","10":"leichter Regen","11":"Regen","12":"starker Regen","13":"Nieseln","14":"leichter gefrierender Regen","15":"starker gefrierender Regen","16":"leichter Regenschauer","17":"kräftiger Regenschauer","18":"Gewitter","19":"kräftiges Gewitter","20":"leichter Schneefall","21":"Schneefall","22":"starker Schneefall","23":"leichter Schneeschauer","24":"starker Schneeschauer","25":"leichter Schneeregen","26":"Schneeregen","27":"starker Schneeregen","28":"leichter Schneeregenschauer","29":"kräftiger Schneeregenschauer"},"weatherFieldTypes":{"1":{"id":1,"name":"Temperatur","analog":true,"unit":"°C","format":"%.1f"},"2":{"id":2,"name":"Taupunkt","analog":true,"unit":"°C","format":"%.1f"},"3":{"id":3,"name":"Rel.Luftfeuchte","analog":true,"format":"%.0f%%"},"4":{"id":4,"name":"Windgeschwindigkeit","analog":true,"unit":"km/h","format":"%.0f"},"5":{"id":5,"name":"Windrichtung","analog":true},"6":{"id":6,"name":"Böen","analog":true},"7":{"id":7,"name":"Strahlung Abs.","analog":true},"8":{"id":8,"name":"Strahlung Rel.","analog":true},"9":{"id":9,"name":"Niederschlag","analog":true,"unit":"l/m²/h","format":"%.1f"},"10":{"id":10,"name":"Wettertype","analog":true},"11":{"id":11,"name":"Luftdruck","analog":true,"unit":"hPa","format":"%.0f"},"26":{"id":26,"name":"Gefühlte Temperatur","analog":true,"unit":"°C","format":"%.1f"},"27":{"id":27,"name":"Strahlung","analog":true},"28":{"id":28,"name":"Niederschlagswahrscheinlichkeit","analog":true},"29":{"id":29,"name":"Schneeanteil","analog":true},"30":{"id":30,"name":"CAPE","analog":true},"31":{"id":31,"name":"Niedrige Bewölkung","analog":true},"32":{"id":32,"name":"Mittlere Bewölkung","analog":true},"33":{"id":33,"name":"Hohe Bewölkung","analog":true},"34":{"id":34,"name":"Sonnenschein","analog":false}}},"times":{"266":{"id":266,"name":"Tage seit 2009","analog":true},"267":{"id":267,"name":"Jahr","analog":true},"268":{"id":268,"name":"Monat","analog":true},"269":{"id":269,"name":"Tag","analog":true},"270":{"id":270,"name":"Wochentag","analog":true},"271":{"id":271,"name":"Aktive Betriebszeit","analog":true},"272":{"id":272,"name":"Minuten seit Mitternacht","analog":true},"273":{"id":273,"name":"Stunde","analog":true},"274":{"id":274,"name":"Minuten","analog":true},"275":{"id":275,"name":"Sekunden","analog":true},"276":{"id":276,"name":"Sekunden seit Boot","analog":true},"277":{"id":277,"name":"Minuten bis Sonnenaufgang","analog":true},"278":{"id":278,"name":"Minuten bis Sonnenuntergang","analog":true},"281":{"id":281,"name":"Tageslicht","analog":false},"282":{"id":282,"name":"Tageslicht 30Min","analog":false},"283":{"id":283,"name":"Minuten bis Morgendämmerung","analog":true},"284":{"id":284,"name":"Minuten bis Abenddämmerung","analog":true},"285":{"id":285,"name":"Sonne Höhe","analog":true},"286":{"id":286,"name":"Sonne Richtung","analog":true},"287":{"id":287,"name":"Startimpuls","analog":false},"288":{"id":288,"name":"Jahresimpuls","analog":false},"289":{"id":289,"name":"Monatsimpuls","analog":false},"290":{"id":290,"name":"Tagesimpuls","analog":false},"291":{"id":291,"name":"Stundenimpuls","analog":false},"292":{"id":292,"name":"Minutenimpuls","analog":false},"293":{"id":293,"name":"Sekundenimpuls","analog":false},"294":{"id":294,"name":"Impuls Sonnenaufgang","analog":false},"295":{"id":295,"name":"Impuls Sonnenuntergang","analog":false},"298":{"id":298,"name":"Impuls Morgendämmerung","analog":false},"299":{"id":299,"name":"Impuls Abenddämmerung","analog":false}},"autopilot":{"0db9db5d-00da-1087-ffffc6c42b3ee057":{"name":"Automatik-Regeln","uuidAction":"0db9db5d-00da-1087-ffffc6c42b3ee057","states":{"changed":"0e350af8-0258-0779-ffffc6c42b3ee057","history":"0e350af8-0258-077a-ffffc6c42b3ee057"}}}}
+{
+  "lastModified": "2018-01-01 15:30:45",
+  "msInfo": {
+    "serialNr": "000000000000",
+    "msName": "Loxone MiniServer",
+    "projectName": "Muster Projekt",
+    "localUrl": "192.168.1.2",
+    "remoteUrl": "",
+    "tempUnit": 0,
+    "currency": "€",
+    "squareMeasure": "m²",
+    "location": "Muster Str. 1, 01234 Musterstadt",
+    "languageCode": "DEU",
+    "heatPeriodStart": "10-01",
+    "heatPeriodEnd": "05-31",
+    "coolPeriodStart": "06-01",
+    "coolPeriodEnd": "09-30",
+    "catTitle": "Kategorie",
+    "roomTitle": "Räume",
+    "miniserverType": 0,
+    "deviceMonitor": "0f8cad80-03ba-1866-ffffc6c42b3ee057",
+    "sortByRating": false,
+    "currentUser": {
+      "name": "admin",
+      "uuid": "0caee1bf-0223-04c0-ffffc6c42b3ee057",
+      "isAdmin": true,
+      "changePassword": true,
+      "userRights": 2047
+    }
+  },
+  "globalStates": {
+    "operatingMode": "0caee1bf-01d5-02be-ffffc6c42b3ee057",
+    "sunrise": "0caee1bf-01d5-02d0-ffffc6c42b3ee057",
+    "sunset": "0caee1bf-01d5-02d3-ffffc6c42b3ee057",
+    "pastTasks": "0caee1bf-0223-04e3-fffff973abfe4230",
+    "plannedTasks": "0caee1bf-0223-04e2-fffff973abfe4230",
+    "notifications": "0caee1bf-01c6-028f-ffffc6c42b3ee057",
+    "modifications": "0caee1bf-01c6-0290-ffffc6c42b3ee057",
+    "favColorSequences": "0f8cad80-032e-0706-ffffd684acc922b9",
+    "favColors": "0f8cad80-032e-0707-ffffd684acc922b9",
+    "miniserverTime": "106f96d7-00ba-0a87-ffff2b2be14b5883"
+  },
+  "operatingModes": {
+    "0": "Feiertag",
+    "1": "Urlaub",
+    "2": "Freier Tag/Schulferien",
+    "3": "Montag",
+    "4": "Dienstag",
+    "5": "Mittwoch",
+    "6": "Donnerstag",
+    "7": "Freitag",
+    "8": "Samstag",
+    "9": "Sonntag",
+    "-1": "Alarm",
+    "-2": "Anwesenheitssimulation",
+    "-3": "Haus im Tiefschlaf",
+    "-4": "Erhöhter Wärmebedarf",
+    "-5": "Party",
+    "-6": "Alle abwesend",
+    "-7": "Nacht",
+    "-8": "Zuhause"
+  },
+  "rooms": {
+    "0caee1bf-01f5-03d0-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01f5-03d0-ffffc6c42b3ee057",
+      "name": "Arbeitszimmer",
+      "image": "00000000-0000-0011-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 2
+    },
+    "0caee1bf-0204-0426-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "name": "Außenbereich",
+      "image": "00000000-0000-002d-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 2
+    },
+    "0caee1bf-01f5-03a8-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01f5-03a8-ffffc6c42b3ee057",
+      "name": "Badezimmer",
+      "image": "00000000-0000-0007-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 2
+    },
+    "0caee1bf-0204-03f0-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-0204-03f0-ffffc6c42b3ee057",
+      "name": "Dachboden",
+      "image": "00000000-0000-0019-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 3
+    },
+    "0d92d03f-029e-7897-ffffc6c42b3ee057": {
+      "uuid": "0d92d03f-029e-7897-ffffc6c42b3ee057",
+      "name": "Diele EG",
+      "image": "00000000-0000-002c-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 3
+    },
+    "0da91525-01fe-a384-ffffc6c42b3ee057": {
+      "uuid": "0da91525-01fe-a384-ffffc6c42b3ee057",
+      "name": "Diele OG",
+      "image": "00000000-0000-002c-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 3
+    },
+    "0caee1bf-01f5-03a4-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01f5-03a4-ffffc6c42b3ee057",
+      "name": "Gäste-Bad",
+      "image": "00000000-0000-0006-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 2
+    },
+    "0d92d133-034e-5b3e-ffffc6c42b3ee057": {
+      "uuid": "0d92d133-034e-5b3e-ffffc6c42b3ee057",
+      "name": "Hauswirtschaftsraum",
+      "image": "00000000-0000-002e-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 3
+    },
+    "0caee1bf-01f5-03b0-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01f5-03b0-ffffc6c42b3ee057",
+      "name": "Kinderzimmer",
+      "image": "00000000-0000-0009-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 1
+    },
+    "0caee1bf-01f5-03a0-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01f5-03a0-ffffc6c42b3ee057",
+      "name": "Küche",
+      "image": "00000000-0000-0005-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 2
+    },
+    "0caee1bf-01f5-0390-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01f5-0390-ffffc6c42b3ee057",
+      "name": "Nicht zugeordnet",
+      "image": "00000000-0000-0001-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 2
+    },
+    "0caee1bf-01f5-03ac-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01f5-03ac-ffffc6c42b3ee057",
+      "name": "Schlafzimmer",
+      "image": "00000000-0000-0008-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 1
+    },
+    "0caee1bf-01f5-03c0-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01f5-03c0-ffffc6c42b3ee057",
+      "name": "Windfang",
+      "image": "00000000-0000-000d-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 3
+    },
+    "0caee1bf-01f5-039c-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "name": "Wohnzimmer",
+      "image": "00000000-0000-0004-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 2
+    },
+    "0caee1bf-0204-0432-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-0204-0432-ffffc6c42b3ee057",
+      "name": "Zentral",
+      "image": "00000000-0000-0031-2100000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": 4
+    }
+  },
+  "cats": {
+    "0caee1bf-01d5-030e-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "name": "Beleuchtung",
+      "image": "00000000-0000-0002-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "lights",
+      "color": "#83B817"
+    },
+    "0caee1bf-01d5-0312-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "name": "Beschattung",
+      "image": "00000000-0000-0003-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "shading",
+      "color": "#83B817"
+    },
+    "0caee1bf-01d5-0322-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01d5-0322-ffffc6c42b3ee057",
+      "name": "Fühler",
+      "image": "00000000-0000-0007-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "shading",
+      "color": "#83B817"
+    },
+    "0caee1bf-01d5-0316-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01d5-0316-ffffc6c42b3ee057",
+      "name": "Heizung",
+      "image": "00000000-0000-0004-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "indoortemperature",
+      "color": "#83B817"
+    },
+    "0caee1bf-01d5-030a-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01d5-030a-ffffc6c42b3ee057",
+      "name": "Nicht zugeordnet",
+      "image": "00000000-0000-0001-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "undefined",
+      "color": "#83B817"
+    },
+    "0fd99e3b-0218-28ba-ffffc6c42b3ee057": {
+      "uuid": "0fd99e3b-0218-28ba-ffffc6c42b3ee057",
+      "name": "Pforte",
+      "image": "00000000-0000-001d-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "undefined",
+      "color": "#83B817"
+    },
+    "0caee1bf-01e5-034e-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01e5-034e-ffffc6c42b3ee057",
+      "name": "Technik",
+      "image": "00000000-0000-0012-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "undefined",
+      "color": "#83B817"
+    },
+    "0caee1bf-01e5-0346-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01e5-0346-ffffc6c42b3ee057",
+      "name": "Tor",
+      "image": "00000000-0000-0010-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "undefined",
+      "color": "#83B817"
+    },
+    "0caee1bf-01e5-0374-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01e5-0374-ffffc6c42b3ee057",
+      "name": "Verbraucher",
+      "image": "00000000-0000-0022-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "undefined",
+      "color": "#83B817"
+    },
+    "0cec9a33-01f2-0f5f-ffffc6c42b3ee057": {
+      "uuid": "0cec9a33-01f2-0f5f-ffffc6c42b3ee057",
+      "name": "Wetter",
+      "image": "00000000-0000-0031-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "undefined",
+      "color": "#83B817"
+    },
+    "0caee1bf-01e5-036e-ffffc6c42b3ee057": {
+      "uuid": "0caee1bf-01e5-036e-ffffc6c42b3ee057",
+      "name": "Zutritt",
+      "image": "00000000-0000-0020-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "undefined",
+      "color": "#83B817"
+    }
+  },
+  "controls": {
+    "0cb8e9a2-032f-39d9-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte",
+      "type": "Switch",
+      "uuidAction": "0cb8e9a2-032f-39d9-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03d0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb8e9a2-032f-39d8-ffff3391c2c0c0c7"
+      }
+    },
+    "0cb8f3e0-0313-ddbd-ffffd5ae755f4f25": {
+      "name": "Rollladen (Süd)",
+      "type": "Jalousie",
+      "uuidAction": "0cb8f3e0-0313-ddbd-ffffd5ae755f4f25",
+      "room": "0caee1bf-01f5-03d0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02f7-cea5-ffffd5ae755f4f25",
+        "up": "0cb8f3e0-0313-dde5-ffffd5ae755f4f25",
+        "down": "0cb8f3e0-0313-dde6-ffffd5ae755f4f25",
+        "position": "0cb8f3e0-0313-dde7-ffffd5ae755f4f25",
+        "shadePosition": "0cb8f3e0-0313-dde8-ffffd5ae755f4f25",
+        "safetyActive": "0cb8f3e0-0313-ddea-ffffd5ae755f4f25",
+        "autoAllowed": "0cb8f3e0-0313-ddc8-ffffd5ae755f4f25",
+        "autoActive": "0cb8f3e0-0313-dde9-ffffd5ae755f4f25",
+        "locked": "0cb8f3e0-0313-ddeb-ffffd5ae755f4f25"
+      }
+    },
+    "0cb8fd25-0167-9816-ffffc6c42b3ee057": {
+      "name": "Temperatursensor",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0cb8fd25-0167-9816-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03d0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0322-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f°"
+      },
+      "states": {
+        "value": "0cb8fd25-0167-9816-ffffc6c42b3ee057",
+        "error": "0cb8fd25-0167-9815-ffff6b2994914eb1"
+      }
+    },
+    "0cb8fa69-0054-59b4-ffffc6c42b3ee057": {
+      "name": "Intelligente Raumregelung",
+      "type": "IRoomController",
+      "uuidAction": "0cb8fa69-0054-59b4-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03d0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0316-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "restrictedToMode": 0,
+        "temperatures": {
+          "0": {
+            "isAbsolute": false
+          },
+          "1": {
+            "isAbsolute": true
+          },
+          "2": {
+            "isAbsolute": true
+          },
+          "3": {
+            "isAbsolute": true
+          },
+          "4": {
+            "isAbsolute": true
+          },
+          "5": {
+            "isAbsolute": false
+          },
+          "6": {
+            "isAbsolute": false
+          }
+        },
+        "format": "%.1f°"
+      },
+      "states": {
+        "tempTarget": "0cb8fa69-0054-59af-ffffe27a34b1aa1f",
+        "tempActual": "0cb8fa69-0054-5990-ffffe27a34b1aa1f",
+        "error": "0cb8fa69-0054-59ad-ffffe27a34b1aa1f",
+        "mode": "0cb8fa69-0054-59ab-ffffe27a34b1aa1f",
+        "serviceMode": "0cb8fa69-0054-59ac-ffffe27a34b1aa1f",
+        "currHeatTempIx": "0cb8fa69-0054-5987-ffffe27a34b1aa1f",
+        "currCoolTempIx": "0cb8fa69-0054-5988-ffffe27a34b1aa1f",
+        "override": "0cb8fa69-0054-59b2-ffffe27a34b1aa1f",
+        "isPreparing": "0cb8fa69-0054-59b3-ffffe27a34b1aa1f",
+        "valveHeat": "0cb8fa69-0054-59a2-ffffe27a34b1aa1f",
+        "valveCool": "0cb8fa69-0054-59a6-ffffe27a34b1aa1f",
+        "openWindow": "0cb8fa69-0054-5991-ffffe27a34b1aa1f",
+        "stop": "106f96d7-0168-1d5c-ffff2b2be14b5883",
+        "overrideTotal": "0f8cad80-03ab-154c-ffffc6c42b3ee057",
+        "movement": "0f8cad80-03ab-154b-ffffc6c42b3ee057",
+        "manualMode": "0f8cad80-03ab-154d-ffffc6c42b3ee057",
+        "temperatures": ["0cb8fa69-0054-5997-ffffe27a34b1aa1f", "0cb8fa69-0054-5998-ffffe27a34b1aa1f", "0cb8fa69-0054-5999-ffffe27a34b1aa1f", "0cb8fa69-0054-599c-ffffe27a34b1aa1f", "0cb8fa69-0054-599d-ffffe27a34b1aa1f", "0cb8fa69-0054-599b-ffffe27a34b1aa1f", "0cb8fa69-0054-599a-ffffe27a34b1aa1f"]
+      },
+      "subControls": {
+        "0cb8fa69-0054-5985-ffffe27a34b1aa1f": {
+          "name": "Heating",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8fa69-0054-5985-ffffe27a34b1aa1f",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8fa69-0054-5985-ffffe27a34b1aa1f",
+            "mode": "0cb8fa69-0054-59b0-ffffe27a34b1aa1f",
+            "modeList": "0f8cad80-03ab-1549-ffffc6c42b3ee057",
+            "value": "0cb8fa69-0054-5987-ffffe27a34b1aa1f"
+          }
+        },
+        "0cb8fa69-0054-5986-ffffe27a34b1aa1f": {
+          "name": "Cooling",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8fa69-0054-5986-ffffe27a34b1aa1f",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8fa69-0054-5986-ffffe27a34b1aa1f",
+            "mode": "0cb8fa69-0054-59b1-ffffe27a34b1aa1f",
+            "modeList": "0f8cad80-03ab-154a-ffffc6c42b3ee057",
+            "value": "0cb8fa69-0054-5988-ffffe27a34b1aa1f"
+          }
+        }
+      }
+    },
+    "0df83515-02c7-2872-ffffc6c42b3ee057": {
+      "name": "Hausnummernleuchte",
+      "type": "Switch",
+      "uuidAction": "0df83515-02c7-2872-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0df83515-02c7-2871-ffff6702bf8ff667"
+      }
+    },
+    "0cb8e8de-0288-a925-ffffc6c42b3ee057": {
+      "name": "Terassenleuchte",
+      "type": "Switch",
+      "uuidAction": "0cb8e8de-0288-a925-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb8e8de-0288-a924-ffff9b8d44ac3cde"
+      }
+    },
+    "0ff8fd0c-03e6-a9fe-ffffc6c42b3ee057": {
+      "name": "Klingel",
+      "type": "Pushbutton",
+      "uuidAction": "0ff8fd0c-03e6-a9fe-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0fd99e3b-0218-28ba-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0ff8fd0c-03e6-a9fd-ffff5474fa6cfbcc"
+      }
+    },
+    "0ff8fd46-026f-2aa0-ffffc6c42b3ee057": {
+      "name": "Toröffner",
+      "type": "Pushbutton",
+      "uuidAction": "0ff8fd46-026f-2aa0-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0fd99e3b-0218-28ba-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0ff8fd46-026f-2a9f-ffffa6932fa033b3"
+      }
+    },
+    "0f460508-0080-5d50-ffffc6c42b3ee057": {
+      "name": "Schiebetor",
+      "type": "Gate",
+      "uuidAction": "0f460508-0080-5d50-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-0346-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "animation": 4
+      },
+      "states": {
+        "position": "0f460508-0080-5d4e-ffffeac7d42c5b19",
+        "active": "0f460508-0080-5d4d-ffffeac7d42c5b19",
+        "preventOpen": "0f460508-0080-5d36-ffffeac7d42c5b19",
+        "preventClose": "0f460508-0080-5d37-ffffeac7d42c5b19"
+      }
+    },
+    "0fd99b88-02c4-801a-ffffc6c42b3ee057": {
+      "name": "Teilöffnung",
+      "type": "Pushbutton",
+      "uuidAction": "0fd99b88-02c4-801a-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-0346-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0fd99b88-02c4-8019-ffff44278d1d546a"
+      }
+    },
+    "0cb8e8d9-00e2-a46c-ffffc6c42b3ee057": {
+      "name": "Steckdose",
+      "type": "Switch",
+      "uuidAction": "0cb8e8d9-00e2-a46c-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-0374-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb8e8d9-00e2-a46b-ffffa2746d2b2509"
+      }
+    },
+    "0e48acbc-0314-235d-ffffc6c42b3ee057": {
+      "name": "Relative Luftfeuchte",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0e48acbc-0314-235d-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0cec9a33-01f2-0f5f-ffffc6c42b3ee057",
+      "defaultRating": 3,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f %%"
+      },
+      "states": {
+        "value": "0e48acbc-0314-235d-ffffc6c42b3ee057",
+        "error": "0e48acbc-0314-235c-ffff953d29ad7c6f"
+      }
+    },
+    "0e48acbc-0323-2385-ffffc6c42b3ee057": {
+      "name": "Regenmenge",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0e48acbc-0323-2385-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0cec9a33-01f2-0f5f-ffffc6c42b3ee057",
+      "defaultRating": 3,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f mm"
+      },
+      "states": {
+        "value": "0e48acbc-0323-2385-ffffc6c42b3ee057",
+        "error": "0e48acbc-0323-2384-ffff953d29ad7c6f"
+      }
+    },
+    "0e48acbc-0314-2359-ffffc6c42b3ee057": {
+      "name": "Temperatur",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0e48acbc-0314-2359-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0cec9a33-01f2-0f5f-ffffc6c42b3ee057",
+      "defaultRating": 4,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f °C"
+      },
+      "states": {
+        "value": "0e48acbc-0314-2359-ffffc6c42b3ee057",
+        "error": "0e48acbc-0314-2358-ffff953d29ad7c6f"
+      }
+    },
+    "0e48acbc-0314-2365-ffffc6c42b3ee057": {
+      "name": "Windgeschwindigkeit",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0e48acbc-0314-2365-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0cec9a33-01f2-0f5f-ffffc6c42b3ee057",
+      "defaultRating": 2,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f km/h"
+      },
+      "states": {
+        "value": "0e48acbc-0314-2365-ffffc6c42b3ee057",
+        "error": "0e48acbc-0314-2364-ffff953d29ad7c6f"
+      }
+    },
+    "0e48acbc-0314-2361-ffffc6c42b3ee057": {
+      "name": "Windrichtung",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0e48acbc-0314-2361-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0426-ffffc6c42b3ee057",
+      "cat": "0cec9a33-01f2-0f5f-ffffc6c42b3ee057",
+      "defaultRating": 2,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f °"
+      },
+      "states": {
+        "value": "0e48acbc-0314-2361-ffffc6c42b3ee057",
+        "error": "0e48acbc-0314-2360-ffff953d29ad7c6f"
+      }
+    },
+    "0cb8e9cb-0264-5ccc-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte",
+      "type": "Switch",
+      "uuidAction": "0cb8e9cb-0264-5ccc-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a8-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb8e9cb-0264-5ccb-ffff691a3b6e83ea"
+      }
+    },
+    "0cb8e9cb-0274-57be-ffffc6c42b3ee057": {
+      "name": "Spiegelleuchte",
+      "type": "Switch",
+      "uuidAction": "0cb8e9cb-0274-57be-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a8-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb8e9cb-0274-57bd-ffffdcead211de8c"
+      }
+    },
+    "106f96d7-018b-21db-ffffc6c42b3ee057": {
+      "name": "Alle",
+      "type": "CentralJalousie",
+      "uuidAction": "106f96d7-018b-21db-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a8-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "controls": [{
+          "id": 0,
+          "uuid": "0cb8f4a0-01ea-6d87-ffff316041bf9224"
+        }, {
+          "id": 1,
+          "uuid": "0cb8f4a4-00c1-765d-ffffab6fc980f9e2"
+        }]
+      }
+    },
+    "0cb8f4a4-00c1-765d-ffffab6fc980f9e2": {
+      "name": "Rollladen (Nord)",
+      "type": "Jalousie",
+      "uuidAction": "0cb8f4a4-00c1-765d-ffffab6fc980f9e2",
+      "room": "0caee1bf-01f5-03a8-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02fd-cea7-ffffab6fc980f9e2",
+        "up": "0cb8f4a4-00c1-7685-ffffab6fc980f9e2",
+        "down": "0cb8f4a4-00c1-7686-ffffab6fc980f9e2",
+        "position": "0cb8f4a4-00c1-7687-ffffab6fc980f9e2",
+        "shadePosition": "0cb8f4a4-00c1-7688-ffffab6fc980f9e2",
+        "safetyActive": "0cb8f4a4-00c1-768a-ffffab6fc980f9e2",
+        "autoAllowed": "0cb8f4a4-00c1-7668-ffffab6fc980f9e2",
+        "autoActive": "0cb8f4a4-00c1-7689-ffffab6fc980f9e2",
+        "locked": "0cb8f4a4-00c1-768b-ffffab6fc980f9e2"
+      }
+    },
+    "0cb8f4a0-01ea-6d87-ffff316041bf9224": {
+      "name": "Rollladen (West)",
+      "type": "Jalousie",
+      "uuidAction": "0cb8f4a0-01ea-6d87-ffff316041bf9224",
+      "room": "0caee1bf-01f5-03a8-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02fc-cea6-ffff316041bf9224",
+        "up": "0cb8f4a0-01ea-6daf-ffff316041bf9224",
+        "down": "0cb8f4a0-01ea-6db0-ffff316041bf9224",
+        "position": "0cb8f4a0-01ea-6db1-ffff316041bf9224",
+        "shadePosition": "0cb8f4a0-01ea-6db2-ffff316041bf9224",
+        "safetyActive": "0cb8f4a0-01ea-6db4-ffff316041bf9224",
+        "autoAllowed": "0cb8f4a0-01ea-6d92-ffff316041bf9224",
+        "autoActive": "0cb8f4a0-01ea-6db3-ffff316041bf9224",
+        "locked": "0cb8f4a0-01ea-6db5-ffff316041bf9224"
+      }
+    },
+    "0cb8fd31-01d3-ad02-ffffc6c42b3ee057": {
+      "name": "Temperatursensor",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0cb8fd31-01d3-ad02-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a8-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0322-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f°"
+      },
+      "states": {
+        "value": "0cb8fd31-01d3-ad02-ffffc6c42b3ee057",
+        "error": "0cb8fd31-01d3-ad01-ffff18599ee63776"
+      }
+    },
+    "0cb8fa84-01fa-8bbc-ffffc6c42b3ee057": {
+      "name": "Intelligente Raumregelung",
+      "type": "IRoomController",
+      "uuidAction": "0cb8fa84-01fa-8bbc-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a8-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0316-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "restrictedToMode": 0,
+        "temperatures": {
+          "0": {
+            "isAbsolute": false
+          },
+          "1": {
+            "isAbsolute": true
+          },
+          "2": {
+            "isAbsolute": true
+          },
+          "3": {
+            "isAbsolute": true
+          },
+          "4": {
+            "isAbsolute": true
+          },
+          "5": {
+            "isAbsolute": false
+          },
+          "6": {
+            "isAbsolute": false
+          }
+        },
+        "format": "%.1f°"
+      },
+      "states": {
+        "tempTarget": "0cb8fa84-01fa-8bb7-ffffed9417dd8f98",
+        "tempActual": "0cb8fa84-01fa-8b98-ffffed9417dd8f98",
+        "error": "0cb8fa84-01fa-8bb5-ffffed9417dd8f98",
+        "mode": "0cb8fa84-01fa-8bb3-ffffed9417dd8f98",
+        "serviceMode": "0cb8fa84-01fa-8bb4-ffffed9417dd8f98",
+        "currHeatTempIx": "0cb8fa84-01fa-8b8f-ffffed9417dd8f98",
+        "currCoolTempIx": "0cb8fa84-01fa-8b90-ffffed9417dd8f98",
+        "override": "0cb8fa84-01fa-8bba-ffffed9417dd8f98",
+        "isPreparing": "0cb8fa84-01fa-8bbb-ffffed9417dd8f98",
+        "valveHeat": "0cb8fa84-01fa-8baa-ffffed9417dd8f98",
+        "valveCool": "0cb8fa84-01fa-8bae-ffffed9417dd8f98",
+        "openWindow": "0cb8fa84-01fa-8b99-ffffed9417dd8f98",
+        "stop": "106f96d7-016d-1eed-ffff2b2be14b5883",
+        "overrideTotal": "0f8cad80-03ab-16e6-ffffc6c42b3ee057",
+        "movement": "0f8cad80-03ab-16e5-ffffc6c42b3ee057",
+        "manualMode": "0f8cad80-03ab-16e7-ffffc6c42b3ee057",
+        "temperatures": ["0cb8fa84-01fa-8b9f-ffffed9417dd8f98", "0cb8fa84-01fa-8ba0-ffffed9417dd8f98", "0cb8fa84-01fa-8ba1-ffffed9417dd8f98", "0cb8fa84-01fa-8ba4-ffffed9417dd8f98", "0cb8fa84-01fa-8ba5-ffffed9417dd8f98", "0cb8fa84-01fa-8ba3-ffffed9417dd8f98", "0cb8fa84-01fa-8ba2-ffffed9417dd8f98"]
+      },
+      "subControls": {
+        "0cb8fa84-01fa-8b8d-ffffed9417dd8f98": {
+          "name": "Heating",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8fa84-01fa-8b8d-ffffed9417dd8f98",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8fa84-01fa-8b8d-ffffed9417dd8f98",
+            "mode": "0cb8fa84-01fa-8bb8-ffffed9417dd8f98",
+            "modeList": "0f8cad80-03ab-16e3-ffffc6c42b3ee057",
+            "value": "0cb8fa84-01fa-8b8f-ffffed9417dd8f98"
+          }
+        },
+        "0cb8fa84-01fa-8b8e-ffffed9417dd8f98": {
+          "name": "Cooling",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8fa84-01fa-8b8e-ffffed9417dd8f98",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8fa84-01fa-8b8e-ffffed9417dd8f98",
+            "mode": "0cb8fa84-01fa-8bb9-ffffed9417dd8f98",
+            "modeList": "0f8cad80-03ab-16e4-ffffc6c42b3ee057",
+            "value": "0cb8fa84-01fa-8b90-ffffed9417dd8f98"
+          }
+        }
+      }
+    },
+    "0cb8ea16-00fd-9f17-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte",
+      "type": "Switch",
+      "uuidAction": "0cb8ea16-00fd-9f17-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-03f0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb8ea16-00fd-9f16-ffff95961310f039"
+      }
+    },
+    "0d9eda9d-0288-fa59-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte",
+      "type": "Switch",
+      "uuidAction": "0d9eda9d-0288-fa59-ffffc6c42b3ee057",
+      "room": "0d92d03f-029e-7897-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0d9eda9d-0288-fa58-ffff2fa3df4fc582"
+      }
+    },
+    "109dbdef-033c-c148-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte Treppe",
+      "type": "TimedSwitch",
+      "uuidAction": "109dbdef-033c-c148-ffffc6c42b3ee057",
+      "room": "0d92d03f-029e-7897-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "isStairwayLs": true
+      },
+      "states": {
+        "deactivationDelay": "109dbdef-033c-c148-ffffc6c42b3ee057",
+        "deactivationDelayTotal": "109dbdef-033c-c144-ffff1777393f7f3a"
+      }
+    },
+    "0dc0b707-0002-886c-ffffc6c42b3ee057": {
+      "name": "Temperatursensor",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0dc0b707-0002-886c-ffffc6c42b3ee057",
+      "room": "0d92d03f-029e-7897-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0322-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f°"
+      },
+      "states": {
+        "value": "0dc0b707-0002-886c-ffffc6c42b3ee057",
+        "error": "0dc0b707-0002-886b-ffff1be821c94a0b"
+      }
+    },
+    "0d9ee66b-0201-e56a-ffffc6c42b3ee057": {
+      "name": "Intelligente Raumregelung",
+      "type": "IRoomController",
+      "uuidAction": "0d9ee66b-0201-e56a-ffffc6c42b3ee057",
+      "room": "0d92d03f-029e-7897-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0316-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "restrictedToMode": 0,
+        "temperatures": {
+          "0": {
+            "isAbsolute": false
+          },
+          "1": {
+            "isAbsolute": true
+          },
+          "2": {
+            "isAbsolute": true
+          },
+          "3": {
+            "isAbsolute": true
+          },
+          "4": {
+            "isAbsolute": true
+          },
+          "5": {
+            "isAbsolute": false
+          },
+          "6": {
+            "isAbsolute": false
+          }
+        },
+        "format": "%.1f°"
+      },
+      "states": {
+        "tempTarget": "0d9ee66b-0201-e565-ffff9712198ad87d",
+        "tempActual": "0d9ee66b-0201-e544-ffff9712198ad87d",
+        "error": "0d9ee66b-0201-e563-ffff9712198ad87d",
+        "mode": "0d9ee66b-0201-e561-ffff9712198ad87d",
+        "serviceMode": "0d9ee66b-0201-e562-ffff9712198ad87d",
+        "currHeatTempIx": "0d9ee66b-01f1-e53a-ffff9712198ad87d",
+        "currCoolTempIx": "0d9ee66b-01f1-e53b-ffff9712198ad87d",
+        "override": "0d9ee66b-0201-e568-ffff9712198ad87d",
+        "isPreparing": "0d9ee66b-0201-e569-ffff9712198ad87d",
+        "valveHeat": "0d9ee66b-0201-e558-ffff9712198ad87d",
+        "valveCool": "0d9ee66b-0201-e55c-ffff9712198ad87d",
+        "openWindow": "0d9ee66b-0201-e545-ffff9712198ad87d",
+        "stop": "106f96d7-013e-133a-ffff2b2be14b5883",
+        "overrideTotal": "0f8cad80-039b-0e25-ffffc6c42b3ee057",
+        "movement": "0f8cad80-039b-0e24-ffffc6c42b3ee057",
+        "manualMode": "0f8cad80-039b-0e26-ffffc6c42b3ee057",
+        "temperatures": ["0d9ee66b-0201-e54c-ffff9712198ad87d", "0d9ee66b-0201-e54d-ffff9712198ad87d", "0d9ee66b-0201-e54e-ffff9712198ad87d", "0d9ee66b-0201-e551-ffff9712198ad87d", "0d9ee66b-0201-e552-ffff9712198ad87d", "0d9ee66b-0201-e550-ffff9712198ad87d", "0d9ee66b-0201-e54f-ffff9712198ad87d"]
+      },
+      "subControls": {
+        "0d9ee66b-01f1-e538-ffff9712198ad87d": {
+          "name": "Heating",
+          "type": "IRCDaytimer",
+          "uuidAction": "0d9ee66b-01f1-e538-ffff9712198ad87d",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0d9ee66b-01f1-e538-ffff9712198ad87d",
+            "mode": "0d9ee66b-0201-e566-ffff9712198ad87d",
+            "modeList": "0f8cad80-039b-0e22-ffffc6c42b3ee057",
+            "value": "0d9ee66b-01f1-e53a-ffff9712198ad87d"
+          }
+        },
+        "0d9ee66b-01f1-e539-ffff9712198ad87d": {
+          "name": "Cooling",
+          "type": "IRCDaytimer",
+          "uuidAction": "0d9ee66b-01f1-e539-ffff9712198ad87d",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0d9ee66b-01f1-e539-ffff9712198ad87d",
+            "mode": "0d9ee66b-0201-e567-ffff9712198ad87d",
+            "modeList": "0f8cad80-039b-0e23-ffffc6c42b3ee057",
+            "value": "0d9ee66b-01f1-e53b-ffff9712198ad87d"
+          }
+        }
+      }
+    },
+    "0d9edaa7-019c-2ebd-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte",
+      "type": "Switch",
+      "uuidAction": "0d9edaa7-019c-2ebd-ffffc6c42b3ee057",
+      "room": "0da91525-01fe-a384-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0d9edaa7-019c-2ebc-ffffb250f8690ea6"
+      }
+    },
+    "0dd32a24-0036-2041-ffffc6c42b3ee057": {
+      "name": "Temperatursensor",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0dd32a24-0036-2041-ffffc6c42b3ee057",
+      "room": "0da91525-01fe-a384-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0322-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f°"
+      },
+      "states": {
+        "value": "0dd32a24-0036-2041-ffffc6c42b3ee057",
+        "error": "0dd32a24-0036-2040-ffff7dc55463304c"
+      }
+    },
+    "0cb8f987-0332-8b39-ffffc6c42b3ee057": {
+      "name": "Intelligente Raumregelung",
+      "type": "IRoomController",
+      "uuidAction": "0cb8f987-0332-8b39-ffffc6c42b3ee057",
+      "room": "0da91525-01fe-a384-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0316-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "restrictedToMode": 0,
+        "temperatures": {
+          "0": {
+            "isAbsolute": false
+          },
+          "1": {
+            "isAbsolute": true
+          },
+          "2": {
+            "isAbsolute": true
+          },
+          "3": {
+            "isAbsolute": true
+          },
+          "4": {
+            "isAbsolute": true
+          },
+          "5": {
+            "isAbsolute": false
+          },
+          "6": {
+            "isAbsolute": false
+          }
+        },
+        "format": "%.1f°"
+      },
+      "states": {
+        "tempTarget": "0cb8f987-0332-8b34-ffff4ed50c32d55b",
+        "tempActual": "0cb8f987-0332-8b15-ffff4ed50c32d55b",
+        "error": "0cb8f987-0332-8b32-ffff4ed50c32d55b",
+        "mode": "0cb8f987-0332-8b30-ffff4ed50c32d55b",
+        "serviceMode": "0cb8f987-0332-8b31-ffff4ed50c32d55b",
+        "currHeatTempIx": "0cb8f987-0332-8b0c-ffff4ed50c32d55b",
+        "currCoolTempIx": "0cb8f987-0332-8b0d-ffff4ed50c32d55b",
+        "override": "0cb8f987-0332-8b37-ffff4ed50c32d55b",
+        "isPreparing": "0cb8f987-0332-8b38-ffff4ed50c32d55b",
+        "valveHeat": "0cb8f987-0332-8b27-ffff4ed50c32d55b",
+        "valveCool": "0cb8f987-0332-8b2b-ffff4ed50c32d55b",
+        "openWindow": "0cb8f987-0332-8b16-ffff4ed50c32d55b",
+        "stop": "106f96d7-0140-13cf-ffff2b2be14b5883",
+        "overrideTotal": "0f8cad80-039b-0eb1-ffffc6c42b3ee057",
+        "movement": "0f8cad80-039b-0eb0-ffffc6c42b3ee057",
+        "manualMode": "0f8cad80-039b-0eb2-ffffc6c42b3ee057",
+        "temperatures": ["0cb8f987-0332-8b1c-ffff4ed50c32d55b", "0cb8f987-0332-8b1d-ffff4ed50c32d55b", "0cb8f987-0332-8b1e-ffff4ed50c32d55b", "0cb8f987-0332-8b21-ffff4ed50c32d55b", "0cb8f987-0332-8b22-ffff4ed50c32d55b", "0cb8f987-0332-8b20-ffff4ed50c32d55b", "0cb8f987-0332-8b1f-ffff4ed50c32d55b"]
+      },
+      "subControls": {
+        "0cb8f987-0332-8b0a-ffff4ed50c32d55b": {
+          "name": "Heating",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8f987-0332-8b0a-ffff4ed50c32d55b",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8f987-0332-8b0a-ffff4ed50c32d55b",
+            "mode": "0cb8f987-0332-8b35-ffff4ed50c32d55b",
+            "modeList": "0f8cad80-039b-0eae-ffffc6c42b3ee057",
+            "value": "0cb8f987-0332-8b0c-ffff4ed50c32d55b"
+          }
+        },
+        "0cb8f987-0332-8b0b-ffff4ed50c32d55b": {
+          "name": "Cooling",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8f987-0332-8b0b-ffff4ed50c32d55b",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8f987-0332-8b0b-ffff4ed50c32d55b",
+            "mode": "0cb8f987-0332-8b36-ffff4ed50c32d55b",
+            "modeList": "0f8cad80-039b-0eaf-ffffc6c42b3ee057",
+            "value": "0cb8f987-0332-8b0d-ffff4ed50c32d55b"
+          }
+        }
+      }
+    },
+    "0cb5538e-00ad-72b1-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte",
+      "type": "Switch",
+      "uuidAction": "0cb5538e-00ad-72b1-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a4-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb5538e-00ad-72b0-ffffb7fcf0ff7ea7"
+      }
+    },
+    "0cb553a6-031e-81b2-ffffc6c42b3ee057": {
+      "name": "Spiegelleuchte",
+      "type": "Switch",
+      "uuidAction": "0cb553a6-031e-81b2-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a4-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb553a6-031e-81b1-ffffe0726ce4f933"
+      }
+    },
+    "0cb8ec05-01f7-d96b-ffffc6c42b3ee057": {
+      "name": "Rollladen (Nord)",
+      "type": "Jalousie",
+      "uuidAction": "0cb8ec05-01f7-d96b-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a4-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02d8-ce9b-ffffc6c42b3ee057",
+        "up": "0cb8ec05-01f7-d963-fffff4bcfce0fd3b",
+        "down": "0cb8ec05-01f7-d964-fffff4bcfce0fd3b",
+        "position": "0cb8ec05-01f7-d965-fffff4bcfce0fd3b",
+        "shadePosition": "0cb8ec05-01f7-d966-fffff4bcfce0fd3b",
+        "safetyActive": "0cb8ec05-01f7-d968-fffff4bcfce0fd3b",
+        "autoAllowed": "0cb8ec05-01f7-d946-fffff4bcfce0fd3b",
+        "autoActive": "0cb8ec05-01f7-d967-fffff4bcfce0fd3b",
+        "locked": "0cb8ec05-01f7-d969-fffff4bcfce0fd3b"
+      }
+    },
+    "0dd32a2b-02c6-2f21-ffffc6c42b3ee057": {
+      "name": "Temperatursensor",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0dd32a2b-02c6-2f21-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a4-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0322-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f°"
+      },
+      "states": {
+        "value": "0dd32a2b-02c6-2f21-ffffc6c42b3ee057",
+        "error": "0dd32a2b-02c6-2f20-ffff318f469776da"
+      }
+    },
+    "0cb8eaf2-015a-be5d-ffffc6c42b3ee057": {
+      "name": "Intelligente Raumregelung",
+      "type": "IRoomController",
+      "uuidAction": "0cb8eaf2-015a-be5d-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a4-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0316-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "restrictedToMode": 0,
+        "temperatures": {
+          "0": {
+            "isAbsolute": false
+          },
+          "1": {
+            "isAbsolute": true
+          },
+          "2": {
+            "isAbsolute": true
+          },
+          "3": {
+            "isAbsolute": true
+          },
+          "4": {
+            "isAbsolute": true
+          },
+          "5": {
+            "isAbsolute": false
+          },
+          "6": {
+            "isAbsolute": false
+          }
+        },
+        "format": "%.1f°"
+      },
+      "states": {
+        "tempTarget": "0cb8eaf2-015a-be58-ffff4b8816490cd9",
+        "tempActual": "0cb8eaf2-015a-be39-ffff4b8816490cd9",
+        "error": "0cb8eaf2-015a-be56-ffff4b8816490cd9",
+        "mode": "0cb8eaf2-015a-be54-ffff4b8816490cd9",
+        "serviceMode": "0cb8eaf2-015a-be55-ffff4b8816490cd9",
+        "currHeatTempIx": "0cb8eaf2-015a-be30-ffff4b8816490cd9",
+        "currCoolTempIx": "0cb8eaf2-015a-be31-ffff4b8816490cd9",
+        "override": "0cb8eaf2-015a-be5b-ffff4b8816490cd9",
+        "isPreparing": "0cb8eaf2-015a-be5c-ffff4b8816490cd9",
+        "valveHeat": "0cb8eaf2-015a-be4b-ffff4b8816490cd9",
+        "valveCool": "0cb8eaf2-015a-be4f-ffff4b8816490cd9",
+        "openWindow": "0cb8eaf2-015a-be3a-ffff4b8816490cd9",
+        "stop": "106f96d7-0135-114b-ffff2b2be14b5883",
+        "overrideTotal": "0f8cad80-038c-0ccf-ffffc6c42b3ee057",
+        "movement": "0f8cad80-038c-0cce-ffffc6c42b3ee057",
+        "manualMode": "0f8cad80-038c-0cd0-ffffc6c42b3ee057",
+        "temperatures": ["0cb8eaf2-015a-be40-ffff4b8816490cd9", "0cb8eaf2-015a-be41-ffff4b8816490cd9", "0cb8eaf2-015a-be42-ffff4b8816490cd9", "0cb8eaf2-015a-be45-ffff4b8816490cd9", "0cb8eaf2-015a-be46-ffff4b8816490cd9", "0cb8eaf2-015a-be44-ffff4b8816490cd9", "0cb8eaf2-015a-be43-ffff4b8816490cd9"]
+      },
+      "subControls": {
+        "0cb8eaf2-015a-be2e-ffff4b8816490cd9": {
+          "name": "Heating",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8eaf2-015a-be2e-ffff4b8816490cd9",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8eaf2-015a-be2e-ffff4b8816490cd9",
+            "mode": "0cb8eaf2-015a-be59-ffff4b8816490cd9",
+            "modeList": "0f8cad80-038c-0ccc-ffffc6c42b3ee057",
+            "value": "0cb8eaf2-015a-be30-ffff4b8816490cd9"
+          }
+        },
+        "0cb8eaf2-015a-be2f-ffff4b8816490cd9": {
+          "name": "Cooling",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8eaf2-015a-be2f-ffff4b8816490cd9",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8eaf2-015a-be2f-ffff4b8816490cd9",
+            "mode": "0cb8eaf2-015a-be5a-ffff4b8816490cd9",
+            "modeList": "0f8cad80-038c-0ccd-ffffc6c42b3ee057",
+            "value": "0cb8eaf2-015a-be31-ffff4b8816490cd9"
+          }
+        }
+      }
+    },
+    "0cb54639-01f6-0f6a-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte",
+      "type": "Switch",
+      "uuidAction": "0cb54639-01f6-0f6a-ffffc6c42b3ee057",
+      "room": "0d92d133-034e-5b3e-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb54639-01f6-0f69-fffff8dcba747941"
+      }
+    },
+    "0cb8f1e6-00d8-34af-ffffc99f213fe814": {
+      "name": "Rollladen (Nord)",
+      "type": "Jalousie",
+      "uuidAction": "0cb8f1e6-00d8-34af-ffffc99f213fe814",
+      "room": "0d92d133-034e-5b3e-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02db-ce9c-ffffc99f213fe814",
+        "up": "0cb8f1e6-00d8-34d7-ffffc99f213fe814",
+        "down": "0cb8f1e6-00d8-34d8-ffffc99f213fe814",
+        "position": "0cb8f1e6-00d8-34d9-ffffc99f213fe814",
+        "shadePosition": "0cb8f1e6-00d8-34da-ffffc99f213fe814",
+        "safetyActive": "0cb8f1e6-00d8-34dc-ffffc99f213fe814",
+        "autoAllowed": "0cb8f1e6-00d8-34ba-ffffc99f213fe814",
+        "autoActive": "0cb8f1e6-00d8-34db-ffffc99f213fe814",
+        "locked": "0cb8f1e6-00d8-34dd-ffffc99f213fe814"
+      }
+    },
+    "0ff8e39a-0076-5605-ffffc6c42b3ee057": {
+      "name": "Haushaltsstrom Energie Bezug",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0ff8e39a-0076-5605-ffffc6c42b3ee057",
+      "room": "0d92d133-034e-5b3e-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-0374-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f"
+      },
+      "states": {
+        "value": "0ff8e39a-0076-5605-ffffc6c42b3ee057"
+      }
+    },
+    "0ff8e3cd-0244-faf3-ffffc6c42b3ee057": {
+      "name": "Haushaltsstrom Energie Lieferung",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0ff8e3cd-0244-faf3-ffffc6c42b3ee057",
+      "room": "0d92d133-034e-5b3e-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-0374-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f"
+      },
+      "states": {
+        "value": "0ff8e3cd-0244-faf3-ffffc6c42b3ee057"
+      }
+    },
+    "0ff8e3d3-0215-0d60-ffffc6c42b3ee057": {
+      "name": "Haushaltsstrom Leistung",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0ff8e3d3-0215-0d60-ffffc6c42b3ee057",
+      "room": "0d92d133-034e-5b3e-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-0374-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f"
+      },
+      "states": {
+        "value": "0ff8e3d3-0215-0d60-ffffc6c42b3ee057"
+      }
+    },
+    "0ff8e3dd-01d6-4474-ffffc6c42b3ee057": {
+      "name": "Wärmestrom Energie Bezug",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0ff8e3dd-01d6-4474-ffffc6c42b3ee057",
+      "room": "0d92d133-034e-5b3e-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-0374-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f"
+      },
+      "states": {
+        "value": "0ff8e3dd-01d6-4474-ffffc6c42b3ee057"
+      }
+    },
+    "0ff8e3e8-00fc-7b99-ffffc6c42b3ee057": {
+      "name": "Wärmestrom Energie Lieferung",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0ff8e3e8-00fc-7b99-ffffc6c42b3ee057",
+      "room": "0d92d133-034e-5b3e-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-0374-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f"
+      },
+      "states": {
+        "value": "0ff8e3e8-00fc-7b99-ffffc6c42b3ee057"
+      }
+    },
+    "0ff8e3ed-02ff-8e0b-ffffc6c42b3ee057": {
+      "name": "Wärmestrom Leistung",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0ff8e3ed-02ff-8e0b-ffffc6c42b3ee057",
+      "room": "0d92d133-034e-5b3e-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-0374-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f"
+      },
+      "states": {
+        "value": "0ff8e3ed-02ff-8e0b-ffffc6c42b3ee057"
+      }
+    },
+    "0cb8e954-00dd-f09c-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte",
+      "type": "Switch",
+      "uuidAction": "0cb8e954-00dd-f09c-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03b0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb8e954-00dd-f09b-ffff740bd47b73f3"
+      }
+    },
+    "0cb8f2d6-018d-ecf9-ffffe9ee94739757": {
+      "name": "Rollladen (Ost)",
+      "type": "Jalousie",
+      "uuidAction": "0cb8f2d6-018d-ecf9-ffffe9ee94739757",
+      "room": "0caee1bf-01f5-03b0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02ef-cea2-ffffe9ee94739757",
+        "up": "0cb8f2d6-018d-ed21-ffffe9ee94739757",
+        "down": "0cb8f2d6-018d-ed22-ffffe9ee94739757",
+        "position": "0cb8f2d6-018d-ed23-ffffe9ee94739757",
+        "shadePosition": "0cb8f2d6-018d-ed24-ffffe9ee94739757",
+        "safetyActive": "0cb8f2d6-018d-ed26-ffffe9ee94739757",
+        "autoAllowed": "0cb8f2d6-018d-ed04-ffffe9ee94739757",
+        "autoActive": "0cb8f2d6-018d-ed25-ffffe9ee94739757",
+        "locked": "0cb8f2d6-018d-ed27-ffffe9ee94739757"
+      }
+    },
+    "0cb8fd0f-0256-6e56-ffffc6c42b3ee057": {
+      "name": "Temperatursensor",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0cb8fd0f-0256-6e56-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03b0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0322-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f°"
+      },
+      "states": {
+        "value": "0cb8fd0f-0256-6e56-ffffc6c42b3ee057",
+        "error": "0cb8fd0f-0256-6e55-ffff681965173086"
+      }
+    },
+    "0cb8fa26-0054-0bd4-ffffc6c42b3ee057": {
+      "name": "Intelligente Raumregelung",
+      "type": "IRoomController",
+      "uuidAction": "0cb8fa26-0054-0bd4-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03b0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0316-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "restrictedToMode": 0,
+        "temperatures": {
+          "0": {
+            "isAbsolute": false
+          },
+          "1": {
+            "isAbsolute": true
+          },
+          "2": {
+            "isAbsolute": true
+          },
+          "3": {
+            "isAbsolute": true
+          },
+          "4": {
+            "isAbsolute": true
+          },
+          "5": {
+            "isAbsolute": false
+          },
+          "6": {
+            "isAbsolute": false
+          }
+        },
+        "format": "%.1f°"
+      },
+      "states": {
+        "tempTarget": "0cb8fa26-0054-0bcf-ffff39fe944d244a",
+        "tempActual": "0cb8fa26-0054-0bb0-ffff39fe944d244a",
+        "error": "0cb8fa26-0054-0bcd-ffff39fe944d244a",
+        "mode": "0cb8fa26-0054-0bcb-ffff39fe944d244a",
+        "serviceMode": "0cb8fa26-0054-0bcc-ffff39fe944d244a",
+        "currHeatTempIx": "0cb8fa26-0054-0ba7-ffff39fe944d244a",
+        "currCoolTempIx": "0cb8fa26-0054-0ba8-ffff39fe944d244a",
+        "override": "0cb8fa26-0054-0bd2-ffff39fe944d244a",
+        "isPreparing": "0cb8fa26-0054-0bd3-ffff39fe944d244a",
+        "valveHeat": "0cb8fa26-0054-0bc2-ffff39fe944d244a",
+        "valveCool": "0cb8fa26-0054-0bc6-ffff39fe944d244a",
+        "openWindow": "0cb8fa26-0054-0bb1-ffff39fe944d244a",
+        "stop": "106f96d7-015e-1a6f-ffff2b2be14b5883",
+        "overrideTotal": "0f8cad80-039b-1334-ffffc6c42b3ee057",
+        "movement": "0f8cad80-039b-1333-ffffc6c42b3ee057",
+        "manualMode": "0f8cad80-039b-1335-ffffc6c42b3ee057",
+        "temperatures": ["0cb8fa26-0054-0bb7-ffff39fe944d244a", "0cb8fa26-0054-0bb8-ffff39fe944d244a", "0cb8fa26-0054-0bb9-ffff39fe944d244a", "0cb8fa26-0054-0bbc-ffff39fe944d244a", "0cb8fa26-0054-0bbd-ffff39fe944d244a", "0cb8fa26-0054-0bbb-ffff39fe944d244a", "0cb8fa26-0054-0bba-ffff39fe944d244a"]
+      },
+      "subControls": {
+        "0cb8fa26-0054-0ba5-ffff39fe944d244a": {
+          "name": "Heating",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8fa26-0054-0ba5-ffff39fe944d244a",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8fa26-0054-0ba5-ffff39fe944d244a",
+            "mode": "0cb8fa26-0054-0bd0-ffff39fe944d244a",
+            "modeList": "0f8cad80-039b-1331-ffffc6c42b3ee057",
+            "value": "0cb8fa26-0054-0ba7-ffff39fe944d244a"
+          }
+        },
+        "0cb8fa26-0054-0ba6-ffff39fe944d244a": {
+          "name": "Cooling",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8fa26-0054-0ba6-ffff39fe944d244a",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8fa26-0054-0ba6-ffff39fe944d244a",
+            "mode": "0cb8fa26-0054-0bd1-ffff39fe944d244a",
+            "modeList": "0f8cad80-039b-1332-ffffc6c42b3ee057",
+            "value": "0cb8fa26-0054-0ba8-ffff39fe944d244a"
+          }
+        }
+      }
+    },
+    "0cb80376-02fb-5e6f-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte",
+      "type": "Switch",
+      "uuidAction": "0cb80376-02fb-5e6f-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb80376-02fb-5e6e-ffffaedfab5d745c"
+      }
+    },
+    "0cb8f25f-0277-9145-ffffb8535ddeefb2": {
+      "name": "Rollladen (West)",
+      "type": "Jalousie",
+      "uuidAction": "0cb8f25f-0277-9145-ffffb8535ddeefb2",
+      "room": "0caee1bf-01f5-03a0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02e1-ce9d-ffffb8535ddeefb2",
+        "up": "0cb8f25f-0277-916d-ffffb8535ddeefb2",
+        "down": "0cb8f25f-0277-916e-ffffb8535ddeefb2",
+        "position": "0cb8f25f-0277-916f-ffffb8535ddeefb2",
+        "shadePosition": "0cb8f25f-0277-9170-ffffb8535ddeefb2",
+        "safetyActive": "0cb8f25f-0277-9172-ffffb8535ddeefb2",
+        "autoAllowed": "0cb8f25f-0277-9150-ffffb8535ddeefb2",
+        "autoActive": "0cb8f25f-0277-9171-ffffb8535ddeefb2",
+        "locked": "0cb8f25f-0277-9173-ffffb8535ddeefb2"
+      }
+    },
+    "0cb8fcfc-0314-5982-ffffc6c42b3ee057": {
+      "name": "Temperatursensor",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0cb8fcfc-0314-5982-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0322-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f°"
+      },
+      "states": {
+        "value": "0cb8fcfc-0314-5982-ffffc6c42b3ee057",
+        "error": "0cb8fcfc-0314-5981-ffff6ce3e4e44d82"
+      }
+    },
+    "0cb8f9c5-011f-b7f9-ffffc6c42b3ee057": {
+      "name": "Intelligente Raumregelung",
+      "type": "IRoomController",
+      "uuidAction": "0cb8f9c5-011f-b7f9-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03a0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0316-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "restrictedToMode": 0,
+        "temperatures": {
+          "0": {
+            "isAbsolute": false
+          },
+          "1": {
+            "isAbsolute": true
+          },
+          "2": {
+            "isAbsolute": true
+          },
+          "3": {
+            "isAbsolute": true
+          },
+          "4": {
+            "isAbsolute": true
+          },
+          "5": {
+            "isAbsolute": false
+          },
+          "6": {
+            "isAbsolute": false
+          }
+        },
+        "format": "%.1f°"
+      },
+      "states": {
+        "tempTarget": "0cb8f9c5-011f-b7f4-ffff45ff5cd4327d",
+        "tempActual": "0cb8f9c5-011f-b7d5-ffff45ff5cd4327d",
+        "error": "0cb8f9c5-011f-b7f2-ffff45ff5cd4327d",
+        "mode": "0cb8f9c5-011f-b7f0-ffff45ff5cd4327d",
+        "serviceMode": "0cb8f9c5-011f-b7f1-ffff45ff5cd4327d",
+        "currHeatTempIx": "0cb8f9c5-011f-b7cc-ffff45ff5cd4327d",
+        "currCoolTempIx": "0cb8f9c5-011f-b7cd-ffff45ff5cd4327d",
+        "override": "0cb8f9c5-011f-b7f7-ffff45ff5cd4327d",
+        "isPreparing": "0cb8f9c5-011f-b7f8-ffff45ff5cd4327d",
+        "valveHeat": "0cb8f9c5-011f-b7e7-ffff45ff5cd4327d",
+        "valveCool": "0cb8f9c5-011f-b7eb-ffff45ff5cd4327d",
+        "openWindow": "0cb8f9c5-011f-b7d6-ffff45ff5cd4327d",
+        "stop": "106f96d7-0145-14a9-ffff2b2be14b5883",
+        "overrideTotal": "0f8cad80-039b-0f67-ffffc6c42b3ee057",
+        "movement": "0f8cad80-039b-0f66-ffffc6c42b3ee057",
+        "manualMode": "0f8cad80-039b-0f68-ffffc6c42b3ee057",
+        "temperatures": ["0cb8f9c5-011f-b7dc-ffff45ff5cd4327d", "0cb8f9c5-011f-b7dd-ffff45ff5cd4327d", "0cb8f9c5-011f-b7de-ffff45ff5cd4327d", "0cb8f9c5-011f-b7e1-ffff45ff5cd4327d", "0cb8f9c5-011f-b7e2-ffff45ff5cd4327d", "0cb8f9c5-011f-b7e0-ffff45ff5cd4327d", "0cb8f9c5-011f-b7df-ffff45ff5cd4327d"]
+      },
+      "subControls": {
+        "0cb8f9c5-011f-b7ca-ffff45ff5cd4327d": {
+          "name": "Heating",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8f9c5-011f-b7ca-ffff45ff5cd4327d",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8f9c5-011f-b7ca-ffff45ff5cd4327d",
+            "mode": "0cb8f9c5-011f-b7f5-ffff45ff5cd4327d",
+            "modeList": "0f8cad80-039b-0f64-ffffc6c42b3ee057",
+            "value": "0cb8f9c5-011f-b7cc-ffff45ff5cd4327d"
+          }
+        },
+        "0cb8f9c5-011f-b7cb-ffff45ff5cd4327d": {
+          "name": "Cooling",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8f9c5-011f-b7cb-ffff45ff5cd4327d",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8f9c5-011f-b7cb-ffff45ff5cd4327d",
+            "mode": "0cb8f9c5-011f-b7f6-ffff45ff5cd4327d",
+            "modeList": "0f8cad80-039b-0f65-ffffc6c42b3ee057",
+            "value": "0cb8f9c5-011f-b7cd-ffff45ff5cd4327d"
+          }
+        }
+      }
+    },
+    "0cb8e977-01f7-175e-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte",
+      "type": "Switch",
+      "uuidAction": "0cb8e977-01f7-175e-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03ac-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb8e977-01f7-175d-ffffb58f40dcb02b"
+      }
+    },
+    "0cb8f352-0238-5c64-ffffaa169c9f04f9": {
+      "name": "Rollladen (Ost)",
+      "type": "Jalousie",
+      "uuidAction": "0cb8f352-0238-5c64-ffffaa169c9f04f9",
+      "room": "0caee1bf-01f5-03ac-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02f4-cea4-ffffaa169c9f04f9",
+        "up": "0cb8f352-0238-5c8c-ffffaa169c9f04f9",
+        "down": "0cb8f352-0238-5c8d-ffffaa169c9f04f9",
+        "position": "0cb8f352-0238-5c8e-ffffaa169c9f04f9",
+        "shadePosition": "0cb8f352-0238-5c8f-ffffaa169c9f04f9",
+        "safetyActive": "0cb8f352-0238-5c91-ffffaa169c9f04f9",
+        "autoAllowed": "0cb8f352-0238-5c6f-ffffaa169c9f04f9",
+        "autoActive": "0cb8f352-0238-5c90-ffffaa169c9f04f9",
+        "locked": "0cb8f352-0238-5c92-ffffaa169c9f04f9"
+      }
+    },
+    "0cb8f347-0016-54a1-ffff93f34b88f667": {
+      "name": "Rollladen (Süd)",
+      "type": "Jalousie",
+      "uuidAction": "0cb8f347-0016-54a1-ffff93f34b88f667",
+      "room": "0caee1bf-01f5-03ac-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02f2-cea3-ffff93f34b88f667",
+        "up": "0cb8f347-0016-54c9-ffff93f34b88f667",
+        "down": "0cb8f347-0016-54ca-ffff93f34b88f667",
+        "position": "0cb8f347-0016-54cb-ffff93f34b88f667",
+        "shadePosition": "0cb8f347-0016-54cc-ffff93f34b88f667",
+        "safetyActive": "0cb8f347-0016-54ce-ffff93f34b88f667",
+        "autoAllowed": "0cb8f347-0016-54ac-ffff93f34b88f667",
+        "autoActive": "0cb8f347-0016-54cd-ffff93f34b88f667",
+        "locked": "0cb8f347-0016-54cf-ffff93f34b88f667"
+      }
+    },
+    "106f96d7-018b-21ec-ffffc6c42b3ee057": {
+      "name": "Alle",
+      "type": "CentralJalousie",
+      "uuidAction": "106f96d7-018b-21ec-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03ac-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "controls": [{
+          "id": 0,
+          "uuid": "0cb8f347-0016-54a1-ffff93f34b88f667"
+        }, {
+          "id": 1,
+          "uuid": "0cb8f352-0238-5c64-ffffaa169c9f04f9"
+        }]
+      }
+    },
+    "0cb8fd1c-00f7-8332-ffffc6c42b3ee057": {
+      "name": "Temperatursensor",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0cb8fd1c-00f7-8332-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03ac-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0322-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f°"
+      },
+      "states": {
+        "value": "0cb8fd1c-00f7-8332-ffffc6c42b3ee057",
+        "error": "0cb8fd1c-00f7-8331-ffff48f8ee2c7b24"
+      }
+    },
+    "0cb8fa49-02c5-3259-ffffc6c42b3ee057": {
+      "name": "Intelligente Raumregelung",
+      "type": "IRoomController",
+      "uuidAction": "0cb8fa49-02c5-3259-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03ac-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0316-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "restrictedToMode": 0,
+        "temperatures": {
+          "0": {
+            "isAbsolute": false
+          },
+          "1": {
+            "isAbsolute": true
+          },
+          "2": {
+            "isAbsolute": true
+          },
+          "3": {
+            "isAbsolute": true
+          },
+          "4": {
+            "isAbsolute": true
+          },
+          "5": {
+            "isAbsolute": false
+          },
+          "6": {
+            "isAbsolute": false
+          }
+        },
+        "format": "%.1f°"
+      },
+      "states": {
+        "tempTarget": "0cb8fa49-02c5-3254-ffff507f9365f2af",
+        "tempActual": "0cb8fa49-02c5-3235-ffff507f9365f2af",
+        "error": "0cb8fa49-02c5-3252-ffff507f9365f2af",
+        "mode": "0cb8fa49-02c5-3250-ffff507f9365f2af",
+        "serviceMode": "0cb8fa49-02c5-3251-ffff507f9365f2af",
+        "currHeatTempIx": "0cb8fa49-02c5-322c-ffff507f9365f2af",
+        "currCoolTempIx": "0cb8fa49-02c5-322d-ffff507f9365f2af",
+        "override": "0cb8fa49-02c5-3257-ffff507f9365f2af",
+        "isPreparing": "0cb8fa49-02c5-3258-ffff507f9365f2af",
+        "valveHeat": "0cb8fa49-02c5-3247-ffff507f9365f2af",
+        "valveCool": "0cb8fa49-02c5-324b-ffff507f9365f2af",
+        "openWindow": "0cb8fa49-02c5-3236-ffff507f9365f2af",
+        "stop": "106f96d7-0161-1bc4-ffff2b2be14b5883",
+        "overrideTotal": "0f8cad80-03ab-144d-ffffc6c42b3ee057",
+        "movement": "0f8cad80-03ab-144c-ffffc6c42b3ee057",
+        "manualMode": "0f8cad80-03ab-144e-ffffc6c42b3ee057",
+        "temperatures": ["0cb8fa49-02c5-323c-ffff507f9365f2af", "0cb8fa49-02c5-323d-ffff507f9365f2af", "0cb8fa49-02c5-323e-ffff507f9365f2af", "0cb8fa49-02c5-3241-ffff507f9365f2af", "0cb8fa49-02c5-3242-ffff507f9365f2af", "0cb8fa49-02c5-3240-ffff507f9365f2af", "0cb8fa49-02c5-323f-ffff507f9365f2af"]
+      },
+      "subControls": {
+        "0cb8fa49-02c5-322a-ffff507f9365f2af": {
+          "name": "Heating",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8fa49-02c5-322a-ffff507f9365f2af",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8fa49-02c5-322a-ffff507f9365f2af",
+            "mode": "0cb8fa49-02c5-3255-ffff507f9365f2af",
+            "modeList": "0f8cad80-03ab-144a-ffffc6c42b3ee057",
+            "value": "0cb8fa49-02c5-322c-ffff507f9365f2af"
+          }
+        },
+        "0cb8fa49-02c5-322b-ffff507f9365f2af": {
+          "name": "Cooling",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8fa49-02c5-322b-ffff507f9365f2af",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8fa49-02c5-322b-ffff507f9365f2af",
+            "mode": "0cb8fa49-02c5-3256-ffff507f9365f2af",
+            "modeList": "0f8cad80-03ab-144b-ffffc6c42b3ee057",
+            "value": "0cb8fa49-02c5-322d-ffff507f9365f2af"
+          }
+        }
+      }
+    },
+    "106ff57d-0034-abef-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte",
+      "type": "Switch",
+      "uuidAction": "106ff57d-0034-abef-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03c0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "106ff57d-0034-abec-ffff0eb8f6b771fe"
+      }
+    },
+    "0cb8fc45-0371-1b24-ffffc6c42b3ee057": {
+      "name": "Temperatursensor",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0cb8fc45-0371-1b24-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03c0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0322-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f°"
+      },
+      "states": {
+        "value": "0cb8fc45-0371-1b24-ffffc6c42b3ee057",
+        "error": "0cb8fc45-0371-1b23-ffff44f5e63844c8"
+      }
+    },
+    "0cb8fba1-02da-e76f-ffffc6c42b3ee057": {
+      "name": "Intelligente Raumregelung",
+      "type": "IRoomController",
+      "uuidAction": "0cb8fba1-02da-e76f-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-03c0-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0316-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "restrictedToMode": 0,
+        "temperatures": {
+          "0": {
+            "isAbsolute": false
+          },
+          "1": {
+            "isAbsolute": true
+          },
+          "2": {
+            "isAbsolute": true
+          },
+          "3": {
+            "isAbsolute": true
+          },
+          "4": {
+            "isAbsolute": true
+          },
+          "5": {
+            "isAbsolute": false
+          },
+          "6": {
+            "isAbsolute": false
+          }
+        },
+        "format": "%.1f°"
+      },
+      "states": {
+        "tempTarget": "0cb8fba1-02da-e76a-ffff0607f450ff1c",
+        "tempActual": "0cb8fba1-02da-e74b-ffff0607f450ff1c",
+        "error": "0cb8fba1-02da-e768-ffff0607f450ff1c",
+        "mode": "0cb8fba1-02da-e766-ffff0607f450ff1c",
+        "serviceMode": "0cb8fba1-02da-e767-ffff0607f450ff1c",
+        "currHeatTempIx": "0cb8fba1-02d9-e742-ffff0607f450ff1c",
+        "currCoolTempIx": "0cb8fba1-02d9-e743-ffff0607f450ff1c",
+        "override": "0cb8fba1-02da-e76d-ffff0607f450ff1c",
+        "isPreparing": "0cb8fba1-02da-e76e-ffff0607f450ff1c",
+        "valveHeat": "0cb8fba1-02da-e75d-ffff0607f450ff1c",
+        "valveCool": "0cb8fba1-02da-e761-ffff0607f450ff1c",
+        "openWindow": "0cb8fba1-02da-e74c-ffff0607f450ff1c",
+        "stop": "106f96d7-0131-1066-ffff2b2be14b5883",
+        "overrideTotal": "0f8cad80-038c-0bfe-ffffc6c42b3ee057",
+        "movement": "0f8cad80-038c-0bfd-ffffc6c42b3ee057",
+        "manualMode": "0f8cad80-038c-0bff-ffffc6c42b3ee057",
+        "temperatures": ["0cb8fba1-02da-e752-ffff0607f450ff1c", "0cb8fba1-02da-e753-ffff0607f450ff1c", "0cb8fba1-02da-e754-ffff0607f450ff1c", "0cb8fba1-02da-e757-ffff0607f450ff1c", "0cb8fba1-02da-e758-ffff0607f450ff1c", "0cb8fba1-02da-e756-ffff0607f450ff1c", "0cb8fba1-02da-e755-ffff0607f450ff1c"]
+      },
+      "subControls": {
+        "0cb8fba1-02d9-e740-ffff0607f450ff1c": {
+          "name": "Heating",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8fba1-02d9-e740-ffff0607f450ff1c",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8fba1-02d9-e740-ffff0607f450ff1c",
+            "mode": "0cb8fba1-02da-e76b-ffff0607f450ff1c",
+            "modeList": "0f8cad80-038c-0bfb-ffffc6c42b3ee057",
+            "value": "0cb8fba1-02d9-e742-ffff0607f450ff1c"
+          }
+        },
+        "0cb8fba1-02d9-e741-ffff0607f450ff1c": {
+          "name": "Cooling",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8fba1-02d9-e741-ffff0607f450ff1c",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8fba1-02d9-e741-ffff0607f450ff1c",
+            "mode": "0cb8fba1-02da-e76c-ffff0607f450ff1c",
+            "modeList": "0f8cad80-038c-0bfc-ffffc6c42b3ee057",
+            "value": "0cb8fba1-02d9-e743-ffff0607f450ff1c"
+          }
+        }
+      }
+    },
+    "0cb8e868-00a4-636f-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte (Ost)",
+      "type": "Switch",
+      "uuidAction": "0cb8e868-00a4-636f-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb8e868-00a4-636e-ffff31ca804ccf81"
+      }
+    },
+    "0cb8e868-015f-5ed8-ffffc6c42b3ee057": {
+      "name": "Deckenleuchte (West)",
+      "type": "Switch",
+      "uuidAction": "0cb8e868-015f-5ed8-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0cb8e868-015f-5ed7-ffffd530957a4468"
+      }
+    },
+    "1067d010-016b-c0f2-ffffc6c42b3ee057": {
+      "name": "Stehlampe",
+      "type": "InfoOnlyDigital",
+      "uuidAction": "1067d010-016b-c0f2-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "image": {
+          "off": "00000000-0000-0012-2200000000000000",
+          "on": "00000000-0000-0011-2200000000000000"
+        }
+      },
+      "states": {
+        "active": "1067d010-016b-c0f2-ffffc6c42b3ee057"
+      }
+    },
+    "1066b6ac-013a-573e-ffffc6c42b3ee057": {
+      "name": "Stehlampe",
+      "type": "Switch",
+      "uuidAction": "1066b6ac-013a-573e-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "1066b6ac-013a-573d-ffff4f8fd07be362"
+      }
+    },
+    "1067d01b-011c-e6bf-ffffc6c42b3ee057": {
+      "name": "Stehlampe - Hue Glühbirne 1",
+      "type": "InfoOnlyDigital",
+      "uuidAction": "1067d01b-011c-e6bf-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "image": {
+          "off": "00000000-0000-0012-2200000000000000",
+          "on": "00000000-0000-0011-2200000000000000"
+        }
+      },
+      "states": {
+        "active": "1067d01b-011c-e6bf-ffffc6c42b3ee057"
+      }
+    },
+    "1067d01e-01d8-f9a8-ffffc6c42b3ee057": {
+      "name": "Stehlampe - Hue Glühbirne 2",
+      "type": "InfoOnlyDigital",
+      "uuidAction": "1067d01e-01d8-f9a8-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "image": {
+          "off": "00000000-0000-0012-2200000000000000",
+          "on": "00000000-0000-0011-2200000000000000"
+        }
+      },
+      "states": {
+        "active": "1067d01e-01d8-f9a8-ffffc6c42b3ee057"
+      }
+    },
+    "1067d016-02f1-d3d5-ffffc6c42b3ee057": {
+      "name": "Stehlampe - Hue Spot",
+      "type": "InfoOnlyDigital",
+      "uuidAction": "1067d016-02f1-d3d5-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "image": {
+          "off": "00000000-0000-0012-2200000000000000",
+          "on": "00000000-0000-0011-2200000000000000"
+        }
+      },
+      "states": {
+        "active": "1067d016-02f1-d3d5-ffffc6c42b3ee057"
+      }
+    },
+    "0cec9304-03aa-6022-fffffa681df3c4c8": {
+      "name": "Rollladen (Ost)",
+      "type": "Jalousie",
+      "uuidAction": "0cec9304-03aa-6022-fffffa681df3c4c8",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02eb-cea0-fffffa681df3c4c8",
+        "up": "0cec9304-03aa-604a-fffffa681df3c4c8",
+        "down": "0cec9304-03aa-604b-fffffa681df3c4c8",
+        "position": "0cec9304-03aa-604c-fffffa681df3c4c8",
+        "shadePosition": "0cec9304-03aa-604d-fffffa681df3c4c8",
+        "safetyActive": "0cec9304-03aa-604f-fffffa681df3c4c8",
+        "autoAllowed": "0cec9304-03aa-602d-fffffa681df3c4c8",
+        "autoActive": "0cec9304-03aa-604e-fffffa681df3c4c8",
+        "locked": "0cec9304-03aa-6050-fffffa681df3c4c8"
+      }
+    },
+    "0cec92e9-0233-3bd3-fffff549c4e01261": {
+      "name": "Rollladen (Süd-Ost)",
+      "type": "Jalousie",
+      "uuidAction": "0cec92e9-0233-3bd3-fffff549c4e01261",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02e9-ce9f-fffff549c4e01261",
+        "up": "0cec92e9-0233-3bfb-fffff549c4e01261",
+        "down": "0cec92e9-0233-3bfc-fffff549c4e01261",
+        "position": "0cec92e9-0233-3bfd-fffff549c4e01261",
+        "shadePosition": "0cec92e9-0233-3bfe-fffff549c4e01261",
+        "safetyActive": "0cec92e9-0233-3c00-fffff549c4e01261",
+        "autoAllowed": "0cec92e9-0233-3bde-fffff549c4e01261",
+        "autoActive": "0cec92e9-0233-3bff-fffff549c4e01261",
+        "locked": "0cec92e9-0233-3c01-fffff549c4e01261"
+      }
+    },
+    "0cec92e6-03aa-2f8f-ffff79223ae9640f": {
+      "name": "Rollladen (Süd-West)",
+      "type": "Jalousie",
+      "uuidAction": "0cec92e6-03aa-2f8f-ffff79223ae9640f",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02e9-ce9e-ffff79223ae9640f",
+        "up": "0cec92e6-03aa-2fb7-ffff79223ae9640f",
+        "down": "0cec92e6-03aa-2fb8-ffff79223ae9640f",
+        "position": "0cec92e6-03aa-2fb9-ffff79223ae9640f",
+        "shadePosition": "0cec92e6-03aa-2fba-ffff79223ae9640f",
+        "safetyActive": "0cec92e6-03aa-2fbc-ffff79223ae9640f",
+        "autoAllowed": "0cec92e6-03aa-2f9a-ffff79223ae9640f",
+        "autoActive": "0cec92e6-03aa-2fbb-ffff79223ae9640f",
+        "locked": "0cec92e6-03aa-2fbd-ffff79223ae9640f"
+      }
+    },
+    "0cec9383-0204-0048-ffff9e5fef362ed0": {
+      "name": "Rollladen (West)",
+      "type": "Jalousie",
+      "uuidAction": "0cec9383-0204-0048-ffff9e5fef362ed0",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "isAutomatic": true,
+        "animation": 1
+      },
+      "states": {
+        "infoText": "109dbebf-02ec-cea1-ffff9e5fef362ed0",
+        "up": "0cec9383-0204-0070-ffff9e5fef362ed0",
+        "down": "0cec9383-0204-0071-ffff9e5fef362ed0",
+        "position": "0cec9383-0204-0072-ffff9e5fef362ed0",
+        "shadePosition": "0cec9383-0204-0073-ffff9e5fef362ed0",
+        "safetyActive": "0cec9383-0204-0075-ffff9e5fef362ed0",
+        "autoAllowed": "0cec9383-0204-0053-ffff9e5fef362ed0",
+        "autoActive": "0cec9383-0204-0074-ffff9e5fef362ed0",
+        "locked": "0cec9383-0204-0076-ffff9e5fef362ed0"
+      }
+    },
+    "106f96d7-018b-21ca-ffffc6c42b3ee057": {
+      "name": "Alle",
+      "type": "CentralJalousie",
+      "uuidAction": "106f96d7-018b-21ca-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "controls": [{
+          "id": 0,
+          "uuid": "0cec92e6-03aa-2f8f-ffff79223ae9640f"
+        }, {
+          "id": 1,
+          "uuid": "0cec92e9-0233-3bd3-fffff549c4e01261"
+        }, {
+          "id": 2,
+          "uuid": "0cec9304-03aa-6022-fffffa681df3c4c8"
+        }, {
+          "id": 3,
+          "uuid": "0cec9383-0204-0048-ffff9e5fef362ed0"
+        }]
+      }
+    },
+    "0cb8fcd9-01f5-44b6-ffffc6c42b3ee057": {
+      "name": "Temperatursensor",
+      "type": "InfoOnlyAnalog",
+      "uuidAction": "0cb8fcd9-01f5-44b6-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0322-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "format": "%.1f°"
+      },
+      "states": {
+        "value": "0cb8fcd9-01f5-44b6-ffffc6c42b3ee057",
+        "error": "0cb8fcd9-01f5-44b5-ffffed5563d55e14"
+      }
+    },
+    "0cb8f9eb-020a-d380-ffffc6c42b3ee057": {
+      "name": "Intelligente Raumregelung",
+      "type": "IRoomController",
+      "uuidAction": "0cb8f9eb-020a-d380-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0316-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "restrictedToMode": 0,
+        "temperatures": {
+          "0": {
+            "isAbsolute": false
+          },
+          "1": {
+            "isAbsolute": true
+          },
+          "2": {
+            "isAbsolute": true
+          },
+          "3": {
+            "isAbsolute": true
+          },
+          "4": {
+            "isAbsolute": true
+          },
+          "5": {
+            "isAbsolute": false
+          },
+          "6": {
+            "isAbsolute": false
+          }
+        },
+        "format": "%.1f°"
+      },
+      "states": {
+        "tempTarget": "0cb8f9eb-020a-d37b-ffff7019dff85b5d",
+        "tempActual": "0cb8f9eb-020a-d35c-ffff7019dff85b5d",
+        "error": "0cb8f9eb-020a-d379-ffff7019dff85b5d",
+        "mode": "0cb8f9eb-020a-d377-ffff7019dff85b5d",
+        "serviceMode": "0cb8f9eb-020a-d378-ffff7019dff85b5d",
+        "currHeatTempIx": "0cb8f9eb-020a-d353-ffff7019dff85b5d",
+        "currCoolTempIx": "0cb8f9eb-020a-d354-ffff7019dff85b5d",
+        "override": "0cb8f9eb-020a-d37e-ffff7019dff85b5d",
+        "isPreparing": "0cb8f9eb-020a-d37f-ffff7019dff85b5d",
+        "valveHeat": "0cb8f9eb-020a-d36e-ffff7019dff85b5d",
+        "valveCool": "0cb8f9eb-020a-d372-ffff7019dff85b5d",
+        "openWindow": "0cb8f9eb-020a-d35d-ffff7019dff85b5d",
+        "stop": "106f96d7-014a-15f8-ffff2b2be14b5883",
+        "overrideTotal": "0f8cad80-039b-1044-ffffc6c42b3ee057",
+        "movement": "0f8cad80-039b-1043-ffffc6c42b3ee057",
+        "manualMode": "0f8cad80-039b-1045-ffffc6c42b3ee057",
+        "temperatures": ["0cb8f9eb-020a-d363-ffff7019dff85b5d", "0cb8f9eb-020a-d364-ffff7019dff85b5d", "0cb8f9eb-020a-d365-ffff7019dff85b5d", "0cb8f9eb-020a-d368-ffff7019dff85b5d", "0cb8f9eb-020a-d369-ffff7019dff85b5d", "0cb8f9eb-020a-d367-ffff7019dff85b5d", "0cb8f9eb-020a-d366-ffff7019dff85b5d"]
+      },
+      "subControls": {
+        "0cb8f9eb-020a-d351-ffff7019dff85b5d": {
+          "name": "Heating",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8f9eb-020a-d351-ffff7019dff85b5d",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8f9eb-020a-d351-ffff7019dff85b5d",
+            "mode": "0cb8f9eb-020a-d37c-ffff7019dff85b5d",
+            "modeList": "0f8cad80-039b-1041-ffffc6c42b3ee057",
+            "value": "0cb8f9eb-020a-d353-ffff7019dff85b5d"
+          }
+        },
+        "0cb8f9eb-020a-d352-ffff7019dff85b5d": {
+          "name": "Cooling",
+          "type": "IRCDaytimer",
+          "uuidAction": "0cb8f9eb-020a-d352-ffff7019dff85b5d",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "details": {
+            "analog": true,
+            "format": "%.1f°"
+          },
+          "states": {
+            "entriesAndDefaultValue": "0cb8f9eb-020a-d352-ffff7019dff85b5d",
+            "mode": "0cb8f9eb-020a-d37d-ffff7019dff85b5d",
+            "modeList": "0f8cad80-039b-1042-ffffc6c42b3ee057",
+            "value": "0cb8f9eb-020a-d354-ffff7019dff85b5d"
+          }
+        }
+      }
+    },
+    "1067795e-00c9-1ea8-ffffc6c42b3ee057": {
+      "name": "Harmony Hub",
+      "type": "Radio",
+      "uuidAction": "1067795e-00c9-1ea8-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-034e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "allOff": "Alles aus",
+        "outputs": {
+          "1": "Fernsehen",
+          "2": "DLNA / Blu-ray",
+          "3": "Front HDMI AUX",
+          "4": "Bluetooth Musik",
+          "5": "Internet Radio"
+        }
+      },
+      "states": {
+        "activeOutput": "1067795e-00c9-1ea7-ffff9e456a9b55b4"
+      }
+    },
+    "1067d020-0320-0c94-ffffc6c42b3ee057": {
+      "name": "Onkyo AV-Receiver",
+      "type": "InfoOnlyDigital",
+      "uuidAction": "1067d020-0320-0c94-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-034e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "image": {
+          "off": "00000000-0000-0012-2200000000000000",
+          "on": "00000000-0000-0011-2200000000000000"
+        }
+      },
+      "states": {
+        "active": "1067d020-0320-0c94-ffffc6c42b3ee057"
+      }
+    },
+    "1067d023-01f7-1f83-ffffc6c42b3ee057": {
+      "name": "Panasonic TV",
+      "type": "InfoOnlyDigital",
+      "uuidAction": "1067d023-01f7-1f83-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-034e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "image": {
+          "off": "00000000-0000-0012-2200000000000000",
+          "on": "00000000-0000-0011-2200000000000000"
+        }
+      },
+      "states": {
+        "active": "1067d023-01f7-1f83-ffffc6c42b3ee057"
+      }
+    },
+    "1067d04c-010d-b799-ffffc6c42b3ee057": {
+      "name": "Sony Blu-Ray Player",
+      "type": "InfoOnlyDigital",
+      "uuidAction": "1067d04c-010d-b799-ffffc6c42b3ee057",
+      "room": "0caee1bf-01f5-039c-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-034e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "image": {
+          "off": "00000000-0000-0012-2200000000000000",
+          "on": "00000000-0000-0011-2200000000000000"
+        }
+      },
+      "states": {
+        "active": "1067d04c-010d-b799-ffffc6c42b3ee057"
+      }
+    },
+    "106ffae1-02d4-7842-ffffc6c42b3ee057": {
+      "name": "Alle Leuchten",
+      "type": "Pushbutton",
+      "uuidAction": "106ffae1-02d4-7842-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0432-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 1,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "106ffae1-02d4-783f-ffff4c9b503992ba"
+      }
+    },
+    "0d9eda11-0154-70ab-ffffc6c42b3ee057": {
+      "name": "Deckenleuchten Diele",
+      "type": "Switch",
+      "uuidAction": "0d9eda11-0154-70ab-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0432-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-030e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "0d9eda11-0154-70aa-ffff87c2a6ac36b6"
+      }
+    },
+    "0f49b397-03e7-73a0-ffffc6c42b3ee057": {
+      "name": "Alle Rollladen EG",
+      "type": "Pushbutton",
+      "uuidAction": "0f49b397-03e7-73a0-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0432-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 2,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": "00000000-0000-0003-2000000000000000",
+      "states": {
+        "active": "0f49b397-03e7-739f-ffff5438925f997e"
+      }
+    },
+    "0f49b3aa-000f-84e4-ffffc6c42b3ee057": {
+      "name": "Alle Rollladen OG",
+      "type": "Pushbutton",
+      "uuidAction": "0f49b3aa-000f-84e4-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0432-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01d5-0312-ffffc6c42b3ee057",
+      "defaultRating": 2,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": "00000000-0000-0003-2000000000000000",
+      "states": {
+        "active": "0f49b3aa-000f-84e3-ffff2f9535cccee6"
+      }
+    },
+    "0cbe8ac9-0216-51bc-ffffc6c42b3ee057": {
+      "name": "Betriebsmodi",
+      "type": "Radio",
+      "uuidAction": "0cbe8ac9-0216-51bc-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0432-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-034e-ffffc6c42b3ee057",
+      "defaultRating": 5,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "allOff": "Automatik",
+        "outputs": {
+          "1": "Zuhause",
+          "2": "Nacht",
+          "3": "Alarm",
+          "4": "Abwesend",
+          "5": "Urlaub"
+        }
+      },
+      "states": {
+        "activeOutput": "0cbe8ac9-0216-51bb-ffff91e69a53daa0"
+      }
+    },
+    "0f49b392-031c-6265-ffffc6c42b3ee057": {
+      "name": "Gute Nacht",
+      "type": "Pushbutton",
+      "uuidAction": "0f49b392-031c-6265-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0432-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-034e-ffffc6c42b3ee057",
+      "defaultRating": 3,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": "00000000-0000-0036-2000000000000000",
+      "states": {
+        "active": "0f49b392-031c-6264-ffffc17bbc5c455b"
+      }
+    },
+    "0f49b38c-03e7-5133-ffffc6c42b3ee057": {
+      "name": "Guten Morgen",
+      "type": "Pushbutton",
+      "uuidAction": "0f49b38c-03e7-5133-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0432-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-034e-ffffc6c42b3ee057",
+      "defaultRating": 4,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": "00000000-0000-002b-2000000000000000",
+      "states": {
+        "active": "0f49b38c-03e7-5132-ffff03a274dc3ad1"
+      }
+    },
+    "0f4982ae-01b6-37f3-ffffc6c42b3ee057": {
+      "name": "Felix",
+      "type": "InfoOnlyDigital",
+      "uuidAction": "0f4982ae-01b6-37f3-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0432-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-036e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "image": {
+          "off": "00000000-0000-0006-2200000000000000",
+          "on": "00000000-0000-0015-2200000000000000"
+        }
+      },
+      "states": {
+        "active": "0f4982ae-01b6-37f3-ffffc6c42b3ee057"
+      }
+    },
+    "0f499aba-036b-c56a-ffffc6c42b3ee057": {
+      "name": "Pummi",
+      "type": "InfoOnlyDigital",
+      "uuidAction": "0f499aba-036b-c56a-ffffc6c42b3ee057",
+      "room": "0caee1bf-0204-0432-ffffc6c42b3ee057",
+      "cat": "0caee1bf-01e5-036e-ffffc6c42b3ee057",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "details": {
+        "image": {
+          "off": "00000000-0000-0006-2200000000000000",
+          "on": "00000000-0000-0015-2200000000000000"
+        }
+      },
+      "states": {
+        "active": "0f499aba-036b-c56a-ffffc6c42b3ee057"
+      }
+    }
+  },
+  "weatherServer": {
+    "states": {
+      "actual": "0caee1bf-0223-053a-ffffc6c42b3ee057",
+      "forecast": "0caee1bf-0223-0539-fffff973abfe4230"
+    },
+    "format": {
+      "relativeHumidity": "%.0f%%",
+      "temperature": "%.1f°",
+      "windSpeed": "%.0fkm/h",
+      "precipitation": "%.1fl/m²/h",
+      "barometricPressure": "%.0fhPa"
+    },
+    "weatherTypeTexts": {
+      "1": "wolkenlos",
+      "2": "heiter",
+      "3": "wolkig",
+      "4": "stark bewölkt",
+      "5": "bedeckt",
+      "6": "Nebel",
+      "7": "Hochnebel",
+      "8": "nicht verwendet",
+      "9": "nicht verwendet",
+      "10": "leichter Regen",
+      "11": "Regen",
+      "12": "starker Regen",
+      "13": "Nieseln",
+      "14": "leichter gefrierender Regen",
+      "15": "starker gefrierender Regen",
+      "16": "leichter Regenschauer",
+      "17": "kräftiger Regenschauer",
+      "18": "Gewitter",
+      "19": "kräftiges Gewitter",
+      "20": "leichter Schneefall",
+      "21": "Schneefall",
+      "22": "starker Schneefall",
+      "23": "leichter Schneeschauer",
+      "24": "starker Schneeschauer",
+      "25": "leichter Schneeregen",
+      "26": "Schneeregen",
+      "27": "starker Schneeregen",
+      "28": "leichter Schneeregenschauer",
+      "29": "kräftiger Schneeregenschauer"
+    },
+    "weatherFieldTypes": {
+      "1": {
+        "id": 1,
+        "name": "Temperatur",
+        "analog": true,
+        "unit": "°C",
+        "format": "%.1f"
+      },
+      "2": {
+        "id": 2,
+        "name": "Taupunkt",
+        "analog": true,
+        "unit": "°C",
+        "format": "%.1f"
+      },
+      "3": {
+        "id": 3,
+        "name": "Rel.Luftfeuchte",
+        "analog": true,
+        "format": "%.0f%%"
+      },
+      "4": {
+        "id": 4,
+        "name": "Windgeschwindigkeit",
+        "analog": true,
+        "unit": "km/h",
+        "format": "%.0f"
+      },
+      "5": {
+        "id": 5,
+        "name": "Windrichtung",
+        "analog": true
+      },
+      "6": {
+        "id": 6,
+        "name": "Böen",
+        "analog": true
+      },
+      "7": {
+        "id": 7,
+        "name": "Strahlung Abs.",
+        "analog": true
+      },
+      "8": {
+        "id": 8,
+        "name": "Strahlung Rel.",
+        "analog": true
+      },
+      "9": {
+        "id": 9,
+        "name": "Niederschlag",
+        "analog": true,
+        "unit": "l/m²/h",
+        "format": "%.1f"
+      },
+      "10": {
+        "id": 10,
+        "name": "Wettertype",
+        "analog": true
+      },
+      "11": {
+        "id": 11,
+        "name": "Luftdruck",
+        "analog": true,
+        "unit": "hPa",
+        "format": "%.0f"
+      },
+      "26": {
+        "id": 26,
+        "name": "Gefühlte Temperatur",
+        "analog": true,
+        "unit": "°C",
+        "format": "%.1f"
+      },
+      "27": {
+        "id": 27,
+        "name": "Strahlung",
+        "analog": true
+      },
+      "28": {
+        "id": 28,
+        "name": "Niederschlagswahrscheinlichkeit",
+        "analog": true
+      },
+      "29": {
+        "id": 29,
+        "name": "Schneeanteil",
+        "analog": true
+      },
+      "30": {
+        "id": 30,
+        "name": "CAPE",
+        "analog": true
+      },
+      "31": {
+        "id": 31,
+        "name": "Niedrige Bewölkung",
+        "analog": true
+      },
+      "32": {
+        "id": 32,
+        "name": "Mittlere Bewölkung",
+        "analog": true
+      },
+      "33": {
+        "id": 33,
+        "name": "Hohe Bewölkung",
+        "analog": true
+      },
+      "34": {
+        "id": 34,
+        "name": "Sonnenschein",
+        "analog": false
+      }
+    }
+  },
+  "times": {
+    "266": {
+      "id": 266,
+      "name": "Tage seit 2009",
+      "analog": true
+    },
+    "267": {
+      "id": 267,
+      "name": "Jahr",
+      "analog": true
+    },
+    "268": {
+      "id": 268,
+      "name": "Monat",
+      "analog": true
+    },
+    "269": {
+      "id": 269,
+      "name": "Tag",
+      "analog": true
+    },
+    "270": {
+      "id": 270,
+      "name": "Wochentag",
+      "analog": true
+    },
+    "271": {
+      "id": 271,
+      "name": "Aktive Betriebszeit",
+      "analog": true
+    },
+    "272": {
+      "id": 272,
+      "name": "Minuten seit Mitternacht",
+      "analog": true
+    },
+    "273": {
+      "id": 273,
+      "name": "Stunde",
+      "analog": true
+    },
+    "274": {
+      "id": 274,
+      "name": "Minuten",
+      "analog": true
+    },
+    "275": {
+      "id": 275,
+      "name": "Sekunden",
+      "analog": true
+    },
+    "276": {
+      "id": 276,
+      "name": "Sekunden seit Boot",
+      "analog": true
+    },
+    "277": {
+      "id": 277,
+      "name": "Minuten bis Sonnenaufgang",
+      "analog": true
+    },
+    "278": {
+      "id": 278,
+      "name": "Minuten bis Sonnenuntergang",
+      "analog": true
+    },
+    "281": {
+      "id": 281,
+      "name": "Tageslicht",
+      "analog": false
+    },
+    "282": {
+      "id": 282,
+      "name": "Tageslicht 30Min",
+      "analog": false
+    },
+    "283": {
+      "id": 283,
+      "name": "Minuten bis Morgendämmerung",
+      "analog": true
+    },
+    "284": {
+      "id": 284,
+      "name": "Minuten bis Abenddämmerung",
+      "analog": true
+    },
+    "285": {
+      "id": 285,
+      "name": "Sonne Höhe",
+      "analog": true
+    },
+    "286": {
+      "id": 286,
+      "name": "Sonne Richtung",
+      "analog": true
+    },
+    "287": {
+      "id": 287,
+      "name": "Startimpuls",
+      "analog": false
+    },
+    "288": {
+      "id": 288,
+      "name": "Jahresimpuls",
+      "analog": false
+    },
+    "289": {
+      "id": 289,
+      "name": "Monatsimpuls",
+      "analog": false
+    },
+    "290": {
+      "id": 290,
+      "name": "Tagesimpuls",
+      "analog": false
+    },
+    "291": {
+      "id": 291,
+      "name": "Stundenimpuls",
+      "analog": false
+    },
+    "292": {
+      "id": 292,
+      "name": "Minutenimpuls",
+      "analog": false
+    },
+    "293": {
+      "id": 293,
+      "name": "Sekundenimpuls",
+      "analog": false
+    },
+    "294": {
+      "id": 294,
+      "name": "Impuls Sonnenaufgang",
+      "analog": false
+    },
+    "295": {
+      "id": 295,
+      "name": "Impuls Sonnenuntergang",
+      "analog": false
+    },
+    "298": {
+      "id": 298,
+      "name": "Impuls Morgendämmerung",
+      "analog": false
+    },
+    "299": {
+      "id": 299,
+      "name": "Impuls Abenddämmerung",
+      "analog": false
+    }
+  },
+  "autopilot": {
+    "0db9db5d-00da-1087-ffffc6c42b3ee057": {
+      "name": "Automatik-Regeln",
+      "uuidAction": "0db9db5d-00da-1087-ffffc6c42b3ee057",
+      "states": {
+        "changed": "0e350af8-0258-0779-ffffc6c42b3ee057",
+        "history": "0e350af8-0258-077a-ffffc6c42b3ee057"
+      }
+    }
+  }
+}
