@@ -89,22 +89,50 @@ class Importer(object):
 
         return loxone_structure_file
 
+    def get_loxone_controls(self, loxone_structure_file):
+        """Extracts controls from Loxone structure file"""
+        loxone_controls = loxone_structure_file.get('controls')
+        return loxone_controls
+
+    def get_loxone_rooms(self, loxone_structure_file):
+        """Extracts rooms from Loxone structure file
+        and adds a blank room definition"""
+        loxone_rooms = loxone_structure_file.get('rooms')
+        loxone_rooms['00000000-0000-0000-0000000000000000'] = {
+            'uuid': '00000000-0000-0000-0000000000000000',
+            'name': ''
+        }
+        return loxone_rooms
+
+    def get_loxone_categories(self, loxone_structure_file):
+        """Extracts categories from Loxone structure file
+        and adds a blank category definition"""
+        loxone_categories = loxone_structure_file.get('cats')
+        loxone_categories['00000000-0000-0000-0000000000000000'] = {
+            'uuid': '00000000-0000-0000-0000000000000000',
+            'name': 'undefined',
+            'type': 'undefined'
+        }
+        return loxone_categories
+
     def generate_ha_bridge_devices_configuration(self, loxone_structure_file):
         """Generates HA-Bridge devices configruation
         from visualisation structure file"""
         ha_bridge_devices_configuration = []
         loxone_url_schema = 'http://{username}:{password}@{miniserver}/dev/sps/io/{control}/{action}'
-        loxone_rooms = loxone_structure_file['rooms']
-        loxone_categories = loxone_structure_file['cats']
-        loxone_controls = loxone_structure_file['controls']
+        loxone_controls = self.get_loxone_controls(loxone_structure_file)
+        loxone_rooms = self.get_loxone_rooms(loxone_structure_file)
+        loxone_categories = self.get_loxone_categories(loxone_structure_file)
 
         for uuid, control in sorted(loxone_controls.items()):
-            control_type = control['type']
-            room_uuid = control['room']
-            category_uuid = control['cat']
+            control_name = control.get('name')
+            control_type = control.get('type')
+            room_uuid = control.get('room', '00000000-0000-0000-0000000000000000')
+            category_uuid = control.get('cat', '00000000-0000-0000-0000000000000000')
             device_name = '{control_name} {room_name}'.format(
-                control_name=control['name'],
+                control_name=control_name,
                 room_name=loxone_rooms[room_uuid]['name'])
+            device_name = device_name.strip()
             device_description = 'Control-Type: {control_type}, Category: {category}'.format(
                 control_type=control_type,
                 category=loxone_categories[category_uuid]['name'])
