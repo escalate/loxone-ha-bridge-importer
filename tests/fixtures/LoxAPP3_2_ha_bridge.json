@@ -1,0 +1,462 @@
+[
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb54639-01f6-0f6a-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb54639-01f6-0f6a-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Hauswirtschaftsraum",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb54639-01f6-0f6a-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb5538e-00ad-72b1-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb5538e-00ad-72b1-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Gäste-Bad",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb5538e-00ad-72b1-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb553a6-031e-81b2-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb553a6-031e-81b2-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Spiegelleuchte Gäste-Bad",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb553a6-031e-81b2-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb80376-02fb-5e6f-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb80376-02fb-5e6f-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Küche",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb80376-02fb-5e6f-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e868-00a4-636f-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8e868-00a4-636f-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte (Ost) Wohnzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e868-00a4-636f-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e868-015f-5ed8-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8e868-015f-5ed8-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte (West) Wohnzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e868-015f-5ed8-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Verbraucher",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e8d9-00e2-a46c-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8e8d9-00e2-a46c-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Steckdose Außenbereich",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e8d9-00e2-a46c-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e8de-0288-a925-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8e8de-0288-a925-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Terassenleuchte Außenbereich",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e8de-0288-a925-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e954-00dd-f09c-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8e954-00dd-f09c-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Kinderzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e954-00dd-f09c-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e977-01f7-175e-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8e977-01f7-175e-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Schlafzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e977-01f7-175e-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e9a2-032f-39d9-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8e9a2-032f-39d9-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Arbeitszimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e9a2-032f-39d9-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e9cb-0264-5ccc-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8e9cb-0264-5ccc-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Badezimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e9cb-0264-5ccc-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e9cb-0274-57be-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8e9cb-0274-57be-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Spiegelleuchte Badezimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8e9cb-0274-57be-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8ea16-00fd-9f17-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8ea16-00fd-9f17-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Dachboden",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8ea16-00fd-9f17-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8ec05-01f7-d96b-ffffc6c42b3ee057/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8ec05-01f7-d96b-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Rollladen (Nord) Gäste-Bad",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8ec05-01f7-d96b-ffffc6c42b3ee057/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f1e6-00d8-34af-ffffc99f213fe814/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8f1e6-00d8-34af-ffffc99f213fe814",
+        "deviceType": "custom",
+        "name": "Rollladen (Nord) Hauswirtschaftsraum",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f1e6-00d8-34af-ffffc99f213fe814/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f25f-0277-9145-ffffb8535ddeefb2/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8f25f-0277-9145-ffffb8535ddeefb2",
+        "deviceType": "custom",
+        "name": "Rollladen (West) Küche",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f25f-0277-9145-ffffb8535ddeefb2/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f2d6-018d-ecf9-ffffe9ee94739757/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8f2d6-018d-ecf9-ffffe9ee94739757",
+        "deviceType": "custom",
+        "name": "Rollladen (Ost) Kinderzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f2d6-018d-ecf9-ffffe9ee94739757/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f347-0016-54a1-ffff93f34b88f667/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8f347-0016-54a1-ffff93f34b88f667",
+        "deviceType": "custom",
+        "name": "Rollladen (Süd) Schlafzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f347-0016-54a1-ffff93f34b88f667/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f352-0238-5c64-ffffaa169c9f04f9/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8f352-0238-5c64-ffffaa169c9f04f9",
+        "deviceType": "custom",
+        "name": "Rollladen (Ost) Schlafzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f352-0238-5c64-ffffaa169c9f04f9/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f3e0-0313-ddbd-ffffd5ae755f4f25/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8f3e0-0313-ddbd-ffffd5ae755f4f25",
+        "deviceType": "custom",
+        "name": "Rollladen (Süd) Arbeitszimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f3e0-0313-ddbd-ffffd5ae755f4f25/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f4a0-01ea-6d87-ffff316041bf9224/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8f4a0-01ea-6d87-ffff316041bf9224",
+        "deviceType": "custom",
+        "name": "Rollladen (West) Badezimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f4a0-01ea-6d87-ffff316041bf9224/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f4a4-00c1-765d-ffffab6fc980f9e2/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cb8f4a4-00c1-765d-ffffab6fc980f9e2",
+        "deviceType": "custom",
+        "name": "Rollladen (Nord) Badezimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cb8f4a4-00c1-765d-ffffab6fc980f9e2/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cec92e6-03aa-2f8f-ffff79223ae9640f/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cec92e6-03aa-2f8f-ffff79223ae9640f",
+        "deviceType": "custom",
+        "name": "Rollladen (Süd-West) Wohnzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cec92e6-03aa-2f8f-ffff79223ae9640f/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cec92e9-0233-3bd3-fffff549c4e01261/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cec92e9-0233-3bd3-fffff549c4e01261",
+        "deviceType": "custom",
+        "name": "Rollladen (Süd-Ost) Wohnzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cec92e9-0233-3bd3-fffff549c4e01261/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cec9304-03aa-6022-fffffa681df3c4c8/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cec9304-03aa-6022-fffffa681df3c4c8",
+        "deviceType": "custom",
+        "name": "Rollladen (Ost) Wohnzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cec9304-03aa-6022-fffffa681df3c4c8/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Jalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cec9383-0204-0048-ffff9e5fef362ed0/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0cec9383-0204-0048-ffff9e5fef362ed0",
+        "deviceType": "custom",
+        "name": "Rollladen (West) Wohnzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0cec9383-0204-0048-ffff9e5fef362ed0/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0d9eda11-0154-70ab-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0d9eda11-0154-70ab-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchten Diele Zentral",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0d9eda11-0154-70ab-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0d9eda9d-0288-fa59-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0d9eda9d-0288-fa59-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Diele EG",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0d9eda9d-0288-fa59-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0d9edaa7-019c-2ebd-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0d9edaa7-019c-2ebd-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Diele OG",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0d9edaa7-019c-2ebd-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0df83515-02c7-2872-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0df83515-02c7-2872-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Hausnummernleuchte Außenbereich",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0df83515-02c7-2872-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Gate, Category: Tor",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0f460508-0080-5d50-ffffc6c42b3ee057/Close\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0f460508-0080-5d50-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Schiebetor Außenbereich",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0f460508-0080-5d50-ffffc6c42b3ee057/Open\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Pushbutton, Category: Technik",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0f49b38c-03e7-5133-ffffc6c42b3ee057/Off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0f49b38c-03e7-5133-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Guten Morgen Zentral",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0f49b38c-03e7-5133-ffffc6c42b3ee057/On\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Pushbutton, Category: Technik",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0f49b392-031c-6265-ffffc6c42b3ee057/Off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0f49b392-031c-6265-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Gute Nacht Zentral",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0f49b392-031c-6265-ffffc6c42b3ee057/On\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Pushbutton, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0f49b397-03e7-73a0-ffffc6c42b3ee057/Off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0f49b397-03e7-73a0-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Alle Rollladen EG Zentral",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0f49b397-03e7-73a0-ffffc6c42b3ee057/On\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Pushbutton, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0f49b3aa-000f-84e4-ffffc6c42b3ee057/Off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0f49b3aa-000f-84e4-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Alle Rollladen OG Zentral",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0f49b3aa-000f-84e4-ffffc6c42b3ee057/On\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Pushbutton, Category: Tor",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0fd99b88-02c4-801a-ffffc6c42b3ee057/Off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0fd99b88-02c4-801a-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Teilöffnung Außenbereich",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0fd99b88-02c4-801a-ffffc6c42b3ee057/On\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Pushbutton, Category: Pforte",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0ff8fd0c-03e6-a9fe-ffffc6c42b3ee057/Off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0ff8fd0c-03e6-a9fe-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Klingel Außenbereich",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0ff8fd0c-03e6-a9fe-ffffc6c42b3ee057/On\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Pushbutton, Category: Pforte",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0ff8fd46-026f-2aa0-ffffc6c42b3ee057/Off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "0ff8fd46-026f-2aa0-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Toröffner Außenbereich",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/0ff8fd46-026f-2aa0-ffffc6c42b3ee057/On\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/1066b6ac-013a-573e-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "1066b6ac-013a-573e-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Stehlampe Wohnzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/1066b6ac-013a-573e-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: CentralJalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/106f96d7-018b-21ca-ffffc6c42b3ee057/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "106f96d7-018b-21ca-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Alle Wohnzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/106f96d7-018b-21ca-ffffc6c42b3ee057/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: CentralJalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/106f96d7-018b-21db-ffffc6c42b3ee057/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "106f96d7-018b-21db-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Alle Badezimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/106f96d7-018b-21db-ffffc6c42b3ee057/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: CentralJalousie, Category: Beschattung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/106f96d7-018b-21ec-ffffc6c42b3ee057/FullUp\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "106f96d7-018b-21ec-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Alle Schlafzimmer",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/106f96d7-018b-21ec-ffffc6c42b3ee057/FullDown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Switch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/106ff57d-0034-abef-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "106ff57d-0034-abef-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Windfang",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/106ff57d-0034-abef-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/106ffae1-02d4-7842-ffffc6c42b3ee057/Off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "106ffae1-02d4-7842-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Alle Leuchten Zentral",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/106ffae1-02d4-7842-ffffc6c42b3ee057/On\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    },
+    {
+        "description": "Control-Type: TimedSwitch, Category: Beleuchtung",
+        "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/109dbdef-033c-c148-ffffc6c42b3ee057/Off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapId": "109dbdef-033c-c148-ffffc6c42b3ee057",
+        "deviceType": "custom",
+        "name": "Deckenleuchte Treppe Diele EG",
+        "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2/dev/sps/io/109dbdef-033c-c148-ffffc6c42b3ee057/Pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+        "mapType": "httpDevice",
+        "targetDevice": "Loxone"
+    }
+]
