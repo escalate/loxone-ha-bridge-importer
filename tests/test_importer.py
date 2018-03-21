@@ -2,62 +2,63 @@
 # -*- coding: utf-8 -*-
 
 from importer import Importer
-from unittest import TestCase, mock
+
+import pytest
+from unittest import mock
 from requests.exceptions import HTTPError, Timeout
+import json
 import os
+from pathlib import Path
 
-fixtures_dir = os.path.abspath('tests/fixtures')
+FIXTURES_DIR = os.path.abspath('tests/fixtures')
 
 
-class TestClass(object):
-    @classmethod
-    def setup_class(cls):
-        cls.actual = Importer()
+@pytest.fixture(scope='function')
+def unconfigured_importer():
+    return Importer()
 
-    @classmethod
-    def teardown_class(cls):
-        del cls.actual
 
-    def test_set_loxone_miniserver(self):
+@pytest.fixture(scope='function')
+def configured_importer():
+    importer = Importer()
+    importer.loxone_miniserver = '192.168.1.2'
+    importer.loxone_username = 'player1'
+    importer.loxone_password = 'secret'
+    importer.ha_bridge_server = '192.168.1.3'
+    importer.ha_bridge_port = '8080'
+    return importer
+
+
+@pytest.mark.usefixtures('unconfigured_importer')
+class TestSetter(object):
+    def test_set_loxone_miniserver(self, configured_importer):
         expected = '192.168.1.2'
-        self.actual.set_loxone_miniserver(expected)
-        assert self.actual.loxone_miniserver == expected
+        configured_importer.set_loxone_miniserver(expected)
+        assert configured_importer.loxone_miniserver == expected
 
-    def test_set_loxone_username(self):
+    def test_set_loxone_username(self, configured_importer):
         expected = 'player1'
-        self.actual.set_loxone_username(expected)
-        assert self.actual.loxone_username == expected
+        configured_importer.set_loxone_username(expected)
+        assert configured_importer.loxone_username == expected
 
-    def test_set_loxone_password(self):
+    def test_set_loxone_password(self, configured_importer):
         expected = 'secret'
-        self.actual.set_loxone_password(expected)
-        assert self.actual.loxone_password == expected
+        configured_importer.set_loxone_password(expected)
+        assert configured_importer.loxone_password == expected
 
-    def test_set_ha_bridge_server(self):
+    def test_set_ha_bridge_server(self, configured_importer):
         expected = '192.168.1.3'
-        self.actual.set_ha_bridge_server(expected)
-        assert self.actual.ha_bridge_server == expected
+        configured_importer.set_ha_bridge_server(expected)
+        assert configured_importer.ha_bridge_server == expected
 
-    def test_set_ha_bridge_port(self):
+    def test_set_ha_bridge_port(self, configured_importer):
         expected = '8080'
-        self.actual.set_ha_bridge_port(expected)
-        assert self.actual.ha_bridge_port == expected
+        configured_importer.set_ha_bridge_port(expected)
+        assert configured_importer.ha_bridge_port == expected
 
 
-class TestGetLoxoneStructureFile(TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.actual = Importer()
-        cls.actual.loxone_miniserver = '192.168.1.2'
-        cls.actual.loxone_username = 'player1'
-        cls.actual.loxone_password = 'secret'
-        cls.actual.ha_bridge_server = '192.168.1.3'
-        cls.actual.ha_bridge_port = '8080'
-
-    @classmethod
-    def tearDownClass(cls):
-        del cls.actual
-
+@pytest.mark.usefixtures('configured_importer')
+class TestGetLoxoneStructureFile(object):
     def _mock_response(
             self,
             status=200,
@@ -77,24 +78,23 @@ class TestGetLoxoneStructureFile(TestCase):
         return mock_resp
 
     @mock.patch('importer.requests.get')
-    def test_ok(self, mock_get):
+    def test_ok(self, mock_get, configured_importer):
         expected = '{"key": "value"}'
         mock_resp = self._mock_response(status=200, json_data=expected)
         mock_get.return_value = mock_resp
-
-        actual = self.actual.get_loxone_structure_file()
-        self.assertEqual(actual, expected)
+        actual = configured_importer.get_loxone_structure_file()
+        assert actual == expected
 
     @mock.patch('importer.requests.get')
-    def test_internal_server_error(self, mock_get):
+    def test_internal_server_error(self, mock_get, configured_importer):
         mock_resp = self._mock_response(status=500, raise_for_status=HTTPError("ERROR"))
         mock_get.return_value = mock_resp
-
-        self.assertRaises(HTTPError, self.actual.get_loxone_structure_file)
+        with pytest.raises(HTTPError):
+            configured_importer.get_loxone_structure_file()
 
     @mock.patch('importer.requests.get')
-    def test_timeout(self, mock_get):
+    def test_timeout(self, mock_get, configured_importer):
         mock_resp = self._mock_response(status=None, raise_for_status=Timeout("TIMEOUT"))
         mock_get.return_value = mock_resp
-
-        self.assertRaises(Timeout, self.actual.get_loxone_structure_file)
+        with pytest.raises(Timeout):
+            configured_importer.get_loxone_structure_file()
