@@ -98,3 +98,22 @@ class TestGetLoxoneStructureFile(object):
         mock_get.return_value = mock_resp
         with pytest.raises(Timeout):
             configured_importer.get_loxone_structure_file()
+
+
+@pytest.mark.usefixtures('configured_importer')
+class TestGenerateHaBridgeDevicesConfiguration(object):
+
+    def _load_json_fixture_file(self, file_name):
+        json_file = '{fixtures_dir}/{file_name}'.format(
+            fixtures_dir=FIXTURES_DIR,
+            file_name=file_name)
+        return json.loads(Path(json_file).read_text())
+
+    @pytest.mark.parametrize('loxone_structure_file,ha_bridge_devices_configuration', [
+        ('LoxAPP3_1.json', 'LoxAPP3_1_ha_bridge.json'),
+        ('LoxAPP3_2.json', 'LoxAPP3_2_ha_bridge.json'),
+    ])
+    def test_generate_ha_bridge_devices_configuration(self, loxone_structure_file, ha_bridge_devices_configuration, configured_importer):
+        actual = configured_importer.generate_ha_bridge_devices_configuration(self._load_json_fixture_file(loxone_structure_file))
+        expected = self._load_json_fixture_file(ha_bridge_devices_configuration)
+        assert actual == expected
