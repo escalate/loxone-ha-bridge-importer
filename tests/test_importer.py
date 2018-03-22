@@ -100,6 +100,39 @@ class TestGetLoxoneStructureFile(object):
             configured_importer.get_loxone_structure_file()
 
 
+@pytest.mark.parametrize('loxone_structure_file,loxone_controls', [
+    ('{ "controls": { "99999999-9999-9999-9999999999999999": {"name": "test"} } }', '{ "99999999-9999-9999-9999999999999999": {"name": "test"} }'),
+    ('{ "controls": { } }', '{}'),
+])
+@pytest.mark.usefixtures('unconfigured_importer')
+def test_get_loxone_controls(loxone_structure_file, loxone_controls, unconfigured_importer):
+    expected = json.loads(loxone_controls)
+    actual = unconfigured_importer.get_loxone_controls(json.loads(loxone_structure_file))
+    assert actual == expected
+
+
+@pytest.mark.parametrize('loxone_structure_file,loxone_rooms', [
+    ('{ "rooms": { "99999999-9999-9999-9999999999999999": {"name": "test"} } }', '{ "99999999-9999-9999-9999999999999999": {"name": "test"}, "00000000-0000-0000-0000000000000000": {"uuid": "00000000-0000-0000-0000000000000000", "name": ""} }'),
+    ('{ "rooms": { } }', '{ "00000000-0000-0000-0000000000000000": {"uuid": "00000000-0000-0000-0000000000000000", "name": ""} }'),
+])
+@pytest.mark.usefixtures('unconfigured_importer')
+def test_get_loxone_rooms(loxone_structure_file, loxone_rooms, unconfigured_importer):
+    expected = json.loads(loxone_rooms)
+    actual = unconfigured_importer.get_loxone_rooms(json.loads(loxone_structure_file))
+    assert actual == expected
+
+
+@pytest.mark.parametrize('loxone_structure_file,loxone_categories', [
+    ('{ "cats": { "99999999-9999-9999-9999999999999999": {"name": "test"} } }', '{ "99999999-9999-9999-9999999999999999": {"name": "test"}, "00000000-0000-0000-0000000000000000": {"uuid": "00000000-0000-0000-0000000000000000", "name": "undefined", "type": "undefined"} }'),
+    ('{ "cats": { } }', '{ "00000000-0000-0000-0000000000000000": {"uuid": "00000000-0000-0000-0000000000000000", "name": "undefined", "type": "undefined"} }'),
+])
+@pytest.mark.usefixtures('unconfigured_importer')
+def test_get_loxone_categories(loxone_structure_file, loxone_categories, unconfigured_importer):
+    expected = json.loads(loxone_categories)
+    actual = unconfigured_importer.get_loxone_categories(json.loads(loxone_structure_file))
+    assert actual == expected
+
+
 @pytest.mark.usefixtures('configured_importer')
 class TestGenerateHaBridgeDevicesConfiguration(object):
 
