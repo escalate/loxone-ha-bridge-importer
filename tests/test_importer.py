@@ -5,6 +5,7 @@ from importer import Importer, cli
 
 import pytest
 from unittest import mock
+import requests
 from requests.exceptions import HTTPError, Timeout
 from click.testing import CliRunner
 import json
@@ -95,14 +96,14 @@ class TestGetLoxoneStructureFile(object):
     @mock.patch('importer.requests.get')
     def test_ok(self, mock_get, configured_importer):
         expected = '{"key": "value"}'
-        mock_resp = mock_requests_response(status=200, json_data=expected)
+        mock_resp = mock_requests_response(status=requests.codes.ok, json_data=expected)
         mock_get.return_value = mock_resp
         actual = configured_importer.get_loxone_structure_file()
         assert actual == expected
 
     @mock.patch('importer.requests.get')
     def test_internal_server_error(self, mock_get, configured_importer):
-        mock_resp = mock_requests_response(status=500, raise_for_status=HTTPError("ERROR"))
+        mock_resp = mock_requests_response(status=requests.codes.internal_server_error, raise_for_status=HTTPError("ERROR"))
         mock_get.return_value = mock_resp
         with pytest.raises(HTTPError):
             configured_importer.get_loxone_structure_file()
@@ -168,7 +169,7 @@ class TestAddDevicesIntoHaBridge(object):
     def test_ok(self, mock_post, configured_importer):
         ha_bridge_devices_configuration = [{'key': 'value'}]
         device_configuration = {'key': 'value'}
-        mock_resp = mock_requests_response(status=201, json_data='{"key": "value"}')
+        mock_resp = mock_requests_response(status=requests.codes.created, json_data='{"key": "value"}')
         mock_post.return_value = mock_resp
         configured_importer.add_devices_into_ha_bridge(ha_bridge_devices_configuration)
         url = 'http://192.168.1.3:8080/api/devices'
@@ -177,7 +178,7 @@ class TestAddDevicesIntoHaBridge(object):
     @mock.patch('importer.requests.post')
     def test_internal_server_error(self, mock_post, configured_importer):
         ha_bridge_devices_configuration = {'key': 'value'}
-        mock_resp = mock_requests_response(status=500, raise_for_status=HTTPError("ERROR"))
+        mock_resp = mock_requests_response(status=requests.codes.internal_server_error, raise_for_status=HTTPError("ERROR"))
         mock_post.return_value = mock_resp
         with pytest.raises(HTTPError):
             configured_importer.add_devices_into_ha_bridge(ha_bridge_devices_configuration)

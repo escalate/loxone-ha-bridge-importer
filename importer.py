@@ -81,7 +81,7 @@ class Importer(object):
             auth=(self.loxone_username, self.loxone_password),
             timeout=5)
 
-        if r.status_code != 200:
+        if r.status_code != requests.codes.ok:
             r.raise_for_status()
 
         loxone_structure_file = r.json()
@@ -204,7 +204,7 @@ class Importer(object):
             r = requests.post(url, json=device_configuration, timeout=5)
             logging.debug(r.text)
 
-            if r.status_code != 201:
+            if r.status_code != requests.codes.created:
                 r.raise_for_status()
 
 
