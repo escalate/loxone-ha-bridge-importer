@@ -13,6 +13,31 @@ from pathlib import Path
 FIXTURES_DIR = os.path.abspath('tests/fixtures')
 
 
+def mock_requests_response(
+        status=200,
+        content="CONTENT",
+        json_data=None,
+        raise_for_status=None):
+    mock_resp = mock.Mock()
+    mock_resp.raise_for_status = mock.Mock()
+    if raise_for_status:
+        mock_resp.raise_for_status.side_effect = raise_for_status
+    mock_resp.status_code = status
+    mock_resp.content = content
+    if json_data:
+        mock_resp.json = mock.Mock(
+            return_value=json_data
+        )
+    return mock_resp
+
+
+def load_json_fixture_file(file_name):
+    json_file = '{fixtures_dir}/{file_name}'.format(
+        fixtures_dir=FIXTURES_DIR,
+        file_name=file_name)
+    return json.loads(Path(json_file).read_text())
+
+
 @pytest.fixture(scope='function')
 def unconfigured_importer():
     return Importer()
@@ -59,42 +84,25 @@ class TestSetter(object):
 
 @pytest.mark.usefixtures('configured_importer')
 class TestGetLoxoneStructureFile(object):
-    def _mock_response(
-            self,
-            status=200,
-            content="CONTENT",
-            json_data=None,
-            raise_for_status=None):
-        mock_resp = mock.Mock()
-        mock_resp.raise_for_status = mock.Mock()
-        if raise_for_status:
-            mock_resp.raise_for_status.side_effect = raise_for_status
-        mock_resp.status_code = status
-        mock_resp.content = content
-        if json_data:
-            mock_resp.json = mock.Mock(
-                return_value=json_data
-            )
-        return mock_resp
 
     @mock.patch('importer.requests.get')
     def test_ok(self, mock_get, configured_importer):
         expected = '{"key": "value"}'
-        mock_resp = self._mock_response(status=200, json_data=expected)
+        mock_resp = mock_requests_response(status=200, json_data=expected)
         mock_get.return_value = mock_resp
         actual = configured_importer.get_loxone_structure_file()
         assert actual == expected
 
     @mock.patch('importer.requests.get')
     def test_internal_server_error(self, mock_get, configured_importer):
-        mock_resp = self._mock_response(status=500, raise_for_status=HTTPError("ERROR"))
+        mock_resp = mock_requests_response(status=500, raise_for_status=HTTPError("ERROR"))
         mock_get.return_value = mock_resp
         with pytest.raises(HTTPError):
             configured_importer.get_loxone_structure_file()
 
     @mock.patch('importer.requests.get')
     def test_timeout(self, mock_get, configured_importer):
-        mock_resp = self._mock_response(status=None, raise_for_status=Timeout("TIMEOUT"))
+        mock_resp = mock_requests_response(status=None, raise_for_status=Timeout("TIMEOUT"))
         mock_get.return_value = mock_resp
         with pytest.raises(Timeout):
             configured_importer.get_loxone_structure_file()
@@ -136,17 +144,11 @@ def test_get_loxone_categories(loxone_structure_file, loxone_categories, unconfi
 @pytest.mark.usefixtures('configured_importer')
 class TestGenerateHaBridgeDevicesConfiguration(object):
 
-    def _load_json_fixture_file(self, file_name):
-        json_file = '{fixtures_dir}/{file_name}'.format(
-            fixtures_dir=FIXTURES_DIR,
-            file_name=file_name)
-        return json.loads(Path(json_file).read_text())
-
     @pytest.mark.parametrize('loxone_structure_file,ha_bridge_devices_configuration', [
         ('LoxAPP3_1.json', 'LoxAPP3_1_ha_bridge.json'),
         ('LoxAPP3_2.json', 'LoxAPP3_2_ha_bridge.json'),
     ])
     def test_generate_ha_bridge_devices_configuration(self, loxone_structure_file, ha_bridge_devices_configuration, configured_importer):
-        actual = configured_importer.generate_ha_bridge_devices_configuration(self._load_json_fixture_file(loxone_structure_file))
-        expected = self._load_json_fixture_file(ha_bridge_devices_configuration)
+        actual = configured_importer.generate_ha_bridge_devices_configuration(load_json_fixture_file(loxone_structure_file))
+        expected = load_json_fixture_file(ha_bridge_devices_configuration)
         assert actual == expected
