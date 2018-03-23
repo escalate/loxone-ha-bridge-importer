@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from importer import Importer
+from importer import Importer, cli
 
 import pytest
 from unittest import mock
 from requests.exceptions import HTTPError, Timeout
+from click.testing import CliRunner
 import json
 import os
 from pathlib import Path
@@ -52,6 +53,11 @@ def configured_importer():
     importer.ha_bridge_server = '192.168.1.3'
     importer.ha_bridge_port = '8080'
     return importer
+
+
+@pytest.fixture(scope='function')
+def cli_runner():
+    return CliRunner()
 
 
 @pytest.mark.usefixtures('unconfigured_importer')
@@ -183,3 +189,26 @@ class TestAddDevicesIntoHaBridge(object):
         mock_post.return_value = mock_resp
         with pytest.raises(Timeout):
             configured_importer.add_devices_into_ha_bridge(ha_bridge_devices_configuration)
+
+
+@pytest.mark.usefixtures('cli_runner')
+class TestCommandLineInterface(object):
+
+    def test_no_parameter(self, cli_runner):
+        actual = cli_runner.invoke(cli, [])
+        assert actual.exit_code == 2
+        assert 'Usage: cli [OPTIONS]' in actual.output
+        assert 'Error: Missing option "--loxone-miniserver".' in actual.output
+
+    def test_help(self, cli_runner):
+        actual = cli_runner.invoke(cli, ['--help'])
+        assert actual.exit_code == 0
+        assert 'Usage: cli [OPTIONS]' in actual.output
+
+    @mock.patch('importer.Importer', autospec=True)
+    def test_with_mandatory_parameter(self, mock_importer, cli_runner):
+        actual = cli_runner.invoke(cli, ['--loxone-miniserver=192.168.1.2', '--loxone-username=player1', '--loxone-password=secret'])
+        assert actual.exit_code == 0
+        assert 'Retrieve visualisation structure file from Loxone MiniServer' in actual.output
+        assert 'Generate HA-Bridge devices configruation from visualisation structure file' in actual.output
+        assert 'Add devices over REST API into HA-Bridge' in actual.output
