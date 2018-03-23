@@ -56,6 +56,7 @@ def configured_importer():
 
 @pytest.mark.usefixtures('unconfigured_importer')
 class TestSetter(object):
+
     def test_set_loxone_miniserver(self, configured_importer):
         expected = '192.168.1.2'
         configured_importer.set_loxone_miniserver(expected)
@@ -152,3 +153,33 @@ class TestGenerateHaBridgeDevicesConfiguration(object):
         actual = configured_importer.generate_ha_bridge_devices_configuration(load_json_fixture_file(loxone_structure_file))
         expected = load_json_fixture_file(ha_bridge_devices_configuration)
         assert actual == expected
+
+
+@pytest.mark.usefixtures('configured_importer')
+class TestAddDevicesIntoHaBridge(object):
+
+    @mock.patch('importer.requests.post')
+    def test_ok(self, mock_post, configured_importer):
+        ha_bridge_devices_configuration = [{'key': 'value'}]
+        device_configuration = {'key': 'value'}
+        mock_resp = mock_requests_response(status=201, json_data='{"key": "value"}')
+        mock_post.return_value = mock_resp
+        configured_importer.add_devices_into_ha_bridge(ha_bridge_devices_configuration)
+        url = 'http://192.168.1.3:8080/api/devices'
+        mock_post.assert_called_once_with(url, json=device_configuration, timeout=5)
+
+    @mock.patch('importer.requests.post')
+    def test_internal_server_error(self, mock_post, configured_importer):
+        ha_bridge_devices_configuration = {'key': 'value'}
+        mock_resp = mock_requests_response(status=500, raise_for_status=HTTPError("ERROR"))
+        mock_post.return_value = mock_resp
+        with pytest.raises(HTTPError):
+            configured_importer.add_devices_into_ha_bridge(ha_bridge_devices_configuration)
+
+    @mock.patch('importer.requests.post')
+    def test_timeout(self, mock_post, configured_importer):
+        ha_bridge_devices_configuration = {'key': 'value'}
+        mock_resp = mock_requests_response(status=None, raise_for_status=Timeout("TIMEOUT"))
+        mock_post.return_value = mock_resp
+        with pytest.raises(Timeout):
+            configured_importer.add_devices_into_ha_bridge(ha_bridge_devices_configuration)
