@@ -103,5 +103,8 @@ $ docker run \
 * [click](https://pypi.python.org/pypi/click)
 * [requests](https://pypi.python.org/pypi/requests)
 
+## Contribute
+Please note the separate [contributing guide](https://github.com/escalate/loxone-ha-bridge-importer/blob/master/CONTRIBUTING.md).
+
 ## License
 MIT
