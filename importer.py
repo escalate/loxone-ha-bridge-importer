@@ -25,6 +25,8 @@ class Importer(object):
         self.ha_bridge_server = None
         self.ha_bridge_port = None
         self.control_actions_map = {
+            'Alarm': {'on': 'delayedon', 'off': 'off'},
+            'CentralAlarm': {'on': 'delayedon', 'off': 'off'},
             'CentralGate': {'on': 'open', 'off': 'close'},
             'CentralJalousie': {'on': 'fulldown', 'off': 'fullup'},
             'Daytimer': None,
