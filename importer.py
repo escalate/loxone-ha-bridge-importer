@@ -40,7 +40,8 @@ class Importer(object):
             'Switch': {'on': 'pulse', 'off': 'pulse'},
             'TextState': None,
             'TimedSwitch': {'on': 'pulse', 'off': 'off'},
-            'Webpage': None
+            'Webpage': None,
+            'WindowMonitor': None
         }
 
     def set_loxone_miniserver(self, loxone_miniserver):
