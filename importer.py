@@ -38,6 +38,7 @@ class Importer(object):
             'Presence': None,
             'Pushbutton': {'on': 'on', 'off': 'off'},
             'Switch': {'on': 'pulse', 'off': 'pulse'},
+            'TextState': None,
             'TimedSwitch': {'on': 'pulse', 'off': 'off'},
             'Webpage': None
         }
