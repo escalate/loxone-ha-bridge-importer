@@ -25,20 +25,20 @@ class Importer(object):
         self.ha_bridge_server = None
         self.ha_bridge_port = None
         self.control_actions_map = {
-            'CentralGate': {'on': 'Open', 'off': 'Close'},
-            'CentralJalousie': {'on': 'FullDown', 'off': 'FullUp'},
+            'CentralGate': {'on': 'open', 'off': 'close'},
+            'CentralJalousie': {'on': 'fulldown', 'off': 'fullup'},
             'Daytimer': None,
-            'Dimmer': {'on': 'On', 'off': 'Off'},
-            'Gate': {'on': 'Open', 'off': 'Close'},
+            'Dimmer': {'on': 'on', 'off': 'off'},
+            'Gate': {'on': 'open', 'off': 'close'},
             'InfoOnlyAnalog': None,
             'InfoOnlyDigital': None,
             'IRoomController': None,
-            'Jalousie': {'on': 'FullDown', 'off': 'FullUp'},
+            'Jalousie': {'on': 'fulldown', 'off': 'fullup'},
             'Meter': None,
             'Presence': None,
-            'Pushbutton': {'on': 'On', 'off': 'Off'},
-            'Switch': {'on': 'Pulse', 'off': 'Pulse'},
-            'TimedSwitch': {'on': 'Pulse', 'off': 'Off'},
+            'Pushbutton': {'on': 'on', 'off': 'off'},
+            'Switch': {'on': 'pulse', 'off': 'pulse'},
+            'TimedSwitch': {'on': 'pulse', 'off': 'off'},
             'Webpage': None
         }
 
