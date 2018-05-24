@@ -12,21 +12,23 @@ Loxone offers many more control types and if you are missing one please create a
 
 | Control type    | On       | Dim | Off    |
 | --------------- | -------- | --- | ------ |
-| CentralGate     | Open     | -   | Close  |
-| CentralJalousie | FullDown | -   | FullUp |
+| CentralGate     | open     | -   | close  |
+| CentralJalousie | fulldown | -   | fullup |
 | Daytimer        | -        | -   | -      |
-| Dimmer          | On       | -   | Off    |
-| Gate            | Open     | -   | Close  |
+| Dimmer          | on       | -   | off    |
+| Gate            | open     | -   | close  |
 | InfoOnlyAnalog  | -        | -   | -      |
 | InfoOnlyDigital | -        | -   | -      |
 | IRoomController | -        | -   | -      |
-| Jalousie        | FullDown | -   | FullUp |
+| Jalousie        | fulldown | -   | fullup |
 | Meter           | -        | -   | -      |
 | Presence        | -        | -   | -      |
-| Pushbutton      | On       | -   | Off    |
-| Switch          | Pulse    | -   | Pulse  |
-| TimedSwitch     | Pulse    | -   | Off    |
+| Pushbutton      | on       | -   | off    |
+| Switch          | pulse    | -   | pulse  |
+| TextState       | -        | -   | -      |
+| TimedSwitch     | pulse    | -   | off    |
 | Webpage         | -        | -   | -      |
+| WindowMonitor   | -        | -   | -      |
 
 ## Installation
 Tested with Python 3.6.x on Ubuntu 16.04
