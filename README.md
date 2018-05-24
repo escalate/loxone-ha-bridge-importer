@@ -10,27 +10,28 @@ This is just the list of already implemented control types with there meaningful
 
 Loxone offers many more control types and if you are missing one please create a Pull Request or open an Issue on Github.
 
-| Control type    | On        | Dim | Off    |
-| --------------- | --------- | --- | ------ |
-| Alarm           | delayedon | -   | off    |
-| CentralAlarm    | delayedon | -   | off    |
-| CentralGate     | open      | -   | close  |
-| CentralJalousie | fulldown  | -   | fullup |
-| Daytimer        | -         | -   | -      |
-| Dimmer          | on        | -   | off    |
-| Gate            | open      | -   | close  |
-| InfoOnlyAnalog  | -         | -   | -      |
-| InfoOnlyDigital | -         | -   | -      |
-| IRoomController | -         | -   | -      |
-| Jalousie        | fulldown  | -   | fullup |
-| Meter           | -         | -   | -      |
-| Presence        | -         | -   | -      |
-| Pushbutton      | on        | -   | off    |
-| Switch          | pulse     | -   | pulse  |
-| TextState       | -         | -   | -      |
-| TimedSwitch     | pulse     | -   | off    |
-| Webpage         | -         | -   | -      |
-| WindowMonitor   | -         | -   | -      |
+| Control type    | On        | Dim | Off       |
+| --------------- | --------- | --- | --------- |
+| Alarm           | delayedon | -   | off       |
+| CentralAlarm    | delayedon | -   | off       |
+| CentralGate     | open      | -   | close     |
+| CentralJalousie | fulldown  | -   | fullup    |
+| Daytimer        | -         | -   | -         |
+| Dimmer          | on        | -   | off       |
+| Gate            | open      | -   | close     |
+| InfoOnlyAnalog  | -         | -   | -         |
+| InfoOnlyDigital | -         | -   | -         |
+| IRoomController | -         | -   | -         |
+| Jalousie        | fulldown  | -   | fullup    |
+| Meter           | -         | -   | -         |
+| Presence        | -         | -   | -         |
+| Pushbutton      | on        | -   | off       |
+| Switch          | pulse     | -   | pulse     |
+| TextState       | -         | -   | -         |
+| TimedSwitch     | pulse     | -   | off       |
+| UpDownDigital   | pulseup   | -   | pulsedown |
+| Webpage         | -         | -   | -         |
+| WindowMonitor   | -         | -   | -         |
 
 ## Installation
 Tested with Python 3.6.x on Ubuntu 16.04
