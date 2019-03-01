@@ -98,9 +98,9 @@ Run Docker container from built image with additional arguments
 ```
 $ docker run \
     importer \
-    --loxone-miniserver 192.168.1.2 \
-    --loxone-username alexa \
-    --loxone-password AmAz0n \
+    --loxone-miniserver="192.168.1.2" \
+    --loxone-username="alexa" \
+    --loxone-password="AmAz0n" \
     --verbose
 ```
 
