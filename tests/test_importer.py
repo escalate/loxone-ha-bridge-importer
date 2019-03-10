@@ -61,35 +61,6 @@ def cli_runner():
     return CliRunner()
 
 
-@pytest.mark.usefixtures('unconfigured_importer')
-class TestSetter(object):
-
-    def test_set_loxone_miniserver(self, configured_importer):
-        expected = '192.168.1.2'
-        configured_importer.set_loxone_miniserver(expected)
-        assert configured_importer.loxone_miniserver == expected
-
-    def test_set_loxone_username(self, configured_importer):
-        expected = 'player1'
-        configured_importer.set_loxone_username(expected)
-        assert configured_importer.loxone_username == expected
-
-    def test_set_loxone_password(self, configured_importer):
-        expected = 'secret'
-        configured_importer.set_loxone_password(expected)
-        assert configured_importer.loxone_password == expected
-
-    def test_set_ha_bridge_server(self, configured_importer):
-        expected = '192.168.1.3'
-        configured_importer.set_ha_bridge_server(expected)
-        assert configured_importer.ha_bridge_server == expected
-
-    def test_set_ha_bridge_port(self, configured_importer):
-        expected = '8080'
-        configured_importer.set_ha_bridge_port(expected)
-        assert configured_importer.ha_bridge_port == expected
-
-
 @pytest.mark.usefixtures('configured_importer')
 class TestGetLoxoneStructureFile(object):
 
