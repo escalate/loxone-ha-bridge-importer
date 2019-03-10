@@ -35,6 +35,7 @@ class Importer(object):
             'InfoOnlyAnalog': None,
             'InfoOnlyDigital': None,
             'IRoomController': None,
+            'IRoomControllerV2': None,
             'Jalousie': {'on': 'fulldown', 'off': 'fullup'},
             'Meter': None,
             'Presence': None,
