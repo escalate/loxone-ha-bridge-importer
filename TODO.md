@@ -1,3 +1,3 @@
 # TODO
 
-* use constructor and no setter
+No open ToDo's

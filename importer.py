@@ -47,35 +47,18 @@ class Importer(object):
             'WindowMonitor': None
         }
 
-    def set_loxone_miniserver(self, loxone_miniserver):
-        """Sets the IP address of Loxone MiniServer"""
-        self.loxone_miniserver = loxone_miniserver
+    def print_configuration(self):
+        """Prints configuration of Importer"""
         logging.debug('Loxone MiniServer is set to "{host}"'.format(
-            host=loxone_miniserver))
-
-    def set_loxone_username(self, loxone_username):
-        """Sets the username for Loxone MiniServer login"""
-        self.loxone_username = loxone_username
+            host=self.loxone_miniserver))
         logging.debug('Loxone username is set to "{username}"'.format(
-            username=loxone_username))
-
-    def set_loxone_password(self, loxone_password):
-        """Sets the password for Loxone MiniServer login"""
-        self.loxone_password = loxone_password
+            username=self.loxone_username))
         logging.debug('Loxone password is set to "{password}"'.format(
-            password=loxone_password))
-
-    def set_ha_bridge_server(self, ha_bridge_server):
-        """Sets the IP address of HA-Bridge server"""
-        self.ha_bridge_server = ha_bridge_server
+            password=self.loxone_password))
         logging.debug('HA-Bridge server is set to "{host}"'.format(
-            host=ha_bridge_server))
-
-    def set_ha_bridge_port(self, ha_bridge_port):
-        """Sets the port of HA-Bridge server"""
-        self.ha_bridge_port = ha_bridge_port
+            host=self.ha_bridge_server))
         logging.debug('HA-Bridge port is set to "{port}"'.format(
-            port=ha_bridge_port))
+            port=self.ha_bridge_port))
 
     def get_loxone_structure_file(self):
         """Retrieves visualisation structure file from Loxone MiniServer"""
@@ -248,11 +231,12 @@ def cli(*args, **kwargs):
     importer = Importer()
 
     # Handle required options
-    importer.set_loxone_miniserver(kwargs['loxone_miniserver'])
-    importer.set_loxone_username(kwargs['loxone_username'])
-    importer.set_loxone_password(kwargs['loxone_password'])
-    importer.set_ha_bridge_server(kwargs['ha_bridge_server'])
-    importer.set_ha_bridge_port(kwargs['ha_bridge_port'])
+    importer.loxone_miniserver = kwargs['loxone_miniserver']
+    importer.loxone_username = kwargs['loxone_username']
+    importer.loxone_password = kwargs['loxone_password']
+    importer.ha_bridge_server = kwargs['ha_bridge_server']
+    importer.ha_bridge_port = kwargs['ha_bridge_port']
+    importer.print_configuration()
 
     # Run Importer
     click.echo('Retrieve visualisation structure file from Loxone MiniServer')
