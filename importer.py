@@ -40,6 +40,7 @@ class Importer(object):
             'Meter': None,
             'Presence': None,
             'Pushbutton': {'on': 'on', 'off': 'off'},
+            'Radio': None,
             'Switch': {'on': 'pulse', 'off': 'pulse'},
             'TextState': None,
             'TimedSwitch': {'on': 'pulse', 'off': 'off'},

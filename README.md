@@ -27,6 +27,7 @@ Loxone offers many more control types and if you are missing one please create a
 | Meter             | -         | -   | -         |
 | Presence          | -         | -   | -         |
 | Pushbutton        | on        | -   | off       |
+| Radio             | -         | -   | -         |
 | Switch            | pulse     | -   | pulse     |
 | TextState         | -         | -   | -         |
 | TimedSwitch       | pulse     | -   | off       |
