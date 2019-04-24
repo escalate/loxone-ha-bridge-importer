@@ -37,6 +37,7 @@ class Importer(object):
             'IRoomController': None,
             'IRoomControllerV2': None,
             'Jalousie': {'on': 'fulldown', 'off': 'fullup'},
+            'LightController': {'on': 'on', 'off': 'off'},
             'Meter': None,
             'Presence': None,
             'Pushbutton': {'on': 'on', 'off': 'off'},

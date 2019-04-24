@@ -24,6 +24,7 @@ Loxone offers many more control types and if you are missing one please create a
 | IRoomController   | -         | -   | -         |
 | IRoomControllerV2 | -         | -   | -         |
 | Jalousie          | fulldown  | -   | fullup    |
+| LightController   | on        | -   | off       |
 | Meter             | -         | -   | -         |
 | Presence          | -         | -   | -         |
 | Pushbutton        | on        | -   | off       |
