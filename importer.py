@@ -203,19 +203,24 @@ class Importer(object):
 @click.command()
 @click.option('--loxone-miniserver',
               required=True,
+              type=str,
               help='Set IP address of Loxone MiniServer')
 @click.option('--loxone-username',
               required=True,
+              type=str,
               help='Set username for Loxone MiniServer login')
 @click.option('--loxone-password',
               required=True,
+              type=str,
               help='Set password for Loxone MiniServer login')
 @click.option('--ha-bridge-server',
               required=True,
+              type=str,
               default='localhost',
               help='Set IP address of HA-Bridge server (Default: localhost)')
 @click.option('--ha-bridge-port',
               required=True,
+              type=int,
               default=8080,
               help='Set port of HA-Bridge server (Default: 8080)')
 @click.option('--verbose',
