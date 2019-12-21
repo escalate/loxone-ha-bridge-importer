@@ -44,5 +44,6 @@ coverage.xml
 venv/
 ENV/
 
-# IntelliJ IDEA
+# IDE
 .idea/
+.vscode/
