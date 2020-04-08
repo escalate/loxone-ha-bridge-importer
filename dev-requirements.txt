@@ -1,4 +1,4 @@
-flake8>=3.7.8
-pytest>=5.0.1
-pytest-cov>=2.7.1
-tox>=3.13.2
+flake8>=3.7.9
+pytest>=5.4.1
+pytest-cov>=2.8.1
+tox>=3.14.6
