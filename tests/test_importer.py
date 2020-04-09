@@ -52,7 +52,7 @@ def configured_importer():
     importer.loxone_miniserver_port = '80'
     importer.loxone_username = 'player1'
     importer.loxone_password = 'secret'
-    importer.ha_bridge_server = '192.168.1.3'
+    importer.ha_bridge_host = '192.168.1.3'
     importer.ha_bridge_port = '8080'
     return importer
 

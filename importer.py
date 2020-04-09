@@ -23,7 +23,7 @@ class Importer(object):
         self.loxone_miniserver_port = None
         self.loxone_username = None
         self.loxone_password = None
-        self.ha_bridge_server = None
+        self.ha_bridge_host = None
         self.ha_bridge_port = None
         self.control_actions_map = {
             'Alarm': {'on': 'delayedon', 'off': 'off'},
@@ -63,9 +63,9 @@ class Importer(object):
             username=self.loxone_username))
         logging.debug('Loxone password is set to "{password}"'.format(
             password=self.loxone_password))
-        logging.debug('HA-Bridge server is set to "{host}"'.format(
-            host=self.ha_bridge_server))
-        logging.debug('HA-Bridge port is set to "{port}"'.format(
+        logging.debug('HA-Bridge server host is set to "{host}"'.format(
+            host=self.ha_bridge_host))
+        logging.debug('HA-Bridge server port is set to "{port}"'.format(
             port=self.ha_bridge_port))
 
     def get_loxone_structure_file(self):
@@ -195,9 +195,9 @@ class Importer(object):
         return ha_bridge_devices_configuration
 
     def add_devices_into_ha_bridge(self, ha_bridge_devices_configuration):
-        """Adds devices over REST API into HA-Bridge"""
+        """Adds devices over REST API into HA-Bridge server"""
         url = 'http://{host}:{port}/api/devices'.format(
-              host=self.ha_bridge_server,
+              host=self.ha_bridge_host,
               port=self.ha_bridge_port)
 
         for device_configuration in ha_bridge_devices_configuration:
@@ -226,11 +226,11 @@ class Importer(object):
               required=True,
               type=str,
               help='Set password for Loxone MiniServer login')
-@click.option('--ha-bridge-server',
+@click.option('--ha-bridge-host',
               required=True,
               type=str,
               default='localhost',
-              help='Set IP address of HA-Bridge server (Default: localhost)')
+              help='Set IP address / hostname of HA-Bridge server (Default: localhost)')
 @click.option('--ha-bridge-port',
               required=True,
               type=int,
@@ -257,7 +257,7 @@ def cli(*args, **kwargs):
     importer.loxone_miniserver_port = kwargs['loxone_miniserver_port']
     importer.loxone_username = kwargs['loxone_username']
     importer.loxone_password = kwargs['loxone_password']
-    importer.ha_bridge_server = kwargs['ha_bridge_server']
+    importer.ha_bridge_host = kwargs['ha_bridge_host']
     importer.ha_bridge_port = kwargs['ha_bridge_port']
     importer.print_configuration()
 
@@ -266,7 +266,7 @@ def cli(*args, **kwargs):
     loxone_structure_file = importer.get_loxone_structure_file()
     click.echo('Generate HA-Bridge devices configruation from visualisation structure file')
     ha_bridge_devices_configuration = importer.generate_ha_bridge_devices_configuration(loxone_structure_file)
-    click.echo('Add devices over REST API into HA-Bridge')
+    click.echo('Add devices over REST API into HA-Bridge server')
     importer.add_devices_into_ha_bridge(ha_bridge_devices_configuration)
 
 
