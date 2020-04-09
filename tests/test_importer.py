@@ -48,7 +48,8 @@ def unconfigured_importer():
 @pytest.fixture(scope='function')
 def configured_importer():
     importer = Importer()
-    importer.loxone_miniserver = '192.168.1.2'
+    importer.loxone_miniserver_host = '192.168.1.2'
+    importer.loxone_miniserver_port = '80'
     importer.loxone_username = 'player1'
     importer.loxone_password = 'secret'
     importer.ha_bridge_server = '192.168.1.3'
@@ -170,7 +171,7 @@ class TestCommandLineInterface(object):
         actual = cli_runner.invoke(cli, [])
         assert actual.exit_code == 2
         assert 'Usage: cli [OPTIONS]' in actual.output
-        assert 'Error: Missing option "--loxone-miniserver".' in actual.output
+        assert 'Error: Missing option "--loxone-miniserver-host".' in actual.output
 
     def test_help(self, cli_runner):
         actual = cli_runner.invoke(cli, ['--help'])
@@ -179,7 +180,7 @@ class TestCommandLineInterface(object):
 
     @mock.patch('importer.Importer', autospec=True)
     def test_with_mandatory_parameter(self, mock_importer, cli_runner):
-        actual = cli_runner.invoke(cli, ['--loxone-miniserver=192.168.1.2', '--loxone-username=player1', '--loxone-password=secret'])
+        actual = cli_runner.invoke(cli, ['--loxone-miniserver-host=192.168.1.2', '--loxone-username=player1', '--loxone-password=secret'])
         assert actual.exit_code == 0
         assert 'Retrieve visualisation structure file from Loxone MiniServer' in actual.output
         assert 'Generate HA-Bridge devices configruation from visualisation structure file' in actual.output

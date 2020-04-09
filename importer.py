@@ -19,7 +19,8 @@ class Importer(object):
         """Constructor"""
 
         # Declare variables
-        self.loxone_miniserver = None
+        self.loxone_miniserver_host = None
+        self.loxone_miniserver_port = None
         self.loxone_username = None
         self.loxone_password = None
         self.ha_bridge_server = None
@@ -54,8 +55,10 @@ class Importer(object):
 
     def print_configuration(self):
         """Prints configuration of Importer"""
-        logging.debug('Loxone MiniServer is set to "{host}"'.format(
-            host=self.loxone_miniserver))
+        logging.debug('Loxone MiniServer host is set to "{host}"'.format(
+            host=self.loxone_miniserver_host))
+        logging.debug('Loxone MiniServer port is set to "{port}"'.format(
+            port=self.loxone_miniserver_port))
         logging.debug('Loxone username is set to "{username}"'.format(
             username=self.loxone_username))
         logging.debug('Loxone password is set to "{password}"'.format(
@@ -67,8 +70,9 @@ class Importer(object):
 
     def get_loxone_structure_file(self):
         """Retrieves visualisation structure file from Loxone MiniServer"""
-        url = 'http://{host}/data/LoxAPP3.json'.format(
-              host=self.loxone_miniserver)
+        url = 'http://{host}:{port}/data/LoxAPP3.json'.format(
+              host=self.loxone_miniserver_host,
+              port=self.loxone_miniserver_port)
         r = requests.get(
             url,
             auth=(self.loxone_username, self.loxone_password),
@@ -112,7 +116,7 @@ class Importer(object):
         """Generates HA-Bridge devices configruation
         from visualisation structure file"""
         ha_bridge_devices_configuration = []
-        loxone_url_schema = 'http://{username}:{password}@{miniserver}/dev/sps/io/{control}/{action}'
+        loxone_url_schema = 'http://{username}:{password}@{host}:{port}/dev/sps/io/{control}/{action}'
         loxone_controls = self.get_loxone_controls(loxone_structure_file)
         loxone_rooms = self.get_loxone_rooms(loxone_structure_file)
         loxone_categories = self.get_loxone_categories(loxone_structure_file)
@@ -157,7 +161,8 @@ class Importer(object):
                         url = loxone_url_schema.format(
                             username=self.loxone_username,
                             password=self.loxone_password,
-                            miniserver=self.loxone_miniserver,
+                            host=self.loxone_miniserver_host,
+                            port=self.loxone_miniserver_port,
                             control=uuid,
                             action=self.control_actions_map[control_type]['on'])
                         ha_bridge_on[0]['item'] = url
@@ -166,7 +171,8 @@ class Importer(object):
                         url = loxone_url_schema.format(
                             username=self.loxone_username,
                             password=self.loxone_password,
-                            miniserver=self.loxone_miniserver,
+                            host=self.loxone_miniserver_host,
+                            port=self.loxone_miniserver_port,
                             control=uuid,
                             action=self.control_actions_map[control_type]['dim'])
                         ha_bridge_dim[0]['item'] = url
@@ -175,7 +181,8 @@ class Importer(object):
                         url = loxone_url_schema.format(
                             username=self.loxone_username,
                             password=self.loxone_password,
-                            miniserver=self.loxone_miniserver,
+                            host=self.loxone_miniserver_host,
+                            port=self.loxone_miniserver_port,
                             control=uuid,
                             action=self.control_actions_map[control_type]['off'])
                         ha_bridge_off[0]['item'] = url
@@ -202,10 +209,15 @@ class Importer(object):
 
 
 @click.command()
-@click.option('--loxone-miniserver',
+@click.option('--loxone-miniserver-host',
               required=True,
               type=str,
-              help='Set IP address of Loxone MiniServer')
+              help='Set IP address / hostname of Loxone MiniServer')
+@click.option('--loxone-miniserver-port',
+              required=True,
+              type=int,
+              default=80,
+              help='Set port of Loxone MiniServer (Default: 80)')
 @click.option('--loxone-username',
               required=True,
               type=str,
@@ -241,7 +253,8 @@ def cli(*args, **kwargs):
     importer = Importer()
 
     # Handle required options
-    importer.loxone_miniserver = kwargs['loxone_miniserver']
+    importer.loxone_miniserver_host = kwargs['loxone_miniserver_host']
+    importer.loxone_miniserver_port = kwargs['loxone_miniserver_port']
     importer.loxone_username = kwargs['loxone_username']
     importer.loxone_password = kwargs['loxone_password']
     importer.ha_bridge_server = kwargs['ha_bridge_server']
