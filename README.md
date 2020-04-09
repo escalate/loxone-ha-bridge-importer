@@ -33,6 +33,7 @@ Loxone offers many more control types and if you are missing one please create a
 | Switch            | pulse     | -   | pulse     |
 | TextState         | -         | -   | -         |
 | TimedSwitch       | pulse     | -   | off       |
+| Tracker           | -         | -   | -         |
 | UpDownDigital     | pulseup   | -   | pulsedown |
 | Webpage           | -         | -   | -         |
 | WindowMonitor     | -         | -   | -         |

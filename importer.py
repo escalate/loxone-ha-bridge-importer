@@ -46,6 +46,7 @@ class Importer(object):
             'Switch': {'on': 'pulse', 'off': 'pulse'},
             'TextState': None,
             'TimedSwitch': {'on': 'pulse', 'off': 'off'},
+            'Tracker': None,
             'UpDownDigital': {'on': 'pulseup', 'off': 'pulsedown'},
             'Webpage': None,
             'WindowMonitor': None
