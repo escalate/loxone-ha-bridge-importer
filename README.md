@@ -61,17 +61,17 @@ $ ./importer.py --help
 
 Usage: importer.py [OPTIONS]
 
-  Commandline interface for Loxone / HA-Bridge Importer
+    Commandline interface for Loxone / HA-Bridge Importer
 
 Options:
-  --loxone-miniserver-host TEXT    Set IP address / hostname of Loxone MiniServer  [required]
-  --loxone-miniserver-port INTEGER Set port of Loxone MiniServer (Default: 80) [required]
-  --loxone-username TEXT           Set username for Loxone MiniServer login [required]
-  --loxone-password TEXT           Set password for Loxone MiniServer login [required]
-  --ha-bridge-host TEXT            Set IP address / hostname of HA-Bridge server (Default: localhost) [required]
-  --ha-bridge-port INTEGER         Set port of HA-Bridge server (Default: 8080) [required]
-  --verbose                        Enable verbose logging output
-  --help                           Show this message and exit.
+    --loxone-miniserver-host TEXT    Set IP address / hostname of Loxone MiniServer  [required]
+    --loxone-miniserver-port INTEGER Set port of Loxone MiniServer (Default: 80) [required]
+    --loxone-username TEXT           Set username for Loxone MiniServer login [required]
+    --loxone-password TEXT           Set password for Loxone MiniServer login [required]
+    --ha-bridge-host TEXT            Set IP address / hostname of HA-Bridge server (Default: localhost) [required]
+    --ha-bridge-port INTEGER         Set port of HA-Bridge server (Default: 8080) [required]
+    --verbose                        Enable verbose logging output
+    --help                           Show this message and exit.
 ```
 
 ## Docker
@@ -89,7 +89,7 @@ $ docker run \
 
 Usage: importer.py [OPTIONS]
 
-  Commandline interface for Loxone / HA-Bridge Importer
+    Commandline interface for Loxone / HA-Bridge Importer
 
 Options:
 ...

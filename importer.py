@@ -71,8 +71,9 @@ class Importer(object):
     def get_loxone_structure_file(self):
         """Retrieves visualisation structure file from Loxone MiniServer"""
         url = 'http://{host}:{port}/data/LoxAPP3.json'.format(
-              host=self.loxone_miniserver_host,
-              port=self.loxone_miniserver_port)
+            host=self.loxone_miniserver_host,
+            port=self.loxone_miniserver_port
+        )
         r = requests.get(
             url,
             auth=(self.loxone_username, self.loxone_password),
@@ -197,8 +198,9 @@ class Importer(object):
     def add_devices_into_ha_bridge(self, ha_bridge_devices_configuration):
         """Adds devices over REST API into HA-Bridge server"""
         url = 'http://{host}:{port}/api/devices'.format(
-              host=self.ha_bridge_host,
-              port=self.ha_bridge_port)
+            host=self.ha_bridge_host,
+            port=self.ha_bridge_port
+        )
 
         for device_configuration in ha_bridge_devices_configuration:
             r = requests.post(url, json=device_configuration, timeout=5)
@@ -209,36 +211,50 @@ class Importer(object):
 
 
 @click.command()
-@click.option('--loxone-miniserver-host',
-              required=True,
-              type=str,
-              help='Set IP address / hostname of Loxone MiniServer')
-@click.option('--loxone-miniserver-port',
-              required=True,
-              type=int,
-              default=80,
-              help='Set port of Loxone MiniServer (Default: 80)')
-@click.option('--loxone-username',
-              required=True,
-              type=str,
-              help='Set username for Loxone MiniServer login')
-@click.option('--loxone-password',
-              required=True,
-              type=str,
-              help='Set password for Loxone MiniServer login')
-@click.option('--ha-bridge-host',
-              required=True,
-              type=str,
-              default='localhost',
-              help='Set IP address / hostname of HA-Bridge server (Default: localhost)')
-@click.option('--ha-bridge-port',
-              required=True,
-              type=int,
-              default=8080,
-              help='Set port of HA-Bridge server (Default: 8080)')
-@click.option('--verbose',
-              is_flag=True,
-              help='Enable verbose logging output')
+@click.option(
+    '--loxone-miniserver-host',
+    required=True,
+    type=str,
+    help='Set IP address / hostname of Loxone MiniServer'
+)
+@click.option(
+    '--loxone-miniserver-port',
+    required=True,
+    type=int,
+    default=80,
+    help='Set port of Loxone MiniServer (Default: 80)'
+)
+@click.option(
+    '--loxone-username',
+    required=True,
+    type=str,
+    help='Set username for Loxone MiniServer login'
+)
+@click.option(
+    '--loxone-password',
+    required=True,
+    type=str,
+    help='Set password for Loxone MiniServer login'
+)
+@click.option(
+    '--ha-bridge-host',
+    required=True,
+    type=str,
+    default='localhost',
+    help='Set IP address / hostname of HA-Bridge server (Default: localhost)'
+)
+@click.option(
+    '--ha-bridge-port',
+    required=True,
+    type=int,
+    default=8080,
+    help='Set port of HA-Bridge server (Default: 8080)'
+)
+@click.option(
+    '--verbose',
+    is_flag=True,
+    help='Enable verbose logging output'
+)
 def cli(*args, **kwargs):
     """Commandline interface for Loxone / HA-Bridge Importer"""
 
