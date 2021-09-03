@@ -1,3 +1,5 @@
+[![Test](https://github.com/escalate/loxone-ha-bridge-importer/actions/workflows/test.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/loxone-ha-bridge-importer/actions/workflows/test.yml)
+
 # Loxone / HA-Bridge Importer
 
 A commandline tool to import [Loxone](https://www.loxone.com) controls into [HA-Bridge](https://github.com/bwssytems/ha-bridge).
