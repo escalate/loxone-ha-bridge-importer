@@ -1,5 +1,4 @@
 # Loxone / HA-Bridge Importer
-[![Build Status](https://travis-ci.org/escalate/loxone-ha-bridge-importer.svg?branch=master)](https://travis-ci.org/escalate/loxone-ha-bridge-importer)
 
 A commandline tool to import [Loxone](https://www.loxone.com) controls into [HA-Bridge](https://github.com/bwssytems/ha-bridge).
 
