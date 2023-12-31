@@ -40,9 +40,9 @@ Loxone offers many more control types and if you are missing one please create a
 | WindowMonitor     | -         | -   | -         |
 
 ## Installation
-Tested with Python 3.7 on Ubuntu 18.04
+Tested with Python 3.12 on Ubuntu 22.04
 
-If you encounter issues with 3.7.x patch versions of Python, please open a Github issue.
+If you encounter issues with 3.12.x patch versions of Python, please open a Github issue.
 
 ### Requirements
 Install needed requirements via pip
