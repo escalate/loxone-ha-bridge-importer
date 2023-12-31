@@ -171,7 +171,7 @@ class TestCommandLineInterface(object):
         actual = cli_runner.invoke(cli, [])
         assert actual.exit_code == 2
         assert 'Usage: cli [OPTIONS]' in actual.output
-        assert 'Error: Missing option "--loxone-miniserver-host".' in actual.output
+        assert "Error: Missing option '--loxone-miniserver-host'." in actual.output
 
     def test_help(self, cli_runner):
         actual = cli_runner.invoke(cli, ['--help'])
