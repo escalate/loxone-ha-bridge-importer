@@ -13,7 +13,6 @@ from requests.exceptions import HTTPError, Timeout
 
 from importer import Importer, cli
 
-
 FIXTURES_DIR = os.path.abspath('tests/fixtures')
 
 
