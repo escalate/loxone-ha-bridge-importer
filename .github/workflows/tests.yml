@@ -1,4 +1,4 @@
-name: Test
+name: Tests
 'on':
   push:
     branches:
@@ -152,25 +152,35 @@ jobs:
           python-version: '3.x'
 
       - name: Check for Ansible playbook files
-        id: check_ansible_playbook
+        id: check_ansible
         uses: andstor/file-existence-action@v2
         with:
-          files: "hosts, site.yml, requirements.yml"
+          files: "tasks, meta"
 
       - name: Install latest ansible version
-        if: steps.check_ansible_playbook.outputs.files_exists == 'true'
+        if: steps.check_ansible.outputs.files_exists == 'true'
         run: |
           pip3 install --disable-pip-version-check ansible
 
       - name: Install latest ansible-lint version
-        if: steps.check_ansible_playbook.outputs.files_exists == 'true'
+        if: steps.check_ansible.outputs.files_exists == 'true'
         run: |
           pip3 install --disable-pip-version-check ansible-lint
 
-      - name: Run ansible-lint
-        if: steps.check_ansible_playbook.outputs.files_exists == 'true'
+      - name: Install latest molecule version
+        if: steps.check_ansible.outputs.files_exists == 'true'
         run: |
-          find . -maxdepth 1 -name "*.yml" -not -name "requirements.yml" | xargs -n1 ansible-lint --force-color
+          pip3 install --disable-pip-version-check molecule molecule-plugins[docker] pytest-testinfra
+
+      - name: Run ansible-lint
+        if: steps.check_ansible.outputs.files_exists == 'true'
+        run: |
+          ansible-lint --force-color .
+
+      - name: Run molecule
+        if: steps.check_ansible.outputs.files_exists == 'true'
+        run: |
+          molecule test --all
 
   tox:
     name: Tox
