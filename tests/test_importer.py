@@ -1,16 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from importer import Importer, cli
-
-import pytest
-from unittest import mock
-import requests
-from requests.exceptions import HTTPError, Timeout
-from click.testing import CliRunner
 import json
 import os
 from pathlib import Path
+from unittest import mock
+
+import pytest
+import requests
+from click.testing import CliRunner
+from requests.exceptions import HTTPError, Timeout
+
+from importer import Importer, cli
+
 
 FIXTURES_DIR = os.path.abspath('tests/fixtures')
 

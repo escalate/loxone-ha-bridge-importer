@@ -5,10 +5,11 @@
 to control Importer class"""
 
 import json
-import requests
 import logging
-import click
 from collections import OrderedDict
+
+import click
+import requests
 
 
 class Importer(object):
