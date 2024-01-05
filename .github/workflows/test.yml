@@ -216,4 +216,4 @@ jobs:
       - name: Run tox
         if: steps.check_tox.outputs.files_exists == 'true'
         run: |
-          make test
+          tox
