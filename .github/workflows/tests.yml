@@ -6,4 +6,5 @@ name: Tests
   pull_request:
 jobs:
   tests:
+    name: Tests
     uses: escalate/github-actions-workflows/.github/workflows/tests.yml@master
