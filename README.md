@@ -7,6 +7,7 @@ A commandline tool to import [Loxone](https://www.loxone.com) controls into [HA-
 **ATTENTION** It is recommended to create an backup of the current HA-Bridge configuration before using this tool.
 
 ## Supported Loxone control types and actions
+
 This is just the list of already implemented control types with there meaningful actions.
 
 Loxone offers many more control types and if you are missing one please create a Pull Request or open an Issue on Github.
@@ -40,11 +41,13 @@ Loxone offers many more control types and if you are missing one please create a
 | WindowMonitor     | -         | -   | -         |
 
 ## Installation
+
 Tested with Python 3.12 on Ubuntu 22.04
 
 If you encounter issues with 3.12.x patch versions of Python, please open a Github issue.
 
 ### Requirements
+
 Install needed requirements via pip
 
 ```
@@ -52,12 +55,14 @@ $ pip install -r requirements.txt
 ```
 
 ### Run
+
 Run tool from commandline
 ```
 $ ./importer.py
 ```
 
 ## Usage
+
 ```
 $ ./importer.py --help
 
@@ -77,6 +82,7 @@ Options:
 ```
 
 ## Docker
+
 Build Docker image
 ```
 $ docker build \
@@ -108,11 +114,14 @@ $ docker run \
 ```
 
 ## Dependencies
+
 * [click](https://pypi.python.org/pypi/click)
 * [requests](https://pypi.python.org/pypi/requests)
 
 ## Contribute
+
 Please note the separate [contributing guide](https://github.com/escalate/loxone-ha-bridge-importer/blob/master/CONTRIBUTING.md).
 
 ## License
+
 MIT
