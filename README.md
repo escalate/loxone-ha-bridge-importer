@@ -1,4 +1,4 @@
-[![Tests](https://github.com/escalate/loxone-ha-bridge-importer/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/loxone-ha-bridge-importer/actions/workflows/tests.yml)
+[![Test](https://github.com/escalate/loxone-ha-bridge-importer/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/loxone-ha-bridge-importer/actions/workflows/tests.yml)
 
 # Loxone / HA-Bridge Importer
 
