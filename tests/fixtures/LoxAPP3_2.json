@@ -394,7 +394,15 @@
         "overrideTotal": "0f8cad80-03ab-154c-ffffc6c42b3ee057",
         "movement": "0f8cad80-03ab-154b-ffffc6c42b3ee057",
         "manualMode": "0f8cad80-03ab-154d-ffffc6c42b3ee057",
-        "temperatures": ["0cb8fa69-0054-5997-ffffe27a34b1aa1f", "0cb8fa69-0054-5998-ffffe27a34b1aa1f", "0cb8fa69-0054-5999-ffffe27a34b1aa1f", "0cb8fa69-0054-599c-ffffe27a34b1aa1f", "0cb8fa69-0054-599d-ffffe27a34b1aa1f", "0cb8fa69-0054-599b-ffffe27a34b1aa1f", "0cb8fa69-0054-599a-ffffe27a34b1aa1f"]
+        "temperatures": [
+          "0cb8fa69-0054-5997-ffffe27a34b1aa1f",
+          "0cb8fa69-0054-5998-ffffe27a34b1aa1f",
+          "0cb8fa69-0054-5999-ffffe27a34b1aa1f",
+          "0cb8fa69-0054-599c-ffffe27a34b1aa1f",
+          "0cb8fa69-0054-599d-ffffe27a34b1aa1f",
+          "0cb8fa69-0054-599b-ffffe27a34b1aa1f",
+          "0cb8fa69-0054-599a-ffffe27a34b1aa1f"
+        ]
       },
       "subControls": {
         "0cb8fa69-0054-5985-ffffe27a34b1aa1f": {
@@ -666,13 +674,16 @@
       "isFavorite": false,
       "isSecured": false,
       "details": {
-        "controls": [{
-          "id": 0,
-          "uuid": "0cb8f4a0-01ea-6d87-ffff316041bf9224"
-        }, {
-          "id": 1,
-          "uuid": "0cb8f4a4-00c1-765d-ffffab6fc980f9e2"
-        }]
+        "controls": [
+          {
+            "id": 0,
+            "uuid": "0cb8f4a0-01ea-6d87-ffff316041bf9224"
+          },
+          {
+            "id": 1,
+            "uuid": "0cb8f4a4-00c1-765d-ffffab6fc980f9e2"
+          }
+        ]
       }
     },
     "0cb8f4a4-00c1-765d-ffffab6fc980f9e2": {
@@ -796,7 +807,15 @@
         "overrideTotal": "0f8cad80-03ab-16e6-ffffc6c42b3ee057",
         "movement": "0f8cad80-03ab-16e5-ffffc6c42b3ee057",
         "manualMode": "0f8cad80-03ab-16e7-ffffc6c42b3ee057",
-        "temperatures": ["0cb8fa84-01fa-8b9f-ffffed9417dd8f98", "0cb8fa84-01fa-8ba0-ffffed9417dd8f98", "0cb8fa84-01fa-8ba1-ffffed9417dd8f98", "0cb8fa84-01fa-8ba4-ffffed9417dd8f98", "0cb8fa84-01fa-8ba5-ffffed9417dd8f98", "0cb8fa84-01fa-8ba3-ffffed9417dd8f98", "0cb8fa84-01fa-8ba2-ffffed9417dd8f98"]
+        "temperatures": [
+          "0cb8fa84-01fa-8b9f-ffffed9417dd8f98",
+          "0cb8fa84-01fa-8ba0-ffffed9417dd8f98",
+          "0cb8fa84-01fa-8ba1-ffffed9417dd8f98",
+          "0cb8fa84-01fa-8ba4-ffffed9417dd8f98",
+          "0cb8fa84-01fa-8ba5-ffffed9417dd8f98",
+          "0cb8fa84-01fa-8ba3-ffffed9417dd8f98",
+          "0cb8fa84-01fa-8ba2-ffffed9417dd8f98"
+        ]
       },
       "subControls": {
         "0cb8fa84-01fa-8b8d-ffffed9417dd8f98": {
@@ -954,7 +973,15 @@
         "overrideTotal": "0f8cad80-039b-0e25-ffffc6c42b3ee057",
         "movement": "0f8cad80-039b-0e24-ffffc6c42b3ee057",
         "manualMode": "0f8cad80-039b-0e26-ffffc6c42b3ee057",
-        "temperatures": ["0d9ee66b-0201-e54c-ffff9712198ad87d", "0d9ee66b-0201-e54d-ffff9712198ad87d", "0d9ee66b-0201-e54e-ffff9712198ad87d", "0d9ee66b-0201-e551-ffff9712198ad87d", "0d9ee66b-0201-e552-ffff9712198ad87d", "0d9ee66b-0201-e550-ffff9712198ad87d", "0d9ee66b-0201-e54f-ffff9712198ad87d"]
+        "temperatures": [
+          "0d9ee66b-0201-e54c-ffff9712198ad87d",
+          "0d9ee66b-0201-e54d-ffff9712198ad87d",
+          "0d9ee66b-0201-e54e-ffff9712198ad87d",
+          "0d9ee66b-0201-e551-ffff9712198ad87d",
+          "0d9ee66b-0201-e552-ffff9712198ad87d",
+          "0d9ee66b-0201-e550-ffff9712198ad87d",
+          "0d9ee66b-0201-e54f-ffff9712198ad87d"
+        ]
       },
       "subControls": {
         "0d9ee66b-01f1-e538-ffff9712198ad87d": {
@@ -1080,7 +1107,15 @@
         "overrideTotal": "0f8cad80-039b-0eb1-ffffc6c42b3ee057",
         "movement": "0f8cad80-039b-0eb0-ffffc6c42b3ee057",
         "manualMode": "0f8cad80-039b-0eb2-ffffc6c42b3ee057",
-        "temperatures": ["0cb8f987-0332-8b1c-ffff4ed50c32d55b", "0cb8f987-0332-8b1d-ffff4ed50c32d55b", "0cb8f987-0332-8b1e-ffff4ed50c32d55b", "0cb8f987-0332-8b21-ffff4ed50c32d55b", "0cb8f987-0332-8b22-ffff4ed50c32d55b", "0cb8f987-0332-8b20-ffff4ed50c32d55b", "0cb8f987-0332-8b1f-ffff4ed50c32d55b"]
+        "temperatures": [
+          "0cb8f987-0332-8b1c-ffff4ed50c32d55b",
+          "0cb8f987-0332-8b1d-ffff4ed50c32d55b",
+          "0cb8f987-0332-8b1e-ffff4ed50c32d55b",
+          "0cb8f987-0332-8b21-ffff4ed50c32d55b",
+          "0cb8f987-0332-8b22-ffff4ed50c32d55b",
+          "0cb8f987-0332-8b20-ffff4ed50c32d55b",
+          "0cb8f987-0332-8b1f-ffff4ed50c32d55b"
+        ]
       },
       "subControls": {
         "0cb8f987-0332-8b0a-ffff4ed50c32d55b": {
@@ -1245,7 +1280,15 @@
         "overrideTotal": "0f8cad80-038c-0ccf-ffffc6c42b3ee057",
         "movement": "0f8cad80-038c-0cce-ffffc6c42b3ee057",
         "manualMode": "0f8cad80-038c-0cd0-ffffc6c42b3ee057",
-        "temperatures": ["0cb8eaf2-015a-be40-ffff4b8816490cd9", "0cb8eaf2-015a-be41-ffff4b8816490cd9", "0cb8eaf2-015a-be42-ffff4b8816490cd9", "0cb8eaf2-015a-be45-ffff4b8816490cd9", "0cb8eaf2-015a-be46-ffff4b8816490cd9", "0cb8eaf2-015a-be44-ffff4b8816490cd9", "0cb8eaf2-015a-be43-ffff4b8816490cd9"]
+        "temperatures": [
+          "0cb8eaf2-015a-be40-ffff4b8816490cd9",
+          "0cb8eaf2-015a-be41-ffff4b8816490cd9",
+          "0cb8eaf2-015a-be42-ffff4b8816490cd9",
+          "0cb8eaf2-015a-be45-ffff4b8816490cd9",
+          "0cb8eaf2-015a-be46-ffff4b8816490cd9",
+          "0cb8eaf2-015a-be44-ffff4b8816490cd9",
+          "0cb8eaf2-015a-be43-ffff4b8816490cd9"
+        ]
       },
       "subControls": {
         "0cb8eaf2-015a-be2e-ffff4b8816490cd9": {
@@ -1537,7 +1580,15 @@
         "overrideTotal": "0f8cad80-039b-1334-ffffc6c42b3ee057",
         "movement": "0f8cad80-039b-1333-ffffc6c42b3ee057",
         "manualMode": "0f8cad80-039b-1335-ffffc6c42b3ee057",
-        "temperatures": ["0cb8fa26-0054-0bb7-ffff39fe944d244a", "0cb8fa26-0054-0bb8-ffff39fe944d244a", "0cb8fa26-0054-0bb9-ffff39fe944d244a", "0cb8fa26-0054-0bbc-ffff39fe944d244a", "0cb8fa26-0054-0bbd-ffff39fe944d244a", "0cb8fa26-0054-0bbb-ffff39fe944d244a", "0cb8fa26-0054-0bba-ffff39fe944d244a"]
+        "temperatures": [
+          "0cb8fa26-0054-0bb7-ffff39fe944d244a",
+          "0cb8fa26-0054-0bb8-ffff39fe944d244a",
+          "0cb8fa26-0054-0bb9-ffff39fe944d244a",
+          "0cb8fa26-0054-0bbc-ffff39fe944d244a",
+          "0cb8fa26-0054-0bbd-ffff39fe944d244a",
+          "0cb8fa26-0054-0bbb-ffff39fe944d244a",
+          "0cb8fa26-0054-0bba-ffff39fe944d244a"
+        ]
       },
       "subControls": {
         "0cb8fa26-0054-0ba5-ffff39fe944d244a": {
@@ -1688,7 +1739,15 @@
         "overrideTotal": "0f8cad80-039b-0f67-ffffc6c42b3ee057",
         "movement": "0f8cad80-039b-0f66-ffffc6c42b3ee057",
         "manualMode": "0f8cad80-039b-0f68-ffffc6c42b3ee057",
-        "temperatures": ["0cb8f9c5-011f-b7dc-ffff45ff5cd4327d", "0cb8f9c5-011f-b7dd-ffff45ff5cd4327d", "0cb8f9c5-011f-b7de-ffff45ff5cd4327d", "0cb8f9c5-011f-b7e1-ffff45ff5cd4327d", "0cb8f9c5-011f-b7e2-ffff45ff5cd4327d", "0cb8f9c5-011f-b7e0-ffff45ff5cd4327d", "0cb8f9c5-011f-b7df-ffff45ff5cd4327d"]
+        "temperatures": [
+          "0cb8f9c5-011f-b7dc-ffff45ff5cd4327d",
+          "0cb8f9c5-011f-b7dd-ffff45ff5cd4327d",
+          "0cb8f9c5-011f-b7de-ffff45ff5cd4327d",
+          "0cb8f9c5-011f-b7e1-ffff45ff5cd4327d",
+          "0cb8f9c5-011f-b7e2-ffff45ff5cd4327d",
+          "0cb8f9c5-011f-b7e0-ffff45ff5cd4327d",
+          "0cb8f9c5-011f-b7df-ffff45ff5cd4327d"
+        ]
       },
       "subControls": {
         "0cb8f9c5-011f-b7ca-ffff45ff5cd4327d": {
@@ -1803,13 +1862,16 @@
       "isFavorite": false,
       "isSecured": false,
       "details": {
-        "controls": [{
-          "id": 0,
-          "uuid": "0cb8f347-0016-54a1-ffff93f34b88f667"
-        }, {
-          "id": 1,
-          "uuid": "0cb8f352-0238-5c64-ffffaa169c9f04f9"
-        }]
+        "controls": [
+          {
+            "id": 0,
+            "uuid": "0cb8f347-0016-54a1-ffff93f34b88f667"
+          },
+          {
+            "id": 1,
+            "uuid": "0cb8f352-0238-5c64-ffffaa169c9f04f9"
+          }
+        ]
       }
     },
     "0cb8fd1c-00f7-8332-ffffc6c42b3ee057": {
@@ -1883,7 +1945,15 @@
         "overrideTotal": "0f8cad80-03ab-144d-ffffc6c42b3ee057",
         "movement": "0f8cad80-03ab-144c-ffffc6c42b3ee057",
         "manualMode": "0f8cad80-03ab-144e-ffffc6c42b3ee057",
-        "temperatures": ["0cb8fa49-02c5-323c-ffff507f9365f2af", "0cb8fa49-02c5-323d-ffff507f9365f2af", "0cb8fa49-02c5-323e-ffff507f9365f2af", "0cb8fa49-02c5-3241-ffff507f9365f2af", "0cb8fa49-02c5-3242-ffff507f9365f2af", "0cb8fa49-02c5-3240-ffff507f9365f2af", "0cb8fa49-02c5-323f-ffff507f9365f2af"]
+        "temperatures": [
+          "0cb8fa49-02c5-323c-ffff507f9365f2af",
+          "0cb8fa49-02c5-323d-ffff507f9365f2af",
+          "0cb8fa49-02c5-323e-ffff507f9365f2af",
+          "0cb8fa49-02c5-3241-ffff507f9365f2af",
+          "0cb8fa49-02c5-3242-ffff507f9365f2af",
+          "0cb8fa49-02c5-3240-ffff507f9365f2af",
+          "0cb8fa49-02c5-323f-ffff507f9365f2af"
+        ]
       },
       "subControls": {
         "0cb8fa49-02c5-322a-ffff507f9365f2af": {
@@ -2009,7 +2079,15 @@
         "overrideTotal": "0f8cad80-038c-0bfe-ffffc6c42b3ee057",
         "movement": "0f8cad80-038c-0bfd-ffffc6c42b3ee057",
         "manualMode": "0f8cad80-038c-0bff-ffffc6c42b3ee057",
-        "temperatures": ["0cb8fba1-02da-e752-ffff0607f450ff1c", "0cb8fba1-02da-e753-ffff0607f450ff1c", "0cb8fba1-02da-e754-ffff0607f450ff1c", "0cb8fba1-02da-e757-ffff0607f450ff1c", "0cb8fba1-02da-e758-ffff0607f450ff1c", "0cb8fba1-02da-e756-ffff0607f450ff1c", "0cb8fba1-02da-e755-ffff0607f450ff1c"]
+        "temperatures": [
+          "0cb8fba1-02da-e752-ffff0607f450ff1c",
+          "0cb8fba1-02da-e753-ffff0607f450ff1c",
+          "0cb8fba1-02da-e754-ffff0607f450ff1c",
+          "0cb8fba1-02da-e757-ffff0607f450ff1c",
+          "0cb8fba1-02da-e758-ffff0607f450ff1c",
+          "0cb8fba1-02da-e756-ffff0607f450ff1c",
+          "0cb8fba1-02da-e755-ffff0607f450ff1c"
+        ]
       },
       "subControls": {
         "0cb8fba1-02d9-e740-ffff0607f450ff1c": {
@@ -2282,19 +2360,24 @@
       "isFavorite": false,
       "isSecured": false,
       "details": {
-        "controls": [{
-          "id": 0,
-          "uuid": "0cec92e6-03aa-2f8f-ffff79223ae9640f"
-        }, {
-          "id": 1,
-          "uuid": "0cec92e9-0233-3bd3-fffff549c4e01261"
-        }, {
-          "id": 2,
-          "uuid": "0cec9304-03aa-6022-fffffa681df3c4c8"
-        }, {
-          "id": 3,
-          "uuid": "0cec9383-0204-0048-ffff9e5fef362ed0"
-        }]
+        "controls": [
+          {
+            "id": 0,
+            "uuid": "0cec92e6-03aa-2f8f-ffff79223ae9640f"
+          },
+          {
+            "id": 1,
+            "uuid": "0cec92e9-0233-3bd3-fffff549c4e01261"
+          },
+          {
+            "id": 2,
+            "uuid": "0cec9304-03aa-6022-fffffa681df3c4c8"
+          },
+          {
+            "id": 3,
+            "uuid": "0cec9383-0204-0048-ffff9e5fef362ed0"
+          }
+        ]
       }
     },
     "0cb8fcd9-01f5-44b6-ffffc6c42b3ee057": {
@@ -2368,7 +2451,15 @@
         "overrideTotal": "0f8cad80-039b-1044-ffffc6c42b3ee057",
         "movement": "0f8cad80-039b-1043-ffffc6c42b3ee057",
         "manualMode": "0f8cad80-039b-1045-ffffc6c42b3ee057",
-        "temperatures": ["0cb8f9eb-020a-d363-ffff7019dff85b5d", "0cb8f9eb-020a-d364-ffff7019dff85b5d", "0cb8f9eb-020a-d365-ffff7019dff85b5d", "0cb8f9eb-020a-d368-ffff7019dff85b5d", "0cb8f9eb-020a-d369-ffff7019dff85b5d", "0cb8f9eb-020a-d367-ffff7019dff85b5d", "0cb8f9eb-020a-d366-ffff7019dff85b5d"]
+        "temperatures": [
+          "0cb8f9eb-020a-d363-ffff7019dff85b5d",
+          "0cb8f9eb-020a-d364-ffff7019dff85b5d",
+          "0cb8f9eb-020a-d365-ffff7019dff85b5d",
+          "0cb8f9eb-020a-d368-ffff7019dff85b5d",
+          "0cb8f9eb-020a-d369-ffff7019dff85b5d",
+          "0cb8f9eb-020a-d367-ffff7019dff85b5d",
+          "0cb8f9eb-020a-d366-ffff7019dff85b5d"
+        ]
       },
       "subControls": {
         "0cb8f9eb-020a-d351-ffff7019dff85b5d": {

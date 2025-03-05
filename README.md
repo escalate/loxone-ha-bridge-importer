@@ -57,6 +57,7 @@ $ pip install -r requirements.txt
 ### Run
 
 Run tool from commandline
+
 ```
 $ ./importer.py
 ```
@@ -84,6 +85,7 @@ Options:
 ## Docker
 
 Build Docker image
+
 ```
 $ docker build \
     --tag=importer \
@@ -91,6 +93,7 @@ $ docker build \
 ```
 
 Run Docker container from built image to print help
+
 ```
 $ docker run \
     importer
@@ -104,6 +107,7 @@ Options:
 ```
 
 Run Docker container from built image with additional arguments
+
 ```
 $ docker run \
     importer \
@@ -115,8 +119,8 @@ $ docker run \
 
 ## Dependencies
 
-* [click](https://pypi.python.org/pypi/click)
-* [requests](https://pypi.python.org/pypi/requests)
+- [click](https://pypi.python.org/pypi/click)
+- [requests](https://pypi.python.org/pypi/requests)
 
 ## Contribute
 
