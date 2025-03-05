@@ -678,19 +678,22 @@
       },
       "statistic": {
         "frequency": 3,
-        "outputs": [{
-          "id": 0,
-          "name": "Gesamtverbrauch",
-          "format": "%.1fkWh",
-          "uuid": "0a650d37-0170-1f73-ffff112233445566",
-          "visuType": 2
-        }, {
-          "id": 1,
-          "name": "Leistung",
-          "format": "%.3fkW",
-          "uuid": "0a650d37-0170-1f74-ffff112233445566",
-          "visuType": 0
-        }]
+        "outputs": [
+          {
+            "id": 0,
+            "name": "Gesamtverbrauch",
+            "format": "%.1fkWh",
+            "uuid": "0a650d37-0170-1f73-ffff112233445566",
+            "visuType": 2
+          },
+          {
+            "id": 1,
+            "name": "Leistung",
+            "format": "%.3fkW",
+            "uuid": "0a650d37-0170-1f74-ffff112233445566",
+            "visuType": 0
+          }
+        ]
       }
     },
     "e3ac0810-cae6-11e2-a26ae410d73fbbcd": {
@@ -1683,13 +1686,15 @@
       },
       "statistic": {
         "frequency": 5,
-        "outputs": [{
-          "id": 0,
-          "name": "UV",
-          "format": "%.1f",
-          "uuid": "0e69a461-01af-1ab3-ffffc75d7b30d3d7",
-          "visuType": 0
-        }]
+        "outputs": [
+          {
+            "id": 0,
+            "name": "UV",
+            "format": "%.1f",
+            "uuid": "0e69a461-01af-1ab3-ffffc75d7b30d3d7",
+            "visuType": 0
+          }
+        ]
       }
     },
     "0e69a461-019a-1a99-ffffefc088fafadd": {
@@ -1710,13 +1715,15 @@
       },
       "statistic": {
         "frequency": 4,
-        "outputs": [{
-          "id": 0,
-          "name": "Taupunkt",
-          "format": "%.1f°C",
-          "uuid": "0e69a461-019a-1a97-ffffc75d7b30d3d7",
-          "visuType": 0
-        }]
+        "outputs": [
+          {
+            "id": 0,
+            "name": "Taupunkt",
+            "format": "%.1f°C",
+            "uuid": "0e69a461-019a-1a97-ffffc75d7b30d3d7",
+            "visuType": 0
+          }
+        ]
       }
     },
     "0e69a461-0190-1a85-ffffefc088fafadd": {
@@ -1737,13 +1744,15 @@
       },
       "statistic": {
         "frequency": 5,
-        "outputs": [{
-          "id": 0,
-          "name": "Luftfeuchtigkeit",
-          "format": "%.1f%",
-          "uuid": "0e69a461-0190-1a83-ffffc75d7b30d3d7",
-          "visuType": 0
-        }]
+        "outputs": [
+          {
+            "id": 0,
+            "name": "Luftfeuchtigkeit",
+            "format": "%.1f%",
+            "uuid": "0e69a461-0190-1a83-ffffc75d7b30d3d7",
+            "visuType": 0
+          }
+        ]
       }
     },
     "0e69a461-01a5-1aa9-ffffefc088fafadd": {
@@ -1764,13 +1773,15 @@
       },
       "statistic": {
         "frequency": 3,
-        "outputs": [{
-          "id": 0,
-          "name": "Niederschlag",
-          "format": "%.2fmm",
-          "uuid": "0e69a461-01a5-1aa7-ffffc75d7b30d3d7",
-          "visuType": 0
-        }]
+        "outputs": [
+          {
+            "id": 0,
+            "name": "Niederschlag",
+            "format": "%.2fmm",
+            "uuid": "0e69a461-01a5-1aa7-ffffc75d7b30d3d7",
+            "visuType": 0
+          }
+        ]
       }
     },
     "0e69a461-019a-1a95-ffffefc088fafadd": {
@@ -1791,13 +1802,15 @@
       },
       "statistic": {
         "frequency": 3,
-        "outputs": [{
-          "id": 0,
-          "name": "Luftdruck",
-          "format": "%.0fhPa",
-          "uuid": "0e69a461-019a-1a93-ffffc75d7b30d3d7",
-          "visuType": 0
-        }]
+        "outputs": [
+          {
+            "id": 0,
+            "name": "Luftdruck",
+            "format": "%.0fhPa",
+            "uuid": "0e69a461-019a-1a93-ffffc75d7b30d3d7",
+            "visuType": 0
+          }
+        ]
       }
     },
     "0e69a461-01a5-1aa5-ffffefc088fafadd": {
@@ -1818,13 +1831,15 @@
       },
       "statistic": {
         "frequency": 3,
-        "outputs": [{
-          "id": 0,
-          "name": "Lichtstärke kLux",
-          "format": "%.0f",
-          "uuid": "0e69a461-01a5-1aa3-ffffc75d7b30d3d7",
-          "visuType": 0
-        }]
+        "outputs": [
+          {
+            "id": 0,
+            "name": "Lichtstärke kLux",
+            "format": "%.0f",
+            "uuid": "0e69a461-01a5-1aa3-ffffc75d7b30d3d7",
+            "visuType": 0
+          }
+        ]
       }
     },
     "0e69a461-0190-1a81-ffffefc088fafadd": {
@@ -1845,13 +1860,15 @@
       },
       "statistic": {
         "frequency": 3,
-        "outputs": [{
-          "id": 0,
-          "name": "Temperatur",
-          "format": "%.1f°C",
-          "uuid": "0e69a461-0190-1a7f-ffffc75d7b30d3d7",
-          "visuType": 0
-        }]
+        "outputs": [
+          {
+            "id": 0,
+            "name": "Temperatur",
+            "format": "%.1f°C",
+            "uuid": "0e69a461-0190-1a7f-ffffc75d7b30d3d7",
+            "visuType": 0
+          }
+        ]
       }
     },
     "0e69a461-0190-1a8d-ffffefc088fafadd": {
@@ -1872,13 +1889,15 @@
       },
       "statistic": {
         "frequency": 3,
-        "outputs": [{
-          "id": 0,
-          "name": "Windgeschwindigkeit",
-          "format": "%.1fkm/h",
-          "uuid": "0e69a461-0190-1a8b-ffffc75d7b30d3d7",
-          "visuType": 0
-        }]
+        "outputs": [
+          {
+            "id": 0,
+            "name": "Windgeschwindigkeit",
+            "format": "%.1fkm/h",
+            "uuid": "0e69a461-0190-1a8b-ffffc75d7b30d3d7",
+            "visuType": 0
+          }
+        ]
       }
     },
     "0e69a461-0190-1a89-ffffefc088fafadd": {
@@ -1899,13 +1918,15 @@
       },
       "statistic": {
         "frequency": 6,
-        "outputs": [{
-          "id": 0,
-          "name": "Windrichtung Grad",
-          "format": "%.0f°",
-          "uuid": "0e69a461-0190-1a87-ffffc75d7b30d3d7",
-          "visuType": 2
-        }]
+        "outputs": [
+          {
+            "id": 0,
+            "name": "Windrichtung Grad",
+            "format": "%.0f°",
+            "uuid": "0e69a461-0190-1a87-ffffc75d7b30d3d7",
+            "visuType": 2
+          }
+        ]
       }
     },
     "0e69a461-0190-1a91-ffffefc088fafadd": {
@@ -1926,13 +1947,15 @@
       },
       "statistic": {
         "frequency": 3,
-        "outputs": [{
-          "id": 0,
-          "name": "Windböen",
-          "format": "%.1fkm/h",
-          "uuid": "0e69a461-0190-1a8f-ffffc75d7b30d3d7",
-          "visuType": 0
-        }]
+        "outputs": [
+          {
+            "id": 0,
+            "name": "Windböen",
+            "format": "%.1fkm/h",
+            "uuid": "0e69a461-0190-1a8f-ffffc75d7b30d3d7",
+            "visuType": 0
+          }
+        ]
       }
     },
     "1028a89c-005f-3d51-ffffb4377a3c8185": {

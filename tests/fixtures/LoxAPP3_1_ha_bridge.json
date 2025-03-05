@@ -1,469 +1,522 @@
-[{
-  "name": "Zentral-AUS Windfang",
-  "mapType": "httpDevice",
-  "mapId": "0399dc1f-6e35-11df-9d1cefc088fafadd",
-  "description": "Control-Type: Pushbutton, Category: Überwachung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1cefc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1cefc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Wandlicht links Gästezimmer",
-  "mapType": "httpDevice",
-  "mapId": "0399dc1f-6e35-11df-9d1defc088fafadd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1defc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1defc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Wandlicht rechts Gästezimmer",
-  "mapType": "httpDevice",
-  "mapId": "0399dc1f-6e35-11df-9d1eefc088fafadd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1eefc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1eefc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Deckenlicht Garderobe",
-  "mapType": "httpDevice",
-  "mapId": "0399dc1f-6e35-11df-9d1fefc088fafadd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1fefc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1fefc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Deckenlicht Gästebad",
-  "mapType": "httpDevice",
-  "mapId": "0399dc1f-6e35-11df-9d20efc088fafadd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d20efc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d20efc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Spiegelbeleuchtung Gästebad",
-  "mapType": "httpDevice",
-  "mapId": "0399dc1f-6e35-11df-9d21efc088fafadd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d21efc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d21efc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Eingang AI3 (Weihnachtsbeleuchtung) Windfang",
-  "mapType": "httpDevice",
-  "mapId": "0399dc1f-6e35-11df-9d26efc088fafadd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d26efc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d26efc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Eingang AI4 Klingel Nicht zugeordnet",
-  "mapType": "httpDevice",
-  "mapId": "0399dc20-6e35-11df-9d27efc088fafadd",
-  "description": "Control-Type: Pushbutton, Category: Nicht zugeordnet",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc20-6e35-11df-9d27efc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc20-6e35-11df-9d27efc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Dachfenster Kinderbad",
-  "mapType": "httpDevice",
-  "mapId": "0967cd00-cca2-11e2-ad31cac2a5240e39",
-  "description": "Control-Type: Jalousie, Category: Jalousie",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0967cd00-cca2-11e2-ad31cac2a5240e39/fulldown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0967cd00-cca2-11e2-ad31cac2a5240e39/fullup\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Weihnachtsbeleuchtung Allgemein",
-  "mapType": "httpDevice",
-  "mapId": "0b319548-0363-0d33-ffffed86aeba2d59",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0b319548-0363-0d33-ffffed86aeba2d59/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0b319548-0363-0d33-ffffed86aeba2d59/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Jalousie Simon Simon",
-  "mapType": "httpDevice",
-  "mapId": "0dc12e9b-0384-4ac7-ffffefc088fafadd",
-  "description": "Control-Type: Jalousie, Category: Jalousie",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0dc12e9b-0384-4ac7-ffffefc088fafadd/fulldown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0dc12e9b-0384-4ac7-ffffefc088fafadd/fullup\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Jalousie Stefan Stefan",
-  "mapType": "httpDevice",
-  "mapId": "0dc12fbb-0270-de99-ffffefc088fafadd",
-  "description": "Control-Type: Jalousie, Category: Jalousie",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0dc12fbb-0270-de99-ffffefc088fafadd/fulldown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0dc12fbb-0270-de99-ffffefc088fafadd/fullup\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Fernseher-Sperre Wohnzimmer",
-  "mapType": "httpDevice",
-  "mapId": "0e11cb45-0044-1a28-ffffefc088fafadd",
-  "description": "Control-Type: Switch, Category: Steckdosen",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0e11cb45-0044-1a28-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0e11cb45-0044-1a28-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Beschattungsautomatik Allgemein",
-  "mapType": "httpDevice",
-  "mapId": "0ec44ca2-00ff-53c3-ffffefc088fafadd",
-  "description": "Control-Type: Switch, Category: Jalousie",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0ec44ca2-00ff-53c3-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0ec44ca2-00ff-53c3-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Taster Terrasse",
-  "mapType": "httpDevice",
-  "mapId": "100fc70a-003b-6c6b-ffffefc088fafadd",
-  "description": "Control-Type: Switch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc70a-003b-6c6b-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc70a-003b-6c6b-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Taster Terrasse",
-  "mapType": "httpDevice",
-  "mapId": "100fc720-00d1-cc87-ffff6056c53989c2",
-  "description": "Control-Type: Switch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc720-00d1-cc87-ffff6056c53989c2/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc720-00d1-cc87-ffff6056c53989c2/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Taster Terrasse",
-  "mapType": "httpDevice",
-  "mapId": "100fc738-0365-0cc9-fffff42aa451ac66",
-  "description": "Control-Type: Switch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc738-0365-0cc9-fffff42aa451ac66/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc738-0365-0cc9-fffff42aa451ac66/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Taster Terrasse",
-  "mapType": "httpDevice",
-  "mapId": "100fc74b-03db-3d1a-ffff3f030af17999",
-  "description": "Control-Type: Switch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc74b-03db-3d1a-ffff3f030af17999/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc74b-03db-3d1a-ffff3f030af17999/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Reaktivierung Beschattungsautomatik Allgemein",
-  "mapType": "httpDevice",
-  "mapId": "10739514-02a6-2fb8-ffffefc088fafadd",
-  "description": "Control-Type: Pushbutton, Category: Überwachung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10739514-02a6-2fb8-ffffefc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10739514-02a6-2fb8-ffffefc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Sonne override Allgemein",
-  "mapType": "httpDevice",
-  "mapId": "10873483-01f1-b0da-ffffefc088fafadd",
-  "description": "Control-Type: Switch, Category: Wetter",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10873483-01f1-b0da-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10873483-01f1-b0da-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Dimmer Terrasse",
-  "mapType": "httpDevice",
-  "mapId": "10e94ac8-034b-534a-ffffefc088fafadd",
-  "description": "Control-Type: Dimmer, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10e94ac8-034b-534a-ffffefc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10e94ac8-034b-534a-ffffefc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Binder innen Wohnzimmer",
-  "mapType": "httpDevice",
-  "mapId": "1f692307-9de2-11e2-89309dcafbddf36a",
-  "description": "Control-Type: Switch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/1f692307-9de2-11e2-89309dcafbddf36a/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/1f692307-9de2-11e2-89309dcafbddf36a/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Komfortschalter Windfang",
-  "mapType": "httpDevice",
-  "mapId": "355f0c0e-ff52-11e2-85fbddfd6e80c44e",
-  "description": "Control-Type: TimedSwitch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/355f0c0e-ff52-11e2-85fbddfd6e80c44e/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/355f0c0e-ff52-11e2-85fbddfd6e80c44e/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Küche LEDs Küche",
-  "mapType": "httpDevice",
-  "mapId": "3856447a-9ca2-11e2-a3219aca0e07c770",
-  "description": "Control-Type: Switch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/3856447a-9ca2-11e2-a3219aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/3856447a-9ca2-11e2-a3219aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Licht Abstellkammer Schlafzimmer",
-  "mapType": "httpDevice",
-  "mapId": "567e3ed4-ff55-11e2-a939ddfd6e80c44e",
-  "description": "Control-Type: TimedSwitch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/567e3ed4-ff55-11e2-a939ddfd6e80c44e/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/567e3ed4-ff55-11e2-a939ddfd6e80c44e/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Komfortschalter Galerie",
-  "mapType": "httpDevice",
-  "mapId": "57bad766-ff4f-11e2-a18addfd6e80c44e",
-  "description": "Control-Type: TimedSwitch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/57bad766-ff4f-11e2-a18addfd6e80c44e/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/57bad766-ff4f-11e2-a18addfd6e80c44e/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Komfortschalter Treppe",
-  "mapType": "httpDevice",
-  "mapId": "5b3eda06-ff53-11e2-9490ddfd6e80c44e",
-  "description": "Control-Type: TimedSwitch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/5b3eda06-ff53-11e2-9490ddfd6e80c44e/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/5b3eda06-ff53-11e2-9490ddfd6e80c44e/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Taster Simon",
-  "mapType": "httpDevice",
-  "mapId": "77d449e8-cbfb-11e2-b4da8a3422a6d559",
-  "description": "Control-Type: Switch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/77d449e8-cbfb-11e2-b4da8a3422a6d559/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/77d449e8-cbfb-11e2-b4da8a3422a6d559/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Esstisch Esszimmer",
-  "mapType": "httpDevice",
-  "mapId": "88cc111c-cae6-11e2-905fe410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-905fe410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-905fe410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Wohnzimmer vorne Wohnzimmer",
-  "mapType": "httpDevice",
-  "mapId": "88cc111c-cae6-11e2-9061e410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Steckdosen",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9061e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9061e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Wohnzimmer hinten Wohnzimmer",
-  "mapType": "httpDevice",
-  "mapId": "88cc111c-cae6-11e2-9062e410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9062e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9062e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Treppenlicht Treppe",
-  "mapType": "httpDevice",
-  "mapId": "88cc111c-cae6-11e2-9066e410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9066e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9066e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "HAR HAR",
-  "mapType": "httpDevice",
-  "mapId": "88cc111c-cae6-11e2-9068e410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9068e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9068e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Licht Essen Steinwand Esszimmer",
-  "mapType": "httpDevice",
-  "mapId": "976d3aa7-9ca2-11e2-a7dc9aca0e07c770",
-  "description": "Control-Type: Switch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/976d3aa7-9ca2-11e2-a7dc9aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/976d3aa7-9ca2-11e2-a7dc9aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Komfortschalter Schlafzimmer",
-  "mapType": "httpDevice",
-  "mapId": "a08f5bca-ff55-11e2-ae19ddfd6e80c44e",
-  "description": "Control-Type: TimedSwitch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/a08f5bca-ff55-11e2-ae19ddfd6e80c44e/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/a08f5bca-ff55-11e2-ae19ddfd6e80c44e/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Bibliothek Galerie",
-  "mapType": "httpDevice",
-  "mapId": "c564f23f-9c91-11e2-bc8c9aca0e07c770",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc8c9aca0e07c770/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc8c9aca0e07c770/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Stefan Wandboard Stefan",
-  "mapType": "httpDevice",
-  "mapId": "c564f23f-9c91-11e2-bc8e9aca0e07c770",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc8e9aca0e07c770/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc8e9aca0e07c770/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Eingang I8 Schlafen Bettlicht Schlafzimmer",
-  "mapType": "httpDevice",
-  "mapId": "c564f23f-9c91-11e2-bc939aca0e07c770",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc939aca0e07c770/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc939aca0e07c770/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Panik Schlafzimmer",
-  "mapType": "httpDevice",
-  "mapId": "c564f23f-9c91-11e2-bc949aca0e07c770",
-  "description": "Control-Type: Switch, Category: Alarm",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc949aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc949aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Simon Steckdosen Simon",
-  "mapType": "httpDevice",
-  "mapId": "c564f23f-9c91-11e2-bc969aca0e07c770",
-  "description": "Control-Type: Pushbutton, Category: Steckdosen",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc969aca0e07c770/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc969aca0e07c770/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Spiegelbeleuchtung Bad OG",
-  "mapType": "httpDevice",
-  "mapId": "c9d2c7bc-cae6-11e2-9aa4e410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa4e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa4e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Spots am Binder Bad OG",
-  "mapType": "httpDevice",
-  "mapId": "c9d2c7bc-cae6-11e2-9aa5e410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa5e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa5e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Dusche Bad OG",
-  "mapType": "httpDevice",
-  "mapId": "c9d2c7bc-cae6-11e2-9aa6e410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa6e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa6e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "RGB-LED in Möbel Bad OG",
-  "mapType": "httpDevice",
-  "mapId": "c9d2c7bc-cae6-11e2-9aa7e410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa7e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa7e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Kochinsel Küche",
-  "mapType": "httpDevice",
-  "mapId": "e3ac0810-cae6-11e2-a266e410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a266e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a266e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Deckenlicht Küche",
-  "mapType": "httpDevice",
-  "mapId": "e3ac0810-cae6-11e2-a267e410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a267e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a267e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Wandlicht HWR",
-  "mapType": "httpDevice",
-  "mapId": "e3ac0810-cae6-11e2-a26ae410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26ae410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26ae410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Eingang KiBa Licht Kinderbad",
-  "mapType": "httpDevice",
-  "mapId": "e3ac0810-cae6-11e2-a26ce410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26ce410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26ce410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "LEDs Dusche Kinderbad",
-  "mapType": "httpDevice",
-  "mapId": "e3ac0810-cae6-11e2-a26de410d73fbbcd",
-  "description": "Control-Type: Pushbutton, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26de410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26de410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Dachfenster Jalousie Bad OG",
-  "mapType": "httpDevice",
-  "mapId": "f6536fa8-cca2-11e2-b8c2cac2a5240e39",
-  "description": "Control-Type: Jalousie, Category: Jalousie",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/f6536fa8-cca2-11e2-b8c2cac2a5240e39/fulldown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/f6536fa8-cca2-11e2-b8c2cac2a5240e39/fullup\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Dachfenster Öffnung Kinderbad",
-  "mapType": "httpDevice",
-  "mapId": "f9e20572-bb00-11e2-bfc0abf5229a1e64",
-  "description": "Control-Type: Jalousie, Category: Fenster",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/f9e20572-bb00-11e2-bfc0abf5229a1e64/fulldown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/f9e20572-bb00-11e2-bfc0abf5229a1e64/fullup\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}, {
-  "name": "Binder außen Wohnzimmer",
-  "mapType": "httpDevice",
-  "mapId": "fe783281-9cfd-11e2-b5829aca0e07c770",
-  "description": "Control-Type: Switch, Category: Beleuchtung",
-  "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/fe783281-9cfd-11e2-b5829aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/fe783281-9cfd-11e2-b5829aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
-  "targetDevice": "Loxone",
-  "deviceType": "custom"
-}]
+[
+  {
+    "name": "Zentral-AUS Windfang",
+    "mapType": "httpDevice",
+    "mapId": "0399dc1f-6e35-11df-9d1cefc088fafadd",
+    "description": "Control-Type: Pushbutton, Category: Überwachung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1cefc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1cefc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Wandlicht links Gästezimmer",
+    "mapType": "httpDevice",
+    "mapId": "0399dc1f-6e35-11df-9d1defc088fafadd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1defc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1defc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Wandlicht rechts Gästezimmer",
+    "mapType": "httpDevice",
+    "mapId": "0399dc1f-6e35-11df-9d1eefc088fafadd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1eefc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1eefc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Deckenlicht Garderobe",
+    "mapType": "httpDevice",
+    "mapId": "0399dc1f-6e35-11df-9d1fefc088fafadd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1fefc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d1fefc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Deckenlicht Gästebad",
+    "mapType": "httpDevice",
+    "mapId": "0399dc1f-6e35-11df-9d20efc088fafadd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d20efc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d20efc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Spiegelbeleuchtung Gästebad",
+    "mapType": "httpDevice",
+    "mapId": "0399dc1f-6e35-11df-9d21efc088fafadd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d21efc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d21efc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Eingang AI3 (Weihnachtsbeleuchtung) Windfang",
+    "mapType": "httpDevice",
+    "mapId": "0399dc1f-6e35-11df-9d26efc088fafadd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d26efc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc1f-6e35-11df-9d26efc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Eingang AI4 Klingel Nicht zugeordnet",
+    "mapType": "httpDevice",
+    "mapId": "0399dc20-6e35-11df-9d27efc088fafadd",
+    "description": "Control-Type: Pushbutton, Category: Nicht zugeordnet",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc20-6e35-11df-9d27efc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0399dc20-6e35-11df-9d27efc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Dachfenster Kinderbad",
+    "mapType": "httpDevice",
+    "mapId": "0967cd00-cca2-11e2-ad31cac2a5240e39",
+    "description": "Control-Type: Jalousie, Category: Jalousie",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0967cd00-cca2-11e2-ad31cac2a5240e39/fulldown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0967cd00-cca2-11e2-ad31cac2a5240e39/fullup\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Weihnachtsbeleuchtung Allgemein",
+    "mapType": "httpDevice",
+    "mapId": "0b319548-0363-0d33-ffffed86aeba2d59",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0b319548-0363-0d33-ffffed86aeba2d59/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0b319548-0363-0d33-ffffed86aeba2d59/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Jalousie Simon Simon",
+    "mapType": "httpDevice",
+    "mapId": "0dc12e9b-0384-4ac7-ffffefc088fafadd",
+    "description": "Control-Type: Jalousie, Category: Jalousie",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0dc12e9b-0384-4ac7-ffffefc088fafadd/fulldown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0dc12e9b-0384-4ac7-ffffefc088fafadd/fullup\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Jalousie Stefan Stefan",
+    "mapType": "httpDevice",
+    "mapId": "0dc12fbb-0270-de99-ffffefc088fafadd",
+    "description": "Control-Type: Jalousie, Category: Jalousie",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0dc12fbb-0270-de99-ffffefc088fafadd/fulldown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0dc12fbb-0270-de99-ffffefc088fafadd/fullup\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Fernseher-Sperre Wohnzimmer",
+    "mapType": "httpDevice",
+    "mapId": "0e11cb45-0044-1a28-ffffefc088fafadd",
+    "description": "Control-Type: Switch, Category: Steckdosen",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0e11cb45-0044-1a28-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0e11cb45-0044-1a28-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Beschattungsautomatik Allgemein",
+    "mapType": "httpDevice",
+    "mapId": "0ec44ca2-00ff-53c3-ffffefc088fafadd",
+    "description": "Control-Type: Switch, Category: Jalousie",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0ec44ca2-00ff-53c3-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/0ec44ca2-00ff-53c3-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Taster Terrasse",
+    "mapType": "httpDevice",
+    "mapId": "100fc70a-003b-6c6b-ffffefc088fafadd",
+    "description": "Control-Type: Switch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc70a-003b-6c6b-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc70a-003b-6c6b-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Taster Terrasse",
+    "mapType": "httpDevice",
+    "mapId": "100fc720-00d1-cc87-ffff6056c53989c2",
+    "description": "Control-Type: Switch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc720-00d1-cc87-ffff6056c53989c2/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc720-00d1-cc87-ffff6056c53989c2/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Taster Terrasse",
+    "mapType": "httpDevice",
+    "mapId": "100fc738-0365-0cc9-fffff42aa451ac66",
+    "description": "Control-Type: Switch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc738-0365-0cc9-fffff42aa451ac66/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc738-0365-0cc9-fffff42aa451ac66/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Taster Terrasse",
+    "mapType": "httpDevice",
+    "mapId": "100fc74b-03db-3d1a-ffff3f030af17999",
+    "description": "Control-Type: Switch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc74b-03db-3d1a-ffff3f030af17999/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/100fc74b-03db-3d1a-ffff3f030af17999/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Reaktivierung Beschattungsautomatik Allgemein",
+    "mapType": "httpDevice",
+    "mapId": "10739514-02a6-2fb8-ffffefc088fafadd",
+    "description": "Control-Type: Pushbutton, Category: Überwachung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10739514-02a6-2fb8-ffffefc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10739514-02a6-2fb8-ffffefc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Sonne override Allgemein",
+    "mapType": "httpDevice",
+    "mapId": "10873483-01f1-b0da-ffffefc088fafadd",
+    "description": "Control-Type: Switch, Category: Wetter",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10873483-01f1-b0da-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10873483-01f1-b0da-ffffefc088fafadd/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Dimmer Terrasse",
+    "mapType": "httpDevice",
+    "mapId": "10e94ac8-034b-534a-ffffefc088fafadd",
+    "description": "Control-Type: Dimmer, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10e94ac8-034b-534a-ffffefc088fafadd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/10e94ac8-034b-534a-ffffefc088fafadd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Binder innen Wohnzimmer",
+    "mapType": "httpDevice",
+    "mapId": "1f692307-9de2-11e2-89309dcafbddf36a",
+    "description": "Control-Type: Switch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/1f692307-9de2-11e2-89309dcafbddf36a/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/1f692307-9de2-11e2-89309dcafbddf36a/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Komfortschalter Windfang",
+    "mapType": "httpDevice",
+    "mapId": "355f0c0e-ff52-11e2-85fbddfd6e80c44e",
+    "description": "Control-Type: TimedSwitch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/355f0c0e-ff52-11e2-85fbddfd6e80c44e/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/355f0c0e-ff52-11e2-85fbddfd6e80c44e/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Küche LEDs Küche",
+    "mapType": "httpDevice",
+    "mapId": "3856447a-9ca2-11e2-a3219aca0e07c770",
+    "description": "Control-Type: Switch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/3856447a-9ca2-11e2-a3219aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/3856447a-9ca2-11e2-a3219aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Licht Abstellkammer Schlafzimmer",
+    "mapType": "httpDevice",
+    "mapId": "567e3ed4-ff55-11e2-a939ddfd6e80c44e",
+    "description": "Control-Type: TimedSwitch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/567e3ed4-ff55-11e2-a939ddfd6e80c44e/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/567e3ed4-ff55-11e2-a939ddfd6e80c44e/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Komfortschalter Galerie",
+    "mapType": "httpDevice",
+    "mapId": "57bad766-ff4f-11e2-a18addfd6e80c44e",
+    "description": "Control-Type: TimedSwitch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/57bad766-ff4f-11e2-a18addfd6e80c44e/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/57bad766-ff4f-11e2-a18addfd6e80c44e/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Komfortschalter Treppe",
+    "mapType": "httpDevice",
+    "mapId": "5b3eda06-ff53-11e2-9490ddfd6e80c44e",
+    "description": "Control-Type: TimedSwitch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/5b3eda06-ff53-11e2-9490ddfd6e80c44e/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/5b3eda06-ff53-11e2-9490ddfd6e80c44e/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Taster Simon",
+    "mapType": "httpDevice",
+    "mapId": "77d449e8-cbfb-11e2-b4da8a3422a6d559",
+    "description": "Control-Type: Switch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/77d449e8-cbfb-11e2-b4da8a3422a6d559/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/77d449e8-cbfb-11e2-b4da8a3422a6d559/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Esstisch Esszimmer",
+    "mapType": "httpDevice",
+    "mapId": "88cc111c-cae6-11e2-905fe410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-905fe410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-905fe410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Wohnzimmer vorne Wohnzimmer",
+    "mapType": "httpDevice",
+    "mapId": "88cc111c-cae6-11e2-9061e410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Steckdosen",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9061e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9061e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Wohnzimmer hinten Wohnzimmer",
+    "mapType": "httpDevice",
+    "mapId": "88cc111c-cae6-11e2-9062e410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9062e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9062e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Treppenlicht Treppe",
+    "mapType": "httpDevice",
+    "mapId": "88cc111c-cae6-11e2-9066e410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9066e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9066e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "HAR HAR",
+    "mapType": "httpDevice",
+    "mapId": "88cc111c-cae6-11e2-9068e410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9068e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/88cc111c-cae6-11e2-9068e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Licht Essen Steinwand Esszimmer",
+    "mapType": "httpDevice",
+    "mapId": "976d3aa7-9ca2-11e2-a7dc9aca0e07c770",
+    "description": "Control-Type: Switch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/976d3aa7-9ca2-11e2-a7dc9aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/976d3aa7-9ca2-11e2-a7dc9aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Komfortschalter Schlafzimmer",
+    "mapType": "httpDevice",
+    "mapId": "a08f5bca-ff55-11e2-ae19ddfd6e80c44e",
+    "description": "Control-Type: TimedSwitch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/a08f5bca-ff55-11e2-ae19ddfd6e80c44e/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/a08f5bca-ff55-11e2-ae19ddfd6e80c44e/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Bibliothek Galerie",
+    "mapType": "httpDevice",
+    "mapId": "c564f23f-9c91-11e2-bc8c9aca0e07c770",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc8c9aca0e07c770/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc8c9aca0e07c770/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Stefan Wandboard Stefan",
+    "mapType": "httpDevice",
+    "mapId": "c564f23f-9c91-11e2-bc8e9aca0e07c770",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc8e9aca0e07c770/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc8e9aca0e07c770/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Eingang I8 Schlafen Bettlicht Schlafzimmer",
+    "mapType": "httpDevice",
+    "mapId": "c564f23f-9c91-11e2-bc939aca0e07c770",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc939aca0e07c770/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc939aca0e07c770/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Panik Schlafzimmer",
+    "mapType": "httpDevice",
+    "mapId": "c564f23f-9c91-11e2-bc949aca0e07c770",
+    "description": "Control-Type: Switch, Category: Alarm",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc949aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc949aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Simon Steckdosen Simon",
+    "mapType": "httpDevice",
+    "mapId": "c564f23f-9c91-11e2-bc969aca0e07c770",
+    "description": "Control-Type: Pushbutton, Category: Steckdosen",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc969aca0e07c770/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c564f23f-9c91-11e2-bc969aca0e07c770/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Spiegelbeleuchtung Bad OG",
+    "mapType": "httpDevice",
+    "mapId": "c9d2c7bc-cae6-11e2-9aa4e410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa4e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa4e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Spots am Binder Bad OG",
+    "mapType": "httpDevice",
+    "mapId": "c9d2c7bc-cae6-11e2-9aa5e410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa5e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa5e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Dusche Bad OG",
+    "mapType": "httpDevice",
+    "mapId": "c9d2c7bc-cae6-11e2-9aa6e410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa6e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa6e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "RGB-LED in Möbel Bad OG",
+    "mapType": "httpDevice",
+    "mapId": "c9d2c7bc-cae6-11e2-9aa7e410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa7e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/c9d2c7bc-cae6-11e2-9aa7e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Kochinsel Küche",
+    "mapType": "httpDevice",
+    "mapId": "e3ac0810-cae6-11e2-a266e410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a266e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a266e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Deckenlicht Küche",
+    "mapType": "httpDevice",
+    "mapId": "e3ac0810-cae6-11e2-a267e410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a267e410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a267e410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Wandlicht HWR",
+    "mapType": "httpDevice",
+    "mapId": "e3ac0810-cae6-11e2-a26ae410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26ae410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26ae410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Eingang KiBa Licht Kinderbad",
+    "mapType": "httpDevice",
+    "mapId": "e3ac0810-cae6-11e2-a26ce410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26ce410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26ce410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "LEDs Dusche Kinderbad",
+    "mapType": "httpDevice",
+    "mapId": "e3ac0810-cae6-11e2-a26de410d73fbbcd",
+    "description": "Control-Type: Pushbutton, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26de410d73fbbcd/on\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/e3ac0810-cae6-11e2-a26de410d73fbbcd/off\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Dachfenster Jalousie Bad OG",
+    "mapType": "httpDevice",
+    "mapId": "f6536fa8-cca2-11e2-b8c2cac2a5240e39",
+    "description": "Control-Type: Jalousie, Category: Jalousie",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/f6536fa8-cca2-11e2-b8c2cac2a5240e39/fulldown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/f6536fa8-cca2-11e2-b8c2cac2a5240e39/fullup\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Dachfenster Öffnung Kinderbad",
+    "mapType": "httpDevice",
+    "mapId": "f9e20572-bb00-11e2-bfc0abf5229a1e64",
+    "description": "Control-Type: Jalousie, Category: Fenster",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/f9e20572-bb00-11e2-bfc0abf5229a1e64/fulldown\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/f9e20572-bb00-11e2-bfc0abf5229a1e64/fullup\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  },
+  {
+    "name": "Binder außen Wohnzimmer",
+    "mapType": "httpDevice",
+    "mapId": "fe783281-9cfd-11e2-b5829aca0e07c770",
+    "description": "Control-Type: Switch, Category: Beleuchtung",
+    "onUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/fe783281-9cfd-11e2-b5829aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "offUrl": "[{\"item\": \"http://player1:secret@192.168.1.2:80/dev/sps/io/fe783281-9cfd-11e2-b5829aca0e07c770/pulse\", \"type\": \"httpDevice\", \"httpVerb\": \"GET\", \"contentType\": \"text/html\"}]",
+    "targetDevice": "Loxone",
+    "deviceType": "custom"
+  }
+]
