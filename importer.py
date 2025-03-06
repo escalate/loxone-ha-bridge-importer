@@ -211,7 +211,7 @@ class Importer(object):
                         ha_bridge_device["offUrl"] = json.dumps(ha_bridge_off)
                     ha_bridge_devices_configuration.append(ha_bridge_device)
             else:
-                logging.warn(
+                logging.warning(
                     'Control type "{control_type}" is not supported at the moment.'.format(
                         control_type=control_type
                     )
