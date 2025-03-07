@@ -273,7 +273,11 @@ class Importer(object):
     default=8080,
     help="Set port of HA-Bridge server (Default: 8080)",
 )
-@click.option("--verbose", is_flag=True, help="Enable verbose logging output")
+@click.option(
+    "--verbose",
+    is_flag=True,
+    help="Enable verbose logging output",
+)
 def cli(*args, **kwargs):
     """Commandline interface for Loxone / HA-Bridge Importer"""
 
